@@ -9,7 +9,7 @@ NeyadaNoteRecipes defines the portable recipe format used by NeyadaNote and stor
 - `recipe.json` is the machine-readable source of truth.
 - `README.md` is the human-readable representation of the same recipe.
 - Images are optional assets referenced with relative paths.
-- A distributable `.neyada-recipe` package will be generated from the source files.
+- A distributable `.neyada-recipe` package is generated from the source files.
 - A recipe is considered official because it is published through the official catalog, not because of a flag inside the recipe file.
 
 ## Repository layout
@@ -17,6 +17,7 @@ NeyadaNoteRecipes defines the portable recipe format used by NeyadaNote and stor
 ```text
 schema/
   recipe-v1.schema.json
+  catalog-v1.schema.json
 
 recipes/
   <recipe-id>/
@@ -26,9 +27,12 @@ recipes/
 
 scripts/
   validate_recipes.py
+  build_dist.py
+  test_distribution.py
 
 .github/workflows/
   validate.yml
+  deploy-pages.yml
 ```
 
 ## Recipe format v1
@@ -54,10 +58,33 @@ Install the validator and run the repository checks locally:
 ```bash
 python -m pip install "jsonschema~=4.23"
 python scripts/validate_recipes.py
+python scripts/test_distribution.py
 ```
 
-Pull requests that change recipes, schema, or validation code run the same checks automatically.
+Pull requests that change recipes, schema, scripts, or distribution workflows run these checks automatically.
 
 ## Packaging and distribution
 
-Source files are kept easy to review in Git. Generated `.neyada-recipe` packages and `catalog.json` are intentionally not committed as duplicated source data. A later publishing workflow will build them and expose them to the NeyadaNote app.
+Run:
+
+```bash
+python scripts/build_dist.py
+```
+
+The generated `dist/` directory contains:
+
+```text
+dist/
+  catalog.json
+  index.html
+  packages/
+    <recipe-id>.neyada-recipe
+```
+
+A `.neyada-recipe` file is a deterministic ZIP package whose archive root contains `recipe.json`, `README.md`, and the image assets referenced by the recipe. Generated files are not committed; GitHub Actions builds them from the reviewed source files.
+
+The catalog contract is defined by [schema/catalog-v1.schema.json](schema/catalog-v1.schema.json). Each catalog entry contains a relative `packageUrl`, SHA-256 digest, and package size. Relative URLs intentionally keep the Android app independent of the current hosting origin.
+
+After GitHub Pages is enabled with **Source: GitHub Actions**, pushes to `main` publish the generated distribution. The default Pages catalog URL is expected to be:
+
+`https://soontaeklim.github.io/NeyadaNoteRecipes/catalog.json`
