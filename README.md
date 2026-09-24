@@ -45,7 +45,7 @@ Every recipe declares:
 
 The JSON Schema lives at [schema/recipe-v1.schema.json](schema/recipe-v1.schema.json).
 
-See [recipes/kimchi-jjigae](recipes/kimchi-jjigae) for a complete example.
+See [recipes/pork-kimchi-jjigae](recipes/pork-kimchi-jjigae) for a complete example.
 
 ## Validation
 
