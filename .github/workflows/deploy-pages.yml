@@ -1,20 +1,30 @@
-name: Validate recipes
+name: Deploy recipe distribution
 
 on:
-  pull_request:
+  push:
+    branches:
+      - main
     paths:
       - "schema/**"
       - "recipes/**"
       - "scripts/**"
-      - ".github/workflows/validate.yml"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  validate:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
 
     steps:
@@ -32,8 +42,17 @@ jobs:
       - name: Validate recipes
         run: python scripts/validate_recipes.py
 
-      - name: Test distribution builder
-        run: python scripts/test_distribution.py
-
       - name: Build distribution
         run: python scripts/build_dist.py
+
+      - name: Set up Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
