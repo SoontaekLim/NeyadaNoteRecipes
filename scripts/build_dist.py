@@ -22,21 +22,21 @@ def load_json(path: Path):
         return json.load(file)
 
 
-def safe_asset_path(recipe_dir: Path, asset: str) -> Path:
+def safe_asset_path(recipe_root: Path, asset: str) -> Path:
     relative = PurePosixPath(asset)
     if relative.is_absolute() or ".." in relative.parts:
-        raise ValueError(f"Unsafe asset path in {recipe_dir.name}: {asset}")
+        raise ValueError(f"Unsafe asset path in {recipe_root.name}: {asset}")
 
-    target = (recipe_dir / Path(*relative.parts)).resolve()
-    recipe_root = recipe_dir.resolve()
-    if not target.is_relative_to(recipe_root):
-        raise ValueError(f"Asset path escapes recipe directory in {recipe_dir.name}: {asset}")
+    target = (recipe_root / Path(*relative.parts)).resolve()
+    resolved_root = recipe_root.resolve()
+    if not target.is_relative_to(resolved_root):
+        raise ValueError(f"Asset path escapes recipe directory in {recipe_root.name}: {asset}")
     if not target.is_file():
-        raise ValueError(f"Referenced asset does not exist in {recipe_dir.name}: {asset}")
+        raise ValueError(f"Referenced asset does not exist in {recipe_root.name}: {asset}")
     return target
 
 
-def referenced_assets(recipe: dict, recipe_dir: Path) -> list[tuple[str, Path]]:
+def referenced_assets(recipe: dict, recipe_root: Path) -> list[tuple[str, Path]]:
     asset_names: set[str] = set()
     cover_image = recipe.get("coverImage")
     if cover_image:
@@ -48,7 +48,7 @@ def referenced_assets(recipe: dict, recipe_dir: Path) -> list[tuple[str, Path]]:
             asset_names.add(image)
 
     return [
-        (asset, safe_asset_path(recipe_dir, asset))
+        (asset, safe_asset_path(recipe_root, asset))
         for asset in sorted(asset_names)
     ]
 
@@ -61,15 +61,20 @@ def zip_info(name: str) -> ZipInfo:
     return info
 
 
-def write_package(recipe_dir: Path, recipe: dict, destination: Path) -> None:
-    readme = recipe_dir / "README.md"
-    if not readme.is_file():
-        raise ValueError(f"README.md is required for {recipe_dir.name}")
+def write_package(
+    recipe_root: Path,
+    recipe_file: Path,
+    readme_file: Path,
+    recipe: dict,
+    destination: Path,
+) -> None:
+    if not readme_file.is_file():
+        raise ValueError(f"README.md is required for {recipe_file.parent}")
 
     entries: list[tuple[str, Path]] = [
-        ("README.md", readme),
-        ("recipe.json", recipe_dir / "recipe.json"),
-        *referenced_assets(recipe, recipe_dir),
+        ("README.md", readme_file),
+        ("recipe.json", recipe_file),
+        *referenced_assets(recipe, recipe_root),
     ]
 
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -86,9 +91,8 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
-def catalog_entry(recipe: dict, package_path: Path) -> dict:
+def package_metadata(recipe: dict, package_path: Path) -> dict:
     entry = {
-        "id": recipe["id"],
         "title": recipe["title"],
         "summary": recipe["summary"],
         "tags": recipe["tags"],
@@ -101,6 +105,85 @@ def catalog_entry(recipe: dict, package_path: Path) -> dict:
     if "servings" in recipe:
         entry["servings"] = recipe["servings"]
     return entry
+
+
+def localized_sources(recipe_dir: Path) -> list[tuple[Path, Path, dict, str]]:
+    root_recipe_file = recipe_dir / "recipe.json"
+    root_recipe = load_json(root_recipe_file)
+    root_locale = root_recipe.get("locale")
+    if not root_locale:
+        raise ValueError(f"Official recipe locale is required: {recipe_dir.name}")
+
+    sources = [
+        (
+            root_recipe_file,
+            recipe_dir / "README.md",
+            root_recipe,
+            f"{root_recipe['id']}{PACKAGE_SUFFIX}",
+        )
+    ]
+
+    seen_locales = {root_locale}
+    locales_dir = recipe_dir / "locales"
+    if locales_dir.is_dir():
+        for recipe_file in sorted(locales_dir.glob("*/recipe.json")):
+            recipe = load_json(recipe_file)
+            locale = recipe.get("locale")
+            expected_locale = recipe_file.parent.name
+            if locale != expected_locale:
+                raise ValueError(
+                    f"Localized recipe locale must match directory name: "
+                    f"{locale!r} != {expected_locale!r}"
+                )
+            if locale in seen_locales:
+                raise ValueError(f"Duplicate recipe locale in {recipe_dir.name}: {locale}")
+            seen_locales.add(locale)
+            sources.append(
+                (
+                    recipe_file,
+                    recipe_file.parent / "README.md",
+                    recipe,
+                    f"{recipe['id']}.{locale}{PACKAGE_SUFFIX}",
+                )
+            )
+
+    return sources
+
+
+def catalog_entry(recipe_dir: Path, packages_dir: Path) -> dict:
+    sources = localized_sources(recipe_dir)
+    expected_id = recipe_dir.name
+    variants: list[dict] = []
+    default_recipe: dict | None = None
+    default_package: Path | None = None
+
+    for index, (recipe_file, readme_file, recipe, package_name) in enumerate(sources):
+        recipe_id = recipe.get("id")
+        if recipe_id != expected_id:
+            raise ValueError(
+                f"Recipe id must match directory name: {recipe_id!r} != {expected_id!r}"
+            )
+
+        package_path = packages_dir / package_name
+        write_package(recipe_dir, recipe_file, readme_file, recipe, package_path)
+        metadata = package_metadata(recipe, package_path)
+        if not metadata.get("locale"):
+            raise ValueError(f"Official recipe locale is required: {recipe_file}")
+
+        variants.append(metadata)
+        if index == 0:
+            default_recipe = recipe
+            default_package = package_path
+
+    if default_recipe is None or default_package is None:
+        raise ValueError(f"No default recipe found in {recipe_dir.name}")
+
+    legacy = {
+        "id": default_recipe["id"],
+        **package_metadata(default_recipe, default_package),
+        "variants": sorted(variants, key=lambda item: item["locale"]),
+    }
+    return legacy
 
 
 def write_catalog(output_dir: Path, recipes: list[dict]) -> dict:
@@ -122,9 +205,14 @@ def write_index(output_dir: Path, catalog: dict) -> None:
         title = html.escape(recipe["title"])
         recipe_id = html.escape(recipe["id"])
         package_url = html.escape(recipe["packageUrl"], quote=True)
+        locales = ", ".join(
+            html.escape(variant["locale"])
+            for variant in recipe.get("variants", [])
+        )
+        locale_text = f" <small>({locales})</small>" if locales else ""
         items.append(
             f'<li><a href="{package_url}">{title}</a> '
-            f'<code>{recipe_id}</code></li>'
+            f'<code>{recipe_id}</code>{locale_text}</li>'
         )
 
     body = "\n".join(items) or "<li>No recipes published.</li>"
@@ -157,24 +245,14 @@ def build_distribution(output_dir: Path = DIST_DIR) -> dict:
     packages_dir = output_dir / PACKAGE_DIR_NAME
     packages_dir.mkdir(parents=True, exist_ok=True)
 
-    recipe_files = sorted(RECIPES_DIR.glob("*/recipe.json"))
-    if not recipe_files:
+    recipe_dirs = sorted(
+        path for path in RECIPES_DIR.iterdir()
+        if path.is_dir() and (path / "recipe.json").is_file()
+    )
+    if not recipe_dirs:
         raise ValueError("No recipe files found under recipes/*/recipe.json")
 
-    entries: list[dict] = []
-    for recipe_file in recipe_files:
-        recipe_dir = recipe_file.parent
-        recipe = load_json(recipe_file)
-        recipe_id = recipe.get("id")
-        if recipe_id != recipe_dir.name:
-            raise ValueError(
-                f"Recipe id must match directory name: {recipe_id!r} != {recipe_dir.name!r}"
-            )
-
-        package_path = packages_dir / f"{recipe_id}{PACKAGE_SUFFIX}"
-        write_package(recipe_dir, recipe, package_path)
-        entries.append(catalog_entry(recipe, package_path))
-
+    entries = [catalog_entry(recipe_dir, packages_dir) for recipe_dir in recipe_dirs]
     entries.sort(key=lambda recipe: recipe["id"])
     catalog = write_catalog(output_dir, entries)
     write_index(output_dir, catalog)
@@ -188,7 +266,7 @@ def main() -> int:
         print(f"Distribution build failed: {error}", file=sys.stderr)
         return 1
 
-    print(f"Built {len(catalog['recipes'])} recipe package(s) in {DIST_DIR.relative_to(ROOT)}.")
+    print(f"Built {len(catalog['recipes'])} recipe(s) in {DIST_DIR.relative_to(ROOT)}.")
     return 0
 
 
