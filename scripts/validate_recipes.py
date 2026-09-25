@@ -15,60 +15,96 @@ def load_json(path: Path):
         return json.load(file)
 
 
-def validate_asset(recipe_dir: Path, asset: str, errors: list[str]) -> None:
-    target = (recipe_dir / asset).resolve()
-    recipe_root = recipe_dir.resolve()
+def validate_asset(recipe_root: Path, asset: str, errors: list[str]) -> None:
+    target = (recipe_root / asset).resolve()
+    resolved_root = recipe_root.resolve()
 
-    if not target.is_relative_to(recipe_root):
-        errors.append(f"{recipe_dir.name}: asset path escapes recipe directory: {asset}")
+    if not target.is_relative_to(resolved_root):
+        errors.append(f"{recipe_root.name}: asset path escapes recipe directory: {asset}")
         return
 
     if not target.is_file():
-        errors.append(f"{recipe_dir.name}: referenced asset does not exist: {asset}")
+        errors.append(f"{recipe_root.name}: referenced asset does not exist: {asset}")
+
+
+def recipe_sources(recipe_dir: Path) -> list[tuple[Path, Path, str | None]]:
+    sources = [(recipe_dir / "recipe.json", recipe_dir / "README.md", None)]
+    locales_dir = recipe_dir / "locales"
+    if locales_dir.is_dir():
+        for recipe_file in sorted(locales_dir.glob("*/recipe.json")):
+            sources.append((recipe_file, recipe_file.parent / "README.md", recipe_file.parent.name))
+    return sources
 
 
 def main() -> int:
     schema = load_json(SCHEMA_PATH)
     validator = Draft202012Validator(schema)
     errors: list[str] = []
-    recipe_files = sorted(RECIPES_DIR.glob("*/recipe.json"))
+    recipe_dirs = sorted(
+        path for path in RECIPES_DIR.iterdir()
+        if path.is_dir() and (path / "recipe.json").is_file()
+    )
 
-    if not recipe_files:
+    if not recipe_dirs:
         errors.append("No recipe files found under recipes/*/recipe.json")
 
-    for recipe_file in recipe_files:
-        recipe_dir = recipe_file.parent
+    variant_count = 0
+    for recipe_dir in recipe_dirs:
+        seen_locales: set[str] = set()
+        for recipe_file, readme_file, expected_locale in recipe_sources(recipe_dir):
+            variant_count += 1
+            try:
+                recipe = load_json(recipe_file)
+            except (OSError, json.JSONDecodeError) as exc:
+                errors.append(f"{recipe_file.relative_to(ROOT)}: invalid JSON: {exc}")
+                continue
 
-        try:
-            recipe = load_json(recipe_file)
-        except (OSError, json.JSONDecodeError) as exc:
-            errors.append(f"{recipe_file.relative_to(ROOT)}: invalid JSON: {exc}")
-            continue
+            for error in sorted(
+                validator.iter_errors(recipe),
+                key=lambda item: list(item.absolute_path),
+            ):
+                location = ".".join(str(part) for part in error.absolute_path) or "<root>"
+                errors.append(
+                    f"{recipe_file.relative_to(ROOT)}:{location}: {error.message}"
+                )
 
-        for error in sorted(validator.iter_errors(recipe), key=lambda item: list(item.absolute_path)):
-            location = ".".join(str(part) for part in error.absolute_path) or "<root>"
-            errors.append(
-                f"{recipe_file.relative_to(ROOT)}:{location}: {error.message}"
-            )
+            if recipe.get("id") != recipe_dir.name:
+                errors.append(
+                    f"{recipe_file.relative_to(ROOT)}: recipe id must match directory name "
+                    f"({recipe_dir.name!r})"
+                )
 
-        if recipe.get("id") != recipe_dir.name:
-            errors.append(
-                f"{recipe_file.relative_to(ROOT)}: recipe id must match directory name "
-                f"({recipe_dir.name!r})"
-            )
+            locale = recipe.get("locale")
+            if not locale:
+                errors.append(
+                    f"{recipe_file.relative_to(ROOT)}: official recipe locale is required"
+                )
+            elif locale in seen_locales:
+                errors.append(
+                    f"{recipe_file.relative_to(ROOT)}: duplicate locale {locale!r}"
+                )
+            else:
+                seen_locales.add(locale)
 
-        readme = recipe_dir / "README.md"
-        if not readme.is_file():
-            errors.append(f"{recipe_dir.name}: README.md is required")
+            if expected_locale is not None and locale != expected_locale:
+                errors.append(
+                    f"{recipe_file.relative_to(ROOT)}: locale must match locale directory "
+                    f"({expected_locale!r})"
+                )
 
-        cover_image = recipe.get("coverImage")
-        if cover_image:
-            validate_asset(recipe_dir, cover_image, errors)
+            if not readme_file.is_file():
+                errors.append(
+                    f"{readme_file.relative_to(ROOT)}: README.md is required"
+                )
 
-        for step in recipe.get("steps", []):
-            step_image = step.get("image") if isinstance(step, dict) else None
-            if step_image:
-                validate_asset(recipe_dir, step_image, errors)
+            cover_image = recipe.get("coverImage")
+            if cover_image:
+                validate_asset(recipe_dir, cover_image, errors)
+
+            for step in recipe.get("steps", []):
+                step_image = step.get("image") if isinstance(step, dict) else None
+                if step_image:
+                    validate_asset(recipe_dir, step_image, errors)
 
     if errors:
         print("Recipe validation failed:")
@@ -76,7 +112,10 @@ def main() -> int:
             print(f"- {error}")
         return 1
 
-    print(f"Validated {len(recipe_files)} recipe(s) successfully.")
+    print(
+        f"Validated {len(recipe_dirs)} recipe(s) and "
+        f"{variant_count} locale variant(s) successfully."
+    )
     return 0
 
 
