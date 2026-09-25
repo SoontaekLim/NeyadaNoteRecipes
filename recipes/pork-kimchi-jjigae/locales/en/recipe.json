@@ -1,0 +1,31 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "pork-kimchi-jjigae",
+  "locale": "en",
+  "title": "Pork Kimchi Stew",
+  "summary": "A classic kimchi stew made with pork and well-fermented kimchi.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Soup/Stew",
+    "Korean"
+  ],
+  "ingredients": [
+    {"name": "Well-fermented kimchi", "amount": "250 g"},
+    {"name": "Pork shoulder", "amount": "150 g"},
+    {"name": "Tofu", "amount": "1/2 block"},
+    {"name": "Green onion", "amount": "1/2 stalk"},
+    {"name": "Water", "amount": "500 ml"},
+    {"name": "Korean red pepper flakes (gochugaru)", "amount": "1 tbsp"},
+    {"name": "Korean soup soy sauce", "amount": "1 tbsp"},
+    {"name": "Minced garlic", "amount": "1/2 tbsp"}
+  ],
+  "steps": [
+    {"id": 1, "description": "Cut the kimchi into bite-size pieces and prepare the pork, tofu, and green onion."},
+    {"id": 2, "description": "Cook the pork in a pot over medium heat until the outside is no longer pink."},
+    {"id": 3, "description": "Add the kimchi and stir-fry for another 2 to 3 minutes, then pour in the water."},
+    {"id": 4, "description": "Add the gochugaru, soup soy sauce, and minced garlic. Simmer over medium-low heat for about 15 minutes."},
+    {"id": 5, "description": "Add the tofu and green onion, simmer for another 3 to 5 minutes, and adjust the seasoning to taste."}
+  ]
+}
