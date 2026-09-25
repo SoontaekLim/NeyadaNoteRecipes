@@ -4,20 +4,38 @@
   "title": "NeyadaNote Recipe Catalog v1",
   "type": "object",
   "additionalProperties": false,
-  "required": ["format", "schemaVersion", "recipes"],
+  "required": [
+    "format",
+    "schemaVersion",
+    "recipes"
+  ],
   "properties": {
-    "format": {"const": "neyadanote.recipe-catalog"},
-    "schemaVersion": {"const": 1},
+    "format": {
+      "const": "neyadanote.recipe-catalog"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
     "recipes": {
       "type": "array",
-      "items": {"$ref": "#/$defs/recipe"}
+      "items": {
+        "$ref": "#/$defs/recipe"
+      }
     }
   },
   "$defs": {
     "recipe": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "title", "summary", "tags", "packageUrl", "sha256", "sizeBytes"],
+      "required": [
+        "id",
+        "title",
+        "summary",
+        "tags",
+        "packageUrl",
+        "sha256",
+        "sizeBytes"
+      ],
       "properties": {
         "id": {
           "type": "string",
@@ -29,14 +47,29 @@
           "type": "string",
           "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$"
         },
-        "title": {"type": "string", "minLength": 1, "maxLength": 120},
-        "summary": {"type": "string", "maxLength": 1000},
-        "servings": {"type": "integer", "minimum": 1, "maximum": 100},
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "summary": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "servings": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
         "tags": {
           "type": "array",
           "maxItems": 20,
           "uniqueItems": true,
-          "items": {"type": "string", "minLength": 1, "maxLength": 40}
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40
+          }
         },
         "packageUrl": {
           "type": "string",
@@ -46,7 +79,72 @@
           "type": "string",
           "pattern": "^[a-f0-9]{64}$"
         },
-        "sizeBytes": {"type": "integer", "minimum": 1}
+        "sizeBytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "variants": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/variant"
+          }
+        }
+      }
+    },
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "locale",
+        "title",
+        "summary",
+        "tags",
+        "packageUrl",
+        "sha256",
+        "sizeBytes"
+      ],
+      "properties": {
+        "locale": {
+          "type": "string",
+          "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "summary": {
+          "type": "string",
+          "maxLength": 1000
+        },
+        "servings": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "tags": {
+          "type": "array",
+          "maxItems": 20,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 40
+          }
+        },
+        "packageUrl": {
+          "type": "string",
+          "pattern": "^packages/[A-Za-z0-9][A-Za-z0-9._-]*\\.neyada-recipe$"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "sizeBytes": {
+          "type": "integer",
+          "minimum": 1
+        }
       }
     }
   }

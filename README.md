@@ -23,7 +23,11 @@ recipes/
   <recipe-id>/
     recipe.json
     README.md
-    images/          # optional
+    images/          # optional, shared by locale variants
+    locales/
+      <locale>/
+        recipe.json
+        README.md
 
 scripts/
   validate_recipes.py
@@ -79,11 +83,14 @@ dist/
   index.html
   packages/
     <recipe-id>.neyada-recipe
+    <recipe-id>.<locale>.neyada-recipe
 ```
 
 A `.neyada-recipe` file is a deterministic ZIP package whose archive root contains `recipe.json`, `README.md`, and the image assets referenced by the recipe. Generated files are not committed; GitHub Actions builds them from the reviewed source files.
 
-The catalog contract is defined by [schema/catalog-v1.schema.json](schema/catalog-v1.schema.json). Each catalog entry contains a relative `packageUrl`, SHA-256 digest, and package size. Relative URLs intentionally keep the Android app independent of the current hosting origin.
+The root `recipe.json` remains the legacy/default locale package for compatibility with older app versions. Additional official translations live under `locales/<locale>/` and keep the same stable recipe ID. Shared image assets remain under the recipe root. A locale directory may mirror an image path for GitHub README previews; distribution packages still take canonical assets from the recipe root.
+
+The catalog contract is defined by [schema/catalog-v1.schema.json](schema/catalog-v1.schema.json). Each catalog entry keeps the legacy top-level package metadata and may also expose a `variants` array containing locale-specific package metadata. This lets older clients continue using the default package while newer clients select the best locale variant. Relative URLs intentionally keep the Android app independent of the current hosting origin.
 
 After GitHub Pages is enabled with **Source: GitHub Actions**, pushes to `main` publish the generated distribution. The default Pages catalog URL is expected to be:
 
