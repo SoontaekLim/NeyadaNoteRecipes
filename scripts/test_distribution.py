@@ -11,6 +11,7 @@ from jsonschema import Draft202012Validator
 from build_dist import ROOT, build_distribution
 
 CATALOG_SCHEMA = ROOT / "schema" / "catalog-v1.schema.json"
+RECIPE_SCHEMA = ROOT / "schema" / "recipe-v1.schema.json"
 
 
 def directory_hashes(directory: Path) -> dict[str, str]:
@@ -95,6 +96,35 @@ class DistributionBuildTest(unittest.TestCase):
 
             self.assertTrue((output_dir / "index.html").is_file())
             self.assertTrue((output_dir / ".nojekyll").is_file())
+
+    def test_recipe_schema_accepts_blank_legacy_user_fields(self):
+        schema = json.loads(RECIPE_SCHEMA.read_text(encoding="utf-8"))
+        validator = Draft202012Validator(schema)
+        base = {
+            "format": "neyadanote.recipe",
+            "schemaVersion": 1,
+            "id": "legacy-user-recipe",
+            "title": "Legacy recipe",
+            "summary": "",
+            "tags": [],
+        }
+
+        documents = [
+            {
+                **base,
+                "ingredients": [{"name": "", "amount": ""}],
+                "steps": [{"id": 1, "description": ""}],
+            },
+            {
+                **base,
+                "ingredients": [],
+                "steps": [],
+            },
+        ]
+
+        for document in documents:
+            with self.subTest(document=document):
+                validator.validate(document)
 
     def test_sample_recipe_publishes_korean_and_english(self):
         with tempfile.TemporaryDirectory() as output:
