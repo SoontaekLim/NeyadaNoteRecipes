@@ -88,7 +88,7 @@ dist/
 
 A `.neyada-recipe` file is a deterministic ZIP package whose archive root contains `recipe.json`, `README.md`, and the image assets referenced by the recipe. Generated files are not committed; GitHub Actions builds them from the reviewed source files.
 
-The root `recipe.json` remains the legacy/default locale package for compatibility with older app versions. Additional official translations live under `locales/<locale>/` and keep the same stable recipe ID. Shared image assets remain under the recipe root.
+The root `recipe.json` remains the legacy/default locale package for compatibility with older app versions. Additional official translations live under `locales/<locale>/` and keep the same stable recipe ID. Shared image assets remain under the recipe root. A locale directory may mirror an image path for GitHub README previews; distribution packages still take canonical assets from the recipe root.
 
 The catalog contract is defined by [schema/catalog-v1.schema.json](schema/catalog-v1.schema.json). Each catalog entry keeps the legacy top-level package metadata and may also expose a `variants` array containing locale-specific package metadata. This lets older clients continue using the default package while newer clients select the best locale variant. Relative URLs intentionally keep the Android app independent of the current hosting origin.
 
