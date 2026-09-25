@@ -33,51 +33,80 @@ class DistributionBuildTest(unittest.TestCase):
             output_dir = Path(output)
             catalog = build_distribution(output_dir)
             schema = json.loads(CATALOG_SCHEMA.read_text(encoding="utf-8"))
-            validator = Draft202012Validator(schema)
-            validator.validate(catalog)
+            Draft202012Validator(schema).validate(catalog)
 
             ids = [entry["id"] for entry in catalog["recipes"]]
             self.assertEqual(sorted(ids), ids)
             self.assertEqual(len(ids), len(set(ids)))
 
             for entry in catalog["recipes"]:
-                package = output_dir / entry["packageUrl"]
-                self.assertTrue(package.is_file())
-                self.assertEqual(package.stat().st_size, entry["sizeBytes"])
-                self.assertEqual(
-                    hashlib.sha256(package.read_bytes()).hexdigest(),
-                    entry["sha256"],
-                )
+                legacy_package = output_dir / entry["packageUrl"]
+                self.assertTrue(legacy_package.is_file())
 
-                with ZipFile(package) as archive:
-                    names = archive.namelist()
-                    self.assertEqual(names, sorted(names))
-                    self.assertIn("recipe.json", names)
-                    self.assertIn("README.md", names)
-                    for name in names:
-                        path = PurePosixPath(name)
-                        self.assertFalse(path.is_absolute())
-                        self.assertNotIn("..", path.parts)
+                variants = entry["variants"]
+                locales = [variant["locale"] for variant in variants]
+                self.assertEqual(sorted(locales), locales)
+                self.assertEqual(len(locales), len(set(locales)))
 
-                    recipe = json.loads(archive.read("recipe.json"))
-                    self.assertEqual(entry["id"], recipe["id"])
-                    self.assertEqual(entry["title"], recipe["title"])
-                    self.assertEqual(entry["summary"], recipe["summary"])
-                    self.assertEqual(entry["tags"], recipe["tags"])
-
-                    assets = set()
-                    if recipe.get("coverImage"):
-                        assets.add(recipe["coverImage"])
-                    assets.update(
-                        step["image"]
-                        for step in recipe.get("steps", [])
-                        if step.get("image")
+                for variant in variants:
+                    package = output_dir / variant["packageUrl"]
+                    self.assertTrue(package.is_file())
+                    self.assertEqual(package.stat().st_size, variant["sizeBytes"])
+                    self.assertEqual(
+                        hashlib.sha256(package.read_bytes()).hexdigest(),
+                        variant["sha256"],
                     )
-                    for asset in assets:
-                        self.assertIn(asset, names)
+
+                    with ZipFile(package) as archive:
+                        names = archive.namelist()
+                        self.assertEqual(names, sorted(names))
+                        self.assertIn("recipe.json", names)
+                        self.assertIn("README.md", names)
+                        for name in names:
+                            path = PurePosixPath(name)
+                            self.assertFalse(path.is_absolute())
+                            self.assertNotIn("..", path.parts)
+
+                        recipe = json.loads(archive.read("recipe.json"))
+                        self.assertEqual(entry["id"], recipe["id"])
+                        self.assertEqual(variant["locale"], recipe["locale"])
+                        self.assertEqual(variant["title"], recipe["title"])
+                        self.assertEqual(variant["summary"], recipe["summary"])
+                        self.assertEqual(variant["tags"], recipe["tags"])
+
+                        assets = set()
+                        if recipe.get("coverImage"):
+                            assets.add(recipe["coverImage"])
+                        assets.update(
+                            step["image"]
+                            for step in recipe.get("steps", [])
+                            if step.get("image")
+                        )
+                        for asset in assets:
+                            self.assertIn(asset, names)
+
+                default_variant = next(
+                    variant for variant in variants
+                    if variant["packageUrl"] == entry["packageUrl"]
+                )
+                self.assertEqual(entry["locale"], default_variant["locale"])
+                self.assertEqual(entry["title"], default_variant["title"])
+                self.assertEqual(entry["summary"], default_variant["summary"])
 
             self.assertTrue((output_dir / "index.html").is_file())
             self.assertTrue((output_dir / ".nojekyll").is_file())
+
+    def test_sample_recipe_publishes_korean_and_english(self):
+        with tempfile.TemporaryDirectory() as output:
+            catalog = build_distribution(Path(output))
+            sample = next(
+                item for item in catalog["recipes"]
+                if item["id"] == "pork-kimchi-jjigae"
+            )
+            self.assertEqual(
+                ["en", "ko-KR"],
+                [variant["locale"] for variant in sample["variants"]],
+            )
 
 
 if __name__ == "__main__":
