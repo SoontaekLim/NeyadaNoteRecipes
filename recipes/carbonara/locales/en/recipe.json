@@ -1,0 +1,32 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "carbonara",
+  "locale": "en",
+  "title": "Carbonara",
+  "summary": "A simple carbonara made without cream, using eggs, Parmesan, and bacon for a silky, savory sauce.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Main dish",
+    "Pasta"
+  ],
+  "ingredients": [
+    {"name": "Spaghetti", "amount": "180 g"},
+    {"name": "Bacon", "amount": "100 g"},
+    {"name": "Eggs", "amount": "2"},
+    {"name": "Egg yolk", "amount": "1"},
+    {"name": "Parmesan cheese", "amount": "50 g"},
+    {"name": "Coarsely ground black pepper", "amount": "1/2 tsp, plus more to finish"},
+    {"name": "Water", "amount": "2 L"},
+    {"name": "Salt", "amount": "1 tbsp"}
+  ],
+  "steps": [
+    {"id": 1, "description": "Bring 2 L of water to a boil, add the salt, and cook the spaghetti for 1 minute less than the package directions. Reserve 150 ml of pasta water, then drain the pasta."},
+    {"id": 2, "description": "Cut the bacon into 1 cm strips and cook it in a pan over medium-low heat for 4 to 5 minutes, until the fat renders and the edges are lightly crisp. Turn off the heat."},
+    {"id": 3, "description": "Whisk the 2 eggs, egg yolk, 40 g of Parmesan, and 1/2 tsp black pepper in a bowl until combined. Reserve the remaining 10 g Parmesan for finishing."},
+    {"id": 4, "description": "Add the drained spaghetti to the pan with the bacon and toss for about 30 seconds. Remove the pan completely from the heat and let it cool for about 30 seconds."},
+    {"id": 5, "description": "Pour in the egg and cheese mixture and toss quickly. Add the reserved pasta water 1 tbsp at a time, about 2 to 4 tbsp total, until the sauce is glossy and clings smoothly to the pasta."},
+    {"id": 6, "description": "Plate immediately and finish with the reserved Parmesan and a little more black pepper."}
+  ]
+}
