@@ -1,0 +1,86 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "jeyuk-bokkeum",
+  "locale": "ko-KR",
+  "title": "제육볶음",
+  "summary": "고추장 양념에 돼지고기와 양파, 대파를 볶아 매콤달콤하게 만드는 기본 제육볶음입니다.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "메인 요리",
+    "한식"
+  ],
+  "ingredients": [
+    {
+      "name": "돼지고기 앞다리살",
+      "amount": "300g"
+    },
+    {
+      "name": "양파",
+      "amount": "1/2개"
+    },
+    {
+      "name": "대파",
+      "amount": "1/2대"
+    },
+    {
+      "name": "식용유",
+      "amount": "1큰술"
+    },
+    {
+      "name": "고추장",
+      "amount": "2큰술"
+    },
+    {
+      "name": "고춧가루",
+      "amount": "1큰술"
+    },
+    {
+      "name": "진간장",
+      "amount": "1큰술"
+    },
+    {
+      "name": "설탕",
+      "amount": "1큰술"
+    },
+    {
+      "name": "다진 마늘",
+      "amount": "1큰술"
+    },
+    {
+      "name": "참기름",
+      "amount": "1큰술"
+    },
+    {
+      "name": "통깨",
+      "amount": "1작은술"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "돼지고기는 한입 크기로 썰고 양파는 굵게 채 썰며 대파는 어슷하게 썹니다."
+    },
+    {
+      "id": 2,
+      "description": "고추장, 고춧가루, 진간장, 설탕, 다진 마늘, 참기름을 섞어 양념장을 만듭니다."
+    },
+    {
+      "id": 3,
+      "description": "돼지고기에 양념장을 넣고 양념이 고루 묻도록 버무립니다."
+    },
+    {
+      "id": 4,
+      "description": "팬에 식용유를 두르고 중강불로 달군 뒤 양념한 돼지고기를 넣어 4~5분 볶습니다."
+    },
+    {
+      "id": 5,
+      "description": "돼지고기가 거의 익으면 양파와 대파를 넣고 2~3분 더 볶아 돼지고기를 완전히 익힙니다."
+    },
+    {
+      "id": 6,
+      "description": "불을 끄고 통깨를 뿌려 마무리합니다."
+    }
+  ]
+}

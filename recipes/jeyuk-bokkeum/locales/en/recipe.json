@@ -1,0 +1,86 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "jeyuk-bokkeum",
+  "locale": "en",
+  "title": "Jeyuk Bokkeum (Spicy Pork Stir-Fry)",
+  "summary": "A classic Korean spicy-sweet pork stir-fry made with a gochujang sauce, onion, and green onion.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Main Dish",
+    "Korean"
+  ],
+  "ingredients": [
+    {
+      "name": "Pork shoulder",
+      "amount": "300 g"
+    },
+    {
+      "name": "Onion",
+      "amount": "1/2"
+    },
+    {
+      "name": "Green onion",
+      "amount": "1/2 stalk"
+    },
+    {
+      "name": "Cooking oil",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Gochujang (Korean red pepper paste)",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Korean red pepper flakes (gochugaru)",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Soy sauce",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Sugar",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Minced garlic",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Sesame oil",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Toasted sesame seeds",
+      "amount": "1 tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Cut the pork into bite-size pieces, slice the onion into thick strips, and cut the green onion on the diagonal."
+    },
+    {
+      "id": 2,
+      "description": "Mix the gochujang, gochugaru, soy sauce, sugar, minced garlic, and sesame oil to make the sauce."
+    },
+    {
+      "id": 3,
+      "description": "Add the sauce to the pork and toss until the pork is evenly coated."
+    },
+    {
+      "id": 4,
+      "description": "Heat the cooking oil in a pan over medium-high heat. Add the seasoned pork and stir-fry for 4 to 5 minutes."
+    },
+    {
+      "id": 5,
+      "description": "When the pork is almost cooked, add the onion and green onion. Stir-fry for another 2 to 3 minutes until the pork is fully cooked."
+    },
+    {
+      "id": 6,
+      "description": "Turn off the heat and finish with the toasted sesame seeds."
+    }
+  ]
+}
