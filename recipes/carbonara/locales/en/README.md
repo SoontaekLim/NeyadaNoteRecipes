@@ -2,7 +2,7 @@
 
 ![Carbonara cover image](images/cover.webp)
 
-A Roman-style carbonara made with guanciale, egg yolks, Pecorino Romano, and black pepper.
+A Roman-style carbonara made with guanciale, egg yolks, Pecorino Romano, and black pepper. Bacon can be substituted for guanciale, and Parmesan can be substituted for Pecorino Romano.
 
 - Servings: 2
 - Categories: Main dish, Pasta
