@@ -53,6 +53,8 @@ Every recipe declares:
 
 The JSON Schema lives at [schema/recipe-v1.schema.json](schema/recipe-v1.schema.json).
 
+For backward-compatible USER recipe exchange, ingredient name/amount, step descriptions, and the ingredient/step lists may be empty. Portable packages preserve those values instead of silently dropping or rewriting them; structural and archive-safety validation still applies.
+
 See [recipes/pork-kimchi-jjigae](recipes/pork-kimchi-jjigae) for a complete example.
 
 ## Validation
