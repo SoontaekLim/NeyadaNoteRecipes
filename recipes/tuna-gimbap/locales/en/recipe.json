@@ -1,0 +1,38 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "tuna-gimbap",
+  "locale": "en",
+  "title": "Tuna Gimbap",
+  "summary": "A home-style Korean seaweed rice roll filled with creamy tuna, egg, carrot, cucumber, pickled radish, and perilla leaves.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Rice Dish",
+    "Korean"
+  ],
+  "ingredients": [
+    {"name": "Cooked rice", "amount": "400 g"},
+    {"name": "Gimbap seaweed sheets", "amount": "2"},
+    {"name": "Canned tuna", "amount": "100 g, drained"},
+    {"name": "Mayonnaise", "amount": "2 tbsp"},
+    {"name": "Eggs", "amount": "2"},
+    {"name": "Carrot", "amount": "1/2 (about 80 g)"},
+    {"name": "Cucumber", "amount": "1/2"},
+    {"name": "Pickled yellow radish (danmuji)", "amount": "2 long strips"},
+    {"name": "Perilla leaves", "amount": "4"},
+    {"name": "Sesame oil", "amount": "2 tsp"},
+    {"name": "Salt", "amount": "1/2 tsp"},
+    {"name": "Toasted sesame seeds", "amount": "1 tsp"},
+    {"name": "Cooking oil", "amount": "2 tsp"}
+  ],
+  "steps": [
+    {"id": 1, "description": "Season 400 g warm cooked rice with 1 tsp sesame oil, 1/4 tsp salt, and 1 tsp toasted sesame seeds. Mix gently without crushing the grains, then let it cool until just warm."},
+    {"id": 2, "description": "Drain the tuna thoroughly and mix it evenly with 2 tbsp mayonnaise."},
+    {"id": 3, "description": "Beat the 2 eggs with a small pinch of salt. Heat 1 tsp cooking oil in a pan, cook the eggs into a thick omelet, and cut it into long strips."},
+    {"id": 4, "description": "Julienne the carrot and stir-fry it with the remaining 1 tsp cooking oil and a small pinch of salt for 2 to 3 minutes. Cut the cucumber into long thin strips, and pat the danmuji and perilla leaves dry."},
+    {"id": 5, "description": "Place 1 seaweed sheet rough-side up on a bamboo mat. Spread half the rice in a thin, even layer, leaving about 2 cm uncovered along the top edge."},
+    {"id": 6, "description": "Lay 2 perilla leaves across the middle of the rice. Add half the tuna mixture, egg, carrot, cucumber, and one strip of danmuji in long rows. Roll tightly from the bottom so the filling is enclosed, then rest the roll seam-side down. Repeat for the second roll."},
+    {"id": 7, "description": "Brush the outside of both rolls with the remaining 1 tsp sesame oil, slice into bite-size pieces, and serve."}
+  ]
+}
