@@ -1,0 +1,40 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "kottbullar",
+  "locale": "en",
+  "title": "Swedish Meatballs (Köttbullar)",
+  "summary": "Swedish-style meatballs made with beef and pork, served with creamy gravy, lingonberry jam, and French fries.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": ["Main Dish"],
+  "ingredients": [
+    {"name": "Ground beef", "amount": "200g"},
+    {"name": "Ground pork", "amount": "100g"},
+    {"name": "Onion", "amount": "1/4 (about 50g)"},
+    {"name": "Breadcrumbs", "amount": "3 tbsp (about 15g)"},
+    {"name": "Milk", "amount": "60ml"},
+    {"name": "Egg", "amount": "1"},
+    {"name": "Salt", "amount": "1/2 tsp"},
+    {"name": "Black pepper", "amount": "1/4 tsp, plus a little for the gravy"},
+    {"name": "Ground allspice", "amount": "1/4 tsp"},
+    {"name": "Cooking oil", "amount": "1 tbsp"},
+    {"name": "Butter", "amount": "2 tbsp (about 30g)"},
+    {"name": "All-purpose flour", "amount": "1 tbsp (about 10g)"},
+    {"name": "Beef stock", "amount": "200ml"},
+    {"name": "Heavy cream", "amount": "100ml"},
+    {"name": "Soy sauce", "amount": "1 tsp"},
+    {"name": "Dijon mustard", "amount": "1 tsp"},
+    {"name": "Frozen French fries", "amount": "300g"},
+    {"name": "Lingonberry jam", "amount": "4 tbsp (about 60g)"}
+  ],
+  "steps": [
+    {"id": 1, "description": "Mix the breadcrumbs with 60ml milk and let them soak for about 5 minutes. Finely mince 1/4 onion."},
+    {"id": 2, "description": "Add the ground beef, ground pork, soaked breadcrumbs, minced onion, egg, 1/2 tsp salt, 1/4 tsp black pepper, and 1/4 tsp allspice to a bowl. Mix just until evenly combined."},
+    {"id": 3, "description": "Shape the mixture into 18 to 20 bite-size meatballs, about 3cm across. Cook the frozen French fries in an oven or air fryer according to the package directions until golden."},
+    {"id": 4, "description": "Heat 1 tbsp cooking oil and 1 tbsp butter in a skillet over medium heat. Add the meatballs and cook for 7 to 9 minutes, turning them to brown evenly and cook through. Transfer them to a plate."},
+    {"id": 5, "description": "Reduce the heat to medium-low. Add the remaining 1 tbsp butter and the flour to the same skillet and stir for about 1 minute. Gradually pour in the beef stock while stirring until smooth."},
+    {"id": 6, "description": "Add the heavy cream, soy sauce, Dijon mustard, and a little black pepper. Simmer for 3 to 4 minutes, stirring, until the gravy is smooth and lightly thickened."},
+    {"id": 7, "description": "Return the meatballs to the gravy and warm them over low heat for about 2 minutes, turning to coat. Serve with the French fries and lingonberry jam."}
+  ]
+}
