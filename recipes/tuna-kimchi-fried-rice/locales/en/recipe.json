@@ -1,0 +1,36 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "tuna-kimchi-fried-rice",
+  "locale": "en",
+  "title": "Tuna Kimchi Fried Rice",
+  "summary": "An easy Korean rice dish stir-fried with well-fermented kimchi, tuna, and egg, with optional roasted seaweed flakes on top.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Rice Dish",
+    "Korean"
+  ],
+  "ingredients": [
+    {"name": "Cooked rice", "amount": "400 g"},
+    {"name": "Well-fermented napa cabbage kimchi", "amount": "200 g"},
+    {"name": "Canned tuna", "amount": "100 g, drained"},
+    {"name": "Eggs", "amount": "2"},
+    {"name": "Onion", "amount": "1/4 (about 50 g)"},
+    {"name": "Green onion", "amount": "1/2 stalk (about 30 g)"},
+    {"name": "Kimchi juice", "amount": "2 tbsp"},
+    {"name": "Soy sauce", "amount": "1 tbsp"},
+    {"name": "Sugar", "amount": "1 tsp"},
+    {"name": "Cooking oil", "amount": "1 tbsp"},
+    {"name": "Sesame oil", "amount": "1 tsp"},
+    {"name": "Roasted seaweed flakes", "amount": "2 tbsp (optional)"}
+  ],
+  "steps": [
+    {"id": 1, "description": "Cut the kimchi into 1 to 2 cm pieces, finely chop the onion, and thinly slice the green onion. Drain the tuna well and lightly beat the 2 eggs."},
+    {"id": 2, "description": "Heat 1/2 tbsp cooking oil in a pan over medium heat. Add the eggs and stir in large curds until softly set, then transfer them to a plate."},
+    {"id": 3, "description": "Add the remaining 1/2 tbsp cooking oil to the same pan and stir-fry the green onion and onion for about 1 minute. Add the kimchi and 1 tsp sugar, then cook for 3 to 4 minutes until the kimchi softens."},
+    {"id": 4, "description": "Add 400 g cooked rice and 2 tbsp kimchi juice, breaking up the rice as you mix. Pour 1 tbsp soy sauce around the edge of the pan and stir-fry over high heat for 2 to 3 minutes to cook off excess moisture."},
+    {"id": 5, "description": "Add the drained tuna and cooked egg. Stir-fry gently for about 1 minute so the tuna stays in visible pieces."},
+    {"id": 6, "description": "Turn off the heat and mix in 1 tsp sesame oil. Serve in bowls and, if desired, finish with 2 tbsp roasted seaweed flakes."}
+  ]
+}
