@@ -1,0 +1,35 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "beef-bulgogi",
+  "locale": "en",
+  "title": "Beef Bulgogi",
+  "summary": "A classic Korean beef bulgogi made by marinating thinly sliced beef in a sweet-savory soy sauce mixture, then stir-frying it with onion, green onion, and carrot.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Main Dish",
+    "Korean"
+  ],
+  "ingredients": [
+    {"name": "Thinly sliced beef for bulgogi", "amount": "300g"},
+    {"name": "Onion", "amount": "1/2"},
+    {"name": "Green onion", "amount": "1/2 stalk"},
+    {"name": "Carrot", "amount": "1/4"},
+    {"name": "Soy sauce", "amount": "3 tbsp"},
+    {"name": "Sugar", "amount": "1 1/2 tbsp"},
+    {"name": "Minced garlic", "amount": "1 tbsp"},
+    {"name": "Sesame oil", "amount": "1 tbsp"},
+    {"name": "Ground black pepper", "amount": "a pinch"},
+    {"name": "Cooking oil", "amount": "1 tbsp"},
+    {"name": "Sesame seeds", "amount": "1 tsp"}
+  ],
+  "steps": [
+    {"id": 1, "description": "Slice the onion about 5 mm thick, cut the green onion on a diagonal, and julienne the carrot."},
+    {"id": 2, "description": "In a large bowl, mix the soy sauce, sugar, minced garlic, sesame oil, and black pepper until the sugar begins to dissolve."},
+    {"id": 3, "description": "Add the beef, onion, green onion, and carrot to the marinade, toss well to coat, and marinate for about 20 minutes."},
+    {"id": 4, "description": "Heat the cooking oil in a large pan over medium-high heat, then add the marinated beef and vegetables."},
+    {"id": 5, "description": "Stir-fry for 5 to 7 minutes, separating the beef as it cooks, until the meat is fully cooked and the excess marinade has reduced slightly."},
+    {"id": 6, "description": "Turn off the heat and finish with sesame seeds."}
+  ]
+}
