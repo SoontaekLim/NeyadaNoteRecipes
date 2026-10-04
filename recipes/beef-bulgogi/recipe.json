@@ -1,0 +1,35 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "beef-bulgogi",
+  "locale": "ko-KR",
+  "title": "소불고기",
+  "summary": "얇게 썬 소고기를 달콤짭짤한 간장 양념에 재운 뒤 양파, 대파, 당근과 함께 볶아 만드는 기본 소불고기입니다.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "메인 요리",
+    "한식"
+  ],
+  "ingredients": [
+    {"name": "불고기용 소고기", "amount": "300g"},
+    {"name": "양파", "amount": "1/2개"},
+    {"name": "대파", "amount": "1/2대"},
+    {"name": "당근", "amount": "1/4개"},
+    {"name": "진간장", "amount": "3큰술"},
+    {"name": "설탕", "amount": "1과 1/2큰술"},
+    {"name": "다진 마늘", "amount": "1큰술"},
+    {"name": "참기름", "amount": "1큰술"},
+    {"name": "후춧가루", "amount": "약간"},
+    {"name": "식용유", "amount": "1큰술"},
+    {"name": "통깨", "amount": "1작은술"}
+  ],
+  "steps": [
+    {"id": 1, "description": "양파는 0.5cm 두께로 채 썰고, 대파는 어슷하게 썰며, 당근은 가늘게 채 썹니다."},
+    {"id": 2, "description": "큰 볼에 진간장, 설탕, 다진 마늘, 참기름, 후춧가루를 넣고 설탕이 녹도록 섞어 양념장을 만듭니다."},
+    {"id": 3, "description": "불고기용 소고기와 손질한 양파, 대파, 당근을 양념장에 넣어 고루 버무린 뒤 20분 정도 재웁니다."},
+    {"id": 4, "description": "팬에 식용유를 두르고 중강불로 충분히 달군 뒤 재운 소고기와 채소를 넣습니다."},
+    {"id": 5, "description": "소고기를 풀어가며 5~7분 볶아 완전히 익히고, 팬에 생긴 양념물이 살짝 졸아들 때까지 볶습니다."},
+    {"id": 6, "description": "불을 끄고 통깨를 뿌려 마무리합니다."}
+  ]
+}
