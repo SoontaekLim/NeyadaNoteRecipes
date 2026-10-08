@@ -13,62 +13,62 @@
   ],
   "ingredients": [
     {
-      "name": "Microwave-ready rice",
-      "amount": "2 packs (210g each)"
+      "name": "Microwave-ready cooked rice",
+      "amount": "2 packs"
     },
     {
       "name": "Eggs",
-      "amount": "3"
+      "amount": "3–4"
     },
     {
       "name": "Spam luncheon meat",
-      "amount": "50g"
+      "amount": "about 50g"
     },
     {
       "name": "Carrot",
-      "amount": "1/2 (about 70g)"
+      "amount": "about 70g"
     },
     {
       "name": "Scallion",
-      "amount": "1/2 stalk (about 40g)"
+      "amount": "about 40g"
     },
     {
-      "name": "Powdered chicken stock",
-      "amount": "2 tsp"
+      "name": "Chicken stock seasoning",
+      "amount": "2/3 spoonful"
     },
     {
-      "name": "Neutral cooking oil",
-      "amount": "2 tbsp"
+      "name": "Cooking oil",
+      "amount": "2–3 spoonfuls"
     },
     {
-      "name": "Water (to blanch Spam)",
-      "amount": "500ml"
+      "name": "Water (for blanching Spam)",
+      "amount": "As needed"
     }
   ],
   "steps": [
     {
       "id": 1,
-      "description": "Loosen the lids of the rice packs and microwave for about 30 seconds, just enough to make the grains easier to separate."
+      "description": "Microwave the 2 packs of cooked rice for 30 seconds to make the grains easier to separate."
     },
     {
       "id": 2,
-      "description": "Finely dice the Spam, then blanch it in 500ml boiling water for about 30 seconds and drain. Finely chop the carrot and scallion."
+      "description": "Beat 3–4 eggs in a bowl. Add the warmed rice and gently press and mix with a wooden spatula until the egg coats the grains evenly."
     },
     {
       "id": 3,
-      "description": "Beat the 3 eggs in a large bowl. Add the briefly warmed rice and use a spatula to break up clumps, coating each grain evenly with beaten egg."
+      "description": "Finely dice the carrot, add it to the egg-coated rice, then mix in 2/3 spoonful of chicken stock seasoning."
     },
     {
       "id": 4,
-      "description": "Mix the carrot, Spam, scallion and powdered chicken stock into the egg-coated rice until evenly distributed."
+      "description": "Finely dice the Spam, blanch it briefly in boiling water, drain it and mix it into the rice. Finely chop the scallion and mix it in as well."
     },
     {
       "id": 5,
-      "description": "Add 2 tablespoons of oil to a skillet and heat over medium heat. Add all of the prepared rice mixture."
+      "description": "Heat 2–3 spoonfuls of cooking oil in a pan, add the prepared rice mixture and stir-fry."
     },
     {
       "id": 6,
-      "description": "Stir-fry continuously for 4 to 6 minutes, until the eggs are fully cooked and the rice grains are separate and fluffy. Transfer to plates."
+      "description": "Continue until the eggs are fully cooked, the rice is golden and the grains are fluffy and separate. Transfer to plates."
     }
   ]
 }
