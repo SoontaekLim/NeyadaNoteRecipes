@@ -51,13 +51,13 @@
 한국어 기본 레시피:
 
 ```json
-"tags": ["국/찌개", "양식"]
+{"tags": ["국/찌개", "양식"]}
 ```
 
 같은 레시피의 영어 번역:
 
 ```json
-"tags": ["Soup/Stew", "Western"]
+{"tags": ["Soup/Stew", "Western"]}
 ```
 
 각 locale의 `README.md` 분류 표시는 해당 `recipe.json`의 태그와 일치해야 한다.
