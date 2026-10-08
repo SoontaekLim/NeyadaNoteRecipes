@@ -43,6 +43,18 @@
     {
       "name": "Truffle oil (optional)",
       "amount": "1/2 tsp"
+    },
+    {
+      "name": "Dill (optional)",
+      "amount": "A pinch"
+    },
+    {
+      "name": "Parsley (optional)",
+      "amount": "A pinch"
+    },
+    {
+      "name": "Paprika powder (optional)",
+      "amount": "A pinch"
     }
   ],
   "steps": [
@@ -68,7 +80,7 @@
     },
     {
       "id": 6,
-      "description": "Serve in bowls and, if desired, finish each serving with a few drops of truffle oil."
+      "description": "Serve in bowls and, if desired, drizzle each serving with a few drops of truffle oil. Sprinkle with a little dill, parsley, or paprika powder, choosing whichever toppings you prefer."
     }
   ]
 }
