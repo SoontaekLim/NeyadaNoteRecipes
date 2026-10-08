@@ -17,6 +17,9 @@ A simple, creamy potato soup made by gently cooking potatoes and onion, then ble
 - Salt — 1/2 tsp
 - Black pepper — A pinch
 - Truffle oil (optional) — 1/2 tsp
+- Dill (optional) — A pinch
+- Parsley (optional) — A pinch
+- Paprika powder (optional) — A pinch
 
 ## Instructions
 
@@ -25,7 +28,7 @@ A simple, creamy potato soup made by gently cooking potatoes and onion, then ble
 3. Drain the potatoes and onion and let cool slightly. Reserve a little cooking water to adjust the consistency later.
 4. Blend the cooked potatoes and onion with 250ml milk until completely smooth, using a blender or immersion blender.
 5. Pour the blended soup into a pot and add 15g butter. Heat over low heat, stirring to prevent sticking, until it just comes to a boil. Season with 1/2 tsp salt and a pinch of black pepper. Add a little reserved cooking water if too thick.
-6. Serve in bowls and, if desired, finish each serving with a few drops of truffle oil.
+6. Serve in bowls and, if desired, drizzle each serving with a few drops of truffle oil. Sprinkle with a little dill, parsley, or paprika powder, choosing whichever toppings you prefer.
 
 ---
 
