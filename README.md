@@ -57,6 +57,12 @@ For backward-compatible USER recipe exchange, ingredient name/amount, step descr
 
 See [recipes/pork-kimchi-jjigae](recipes/pork-kimchi-jjigae) for a complete example.
 
+## Official recipe classification
+
+Official recipes use one primary category (main dish, side dish, soup/stew, one-dish meal, or noodles/pasta), with optional cuisine and meal-context tags. The physical recipe directories remain ID-based; categories are metadata, not folder names.
+
+See [Recipe Taxonomy Standard v1](docs/recipe-taxonomy.md) for the canonical Korean/English tag names, classification rules, and compatibility plan for existing app category labels.
+
 ## Validation
 
 Install the validator and run the repository checks locally:
