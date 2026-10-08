@@ -191,29 +191,13 @@ Each step should be clear enough for a beginner to perform without guessing impo
 
 ## Tags
 
-Prefer the established NeyadaNote categories when applicable.
+For new official recipes, follow the **[Recipe Taxonomy Standard v1](docs/recipe-taxonomy.md)**.
 
-Common Korean tags include:
-
-- `메인 요리`
-- `메인 반찬`
-- `국/찌개`
-- `반찬`
-- `면요리`
-- `간식/디저트`
-- `야식`
-- `술안주`
-- `한식`
-- `한그릇요리`
-
-Normally use about **1–3 tags**.
-
-Translate tags by meaning in the English locale, for example:
-
-```text
-국/찌개 -> Soup/Stew
-한식 -> Korean
-```
+- Use **exactly one primary category** as the first `tags` entry: `메인 요리`, `반찬`, `국/찌개`, `한그릇요리`, or `면요리`.
+- Optionally append **one cuisine tag** (e.g., `한식`, `중식`, `일식`, `양식`) and **one meal-context tag** (currently `야식` or `술안주`). Typically use 1–3 tags.
+- Translate each tag to its canonical English value and preserve category meaning and order in `locales/en/recipe.json`. For example, `["국/찌개", "양식"]` becomes `["Soup/Stew", "Western"]`.
+- Do not combine two primary categories for one dish, or introduce new official category names without updating the taxonomy standard.
+- Existing legacy tags and user-defined app categories must remain compatible; see the migration notes in the standard. Do not silently bulk-rewrite existing recipes as part of an unrelated contribution.
 
 ## `README.md`
 
