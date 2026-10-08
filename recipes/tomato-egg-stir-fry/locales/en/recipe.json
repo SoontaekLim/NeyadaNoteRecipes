@@ -1,0 +1,66 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "tomato-egg-stir-fry",
+  "locale": "en",
+  "title": "Tomato and Egg Stir-Fry",
+  "summary": "Inspired by Chef Lee Yeon-bok’s method, this Chinese-style tomato and egg stir-fry balances crisp-tender tomatoes with soft, fluffy eggs.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Main Side Dish",
+    "Chinese"
+  ],
+  "ingredients": [
+    {
+      "name": "Tomatoes",
+      "amount": "2 (about 300g)"
+    },
+    {
+      "name": "Eggs",
+      "amount": "5"
+    },
+    {
+      "name": "Liquid chicken stock seasoning",
+      "amount": "1 spoonful"
+    },
+    {
+      "name": "Cooking oil",
+      "amount": "2 spoonfuls"
+    },
+    {
+      "name": "Scallion",
+      "amount": "1/4 stalk"
+    },
+    {
+      "name": "Water (to blanch and rinse tomatoes)",
+      "amount": "As needed"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Remove the stems from the 2 tomatoes and score a shallow X on the bottom of each. Briefly blanch in boiling water until the skins start to loosen, then lift them out."
+    },
+    {
+      "id": 2,
+      "description": "Beat the 5 eggs in a bowl. Add 1 spoonful of liquid chicken stock seasoning and mix well."
+    },
+    {
+      "id": 3,
+      "description": "Rinse the blanched tomatoes in cold water and peel them. Cut into small pieces and mix them into the beaten eggs."
+    },
+    {
+      "id": 4,
+      "description": "Finely chop 1/4 stalk of scallion and stir it into the tomato-and-egg mixture."
+    },
+    {
+      "id": 5,
+      "description": "Heat 2 spoonfuls of cooking oil in a pan over medium heat, then pour in the egg mixture. Do not stir immediately. As the edges set, gently push them toward the center with a wooden spatula, then flip the larger pieces to cook the other side."
+    },
+    {
+      "id": 6,
+      "description": "When the eggs are fully cooked but the tomatoes are only about 70–80% cooked and still retain some bite, remove from the heat and transfer to a plate."
+    }
+  ]
+}
