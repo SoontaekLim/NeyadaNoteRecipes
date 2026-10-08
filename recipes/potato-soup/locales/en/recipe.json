@@ -7,23 +7,68 @@
   "summary": "A simple, creamy potato soup made by gently cooking potatoes and onion, then blending them smooth with milk. Finish with a few drops of truffle oil if desired.",
   "servings": 2,
   "coverImage": "images/cover.webp",
-  "tags": ["Soup/Stew", "Western"],
+  "tags": [
+    "Soup/Stew",
+    "Western"
+  ],
   "ingredients": [
-    {"name": "Potatoes", "amount": "300g"},
-    {"name": "Onion", "amount": "1/2 (about 100g)"},
-    {"name": "Butter", "amount": "15g"},
-    {"name": "Water", "amount": "250ml"},
-    {"name": "Milk", "amount": "250ml"},
-    {"name": "Salt", "amount": "1/2 tsp"},
-    {"name": "Black pepper", "amount": "A pinch"},
-    {"name": "Truffle oil (optional)", "amount": "1/2 tsp"}
+    {
+      "name": "Potatoes",
+      "amount": "300g"
+    },
+    {
+      "name": "Onion",
+      "amount": "1/2 (about 100g)"
+    },
+    {
+      "name": "Butter",
+      "amount": "15g"
+    },
+    {
+      "name": "Water",
+      "amount": "250ml"
+    },
+    {
+      "name": "Milk",
+      "amount": "250ml"
+    },
+    {
+      "name": "Salt",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Black pepper",
+      "amount": "A pinch"
+    },
+    {
+      "name": "Truffle oil (optional)",
+      "amount": "1/2 tsp"
+    }
   ],
   "steps": [
-    {"id": 1, "description": "Peel the potatoes and cut them into roughly 2cm pieces. Thinly slice the onion."},
-    {"id": 2, "description": "Melt the butter in a pot. Add the onion and cook over medium-low heat for 3–4 minutes until translucent."},
-    {"id": 3, "description": "Add the potatoes and 250ml water and bring to a boil. Reduce to low heat, cover and cook for 12–15 minutes, until the potatoes mash easily with a spoon."},
-    {"id": 4, "description": "Turn off the heat and let the mixture cool slightly, then blend the potatoes and onion until completely smooth using an immersion blender or countertop blender."},
-    {"id": 5, "description": "Return to low heat and stir in 250ml milk until warmed through. Season with 1/2 tsp salt and a pinch of black pepper. If the soup is too thick, add a little more water to adjust the consistency."},
-    {"id": 6, "description": "Serve as is, or finish each serving with a few drops of truffle oil for extra aroma."}
+    {
+      "id": 1,
+      "description": "Peel the potatoes and cut into roughly 2cm pieces. Roughly chop the onion."
+    },
+    {
+      "id": 2,
+      "description": "Place the potatoes, onion and 250ml water in a pot and bring to a boil. Reduce the heat to low, cover and simmer for 12–15 minutes until the potatoes mash easily."
+    },
+    {
+      "id": 3,
+      "description": "Drain the potatoes and onion and let cool slightly. Reserve a little cooking water to adjust the consistency later."
+    },
+    {
+      "id": 4,
+      "description": "Blend the cooked potatoes and onion with 250ml milk until completely smooth, using a blender or immersion blender."
+    },
+    {
+      "id": 5,
+      "description": "Pour the blended soup into a pot and add 15g butter. Heat over low heat, stirring to prevent sticking, until it just comes to a boil. Season with 1/2 tsp salt and a pinch of black pepper. Add a little reserved cooking water if too thick."
+    },
+    {
+      "id": 6,
+      "description": "Serve in bowls and, if desired, finish each serving with a few drops of truffle oil."
+    }
   ]
 }
