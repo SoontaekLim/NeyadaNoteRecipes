@@ -1,0 +1,86 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "potato-soup",
+  "locale": "en",
+  "title": "Creamy Potato Soup",
+  "summary": "A simple, creamy potato soup made by gently cooking potatoes and onion, then blending them smooth with milk. Finish with a few drops of truffle oil if desired.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Soup/Stew",
+    "Western"
+  ],
+  "ingredients": [
+    {
+      "name": "Potatoes",
+      "amount": "300g"
+    },
+    {
+      "name": "Onion",
+      "amount": "1/2 (about 100g)"
+    },
+    {
+      "name": "Butter",
+      "amount": "15g"
+    },
+    {
+      "name": "Water",
+      "amount": "250ml"
+    },
+    {
+      "name": "Milk",
+      "amount": "250ml"
+    },
+    {
+      "name": "Salt",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Black pepper",
+      "amount": "A pinch"
+    },
+    {
+      "name": "Truffle oil (optional)",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Dill (optional)",
+      "amount": "A pinch"
+    },
+    {
+      "name": "Parsley (optional)",
+      "amount": "A pinch"
+    },
+    {
+      "name": "Paprika powder (optional)",
+      "amount": "A pinch"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Peel the potatoes and cut into roughly 2cm pieces. Roughly chop the onion."
+    },
+    {
+      "id": 2,
+      "description": "Place the potatoes, onion and 250ml water in a pot and bring to a boil. Reduce the heat to low, cover and simmer for 12–15 minutes until the potatoes mash easily."
+    },
+    {
+      "id": 3,
+      "description": "Drain the potatoes and onion and let cool slightly. Reserve a little cooking water to adjust the consistency later."
+    },
+    {
+      "id": 4,
+      "description": "Blend the cooked potatoes and onion with 250ml milk until completely smooth, using a blender or immersion blender."
+    },
+    {
+      "id": 5,
+      "description": "Pour the blended soup into a pot and add 15g butter. Heat over low heat, stirring to prevent sticking, until it just comes to a boil. Season with 1/2 tsp salt and a pinch of black pepper. Add a little reserved cooking water if too thick."
+    },
+    {
+      "id": 6,
+      "description": "Serve in bowls and, if desired, drizzle each serving with a few drops of truffle oil. Sprinkle with a little dill, parsley, or paprika powder, choosing whichever toppings you prefer."
+    }
+  ]
+}
