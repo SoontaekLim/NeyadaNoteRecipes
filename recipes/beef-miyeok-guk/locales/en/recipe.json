@@ -1,0 +1,31 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "beef-miyeok-guk",
+  "locale": "en",
+  "title": "Beef Miyeok-guk",
+  "summary": "A classic Korean seaweed soup made by sautéing beef brisket and miyeok in sesame oil, then simmering until deeply savory.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Soup/Stew",
+    "Korean"
+  ],
+  "ingredients": [
+    {"name": "Dried miyeok (seaweed)", "amount": "10g"},
+    {"name": "Beef brisket (yangji)", "amount": "120g"},
+    {"name": "Sesame oil", "amount": "1 tbsp"},
+    {"name": "Korean soup soy sauce (guk-ganjang)", "amount": "1 1/2 tbsp"},
+    {"name": "Minced garlic", "amount": "1 tsp"},
+    {"name": "Water", "amount": "1L"},
+    {"name": "Salt", "amount": "1/4 tsp"}
+  ],
+  "steps": [
+    {"id": 1, "description": "Soak the dried miyeok in cold water for about 10 minutes. Rinse it several times, squeeze out excess water, and cut it into bite-size pieces."},
+    {"id": 2, "description": "Pat the beef brisket dry with a paper towel and cut it into bite-size pieces."},
+    {"id": 3, "description": "Add the sesame oil and beef to a pot and cook over medium heat for about 2 minutes, until the outside of the beef is no longer raw."},
+    {"id": 4, "description": "Add the soaked miyeok and soup soy sauce, then sauté for another 2 to 3 minutes so the seaweed and beef absorb the seasoning."},
+    {"id": 5, "description": "Pour in the water and bring to a boil over high heat. Reduce to medium-low and simmer for about 20 minutes."},
+    {"id": 6, "description": "Add the minced garlic and simmer for 5 more minutes. Season with the salt, then turn off the heat."}
+  ]
+}
