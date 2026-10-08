@@ -1,0 +1,74 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "golden-fried-rice",
+  "locale": "en",
+  "title": "Golden Egg Fried Rice",
+  "summary": "A fluffy, golden Chinese-style egg fried rice adapted for home cooking from Chef Lee Yeon-bok's golden fried rice technique.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Rice Bowl",
+    "Chinese"
+  ],
+  "ingredients": [
+    {
+      "name": "Microwave-ready cooked rice",
+      "amount": "2 packs"
+    },
+    {
+      "name": "Eggs",
+      "amount": "3–4"
+    },
+    {
+      "name": "Spam luncheon meat",
+      "amount": "about 50g"
+    },
+    {
+      "name": "Carrot",
+      "amount": "about 70g"
+    },
+    {
+      "name": "Scallion",
+      "amount": "about 40g"
+    },
+    {
+      "name": "Chicken stock seasoning",
+      "amount": "2/3 spoonful"
+    },
+    {
+      "name": "Cooking oil",
+      "amount": "2–3 spoonfuls"
+    },
+    {
+      "name": "Water (for blanching Spam)",
+      "amount": "As needed"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Microwave the 2 packs of cooked rice for 30 seconds to make the grains easier to separate."
+    },
+    {
+      "id": 2,
+      "description": "Beat 3–4 eggs in a bowl. Add the warmed rice and gently press and mix with a wooden spatula until the egg coats the grains evenly."
+    },
+    {
+      "id": 3,
+      "description": "Finely dice the carrot, add it to the egg-coated rice, then mix in 2/3 spoonful of chicken stock seasoning."
+    },
+    {
+      "id": 4,
+      "description": "Finely dice the Spam, blanch it briefly in boiling water, drain it and mix it into the rice. Finely chop the scallion and mix it in as well."
+    },
+    {
+      "id": 5,
+      "description": "Heat 2–3 spoonfuls of cooking oil in a pan, add the prepared rice mixture and stir-fry."
+    },
+    {
+      "id": 6,
+      "description": "Continue until the eggs are fully cooked, the rice is golden and the grains are fluffy and separate. Transfer to plates."
+    }
+  ]
+}
