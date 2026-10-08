@@ -9,25 +9,23 @@ A fluffy, golden Chinese-style egg fried rice adapted for home cooking from Chef
 
 ## Ingredients
 
-- Cooked rice — 2 bowls (about 400g)
+- Microwave-ready rice — 2 packs (210g each)
 - Eggs — 3
-- Ham — 80g
+- Spam luncheon meat — 50g
+- Carrot — 1/2 (about 70g)
 - Scallion — 1/2 stalk (about 40g)
-- Carrot — 1/4 (about 40g)
+- Powdered chicken stock — 2 tsp
 - Neutral cooking oil — 2 tbsp
-- Salt — 1/3 tsp
-- Powdered chicken stock — 1/2 tsp
-- Black pepper — A pinch
+- Water (to blanch Spam) — 500ml
 
 ## Instructions
 
-1. Thinly slice the scallion and dice the carrot and ham into 5mm pieces. Break up any clumps in the cooked rice.
-2. Crack the eggs into a bowl and beat until smooth.
-3. Heat 1 tablespoon of oil in a skillet and stir-fry the scallion over medium heat for 1 minute until fragrant.
-4. Add the carrot and ham and stir-fry for 2 minutes, then move them to the edge of the skillet.
-5. Add the remaining 1 tablespoon of oil. Pour in the beaten eggs and stir with chopsticks or a spatula until half-set.
-6. Add the rice. Stir-fry over high heat for 2 to 3 minutes, mixing the eggs, vegetables and ham evenly and breaking up clumps with a spatula.
-7. Season with salt, powdered chicken stock and black pepper. Stir-fry for 1 more minute, adjust seasoning and serve.
+1. Loosen the lids of the rice packs and microwave for about 30 seconds, just enough to make the grains easier to separate.
+2. Finely dice the Spam, then blanch it in 500ml boiling water for about 30 seconds and drain. Finely chop the carrot and scallion.
+3. Beat the 3 eggs in a large bowl. Add the briefly warmed rice and use a spatula to break up clumps, coating each grain evenly with beaten egg.
+4. Mix the carrot, Spam, scallion and powdered chicken stock into the egg-coated rice until evenly distributed.
+5. Add 2 tablespoons of oil to a skillet and heat over medium heat. Add all of the prepared rice mixture.
+6. Stir-fry continuously for 4 to 6 minutes, until the eggs are fully cooked and the rice grains are separate and fluffy. Transfer to plates.
 
 ---
 
