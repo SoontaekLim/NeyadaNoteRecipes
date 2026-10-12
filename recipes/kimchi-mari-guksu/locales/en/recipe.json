@@ -1,0 +1,98 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "kimchi-mari-guksu",
+  "locale": "en",
+  "title": "Cold Kimchi Noodles (Kimchi Mari Guksu)",
+  "summary": "Refreshing Korean cold noodles with a sweet-tangy kimchi broth, thin wheat noodles, cucumber, and boiled egg.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Noodles/Pasta",
+    "Korean"
+  ],
+  "ingredients": [
+    {
+      "name": "Thin wheat noodles (somyeon)",
+      "amount": "200 g"
+    },
+    {
+      "name": "Well-fermented napa cabbage kimchi",
+      "amount": "150 g"
+    },
+    {
+      "name": "Kimchi brine",
+      "amount": "100 ml"
+    },
+    {
+      "name": "Cucumber",
+      "amount": "1/3"
+    },
+    {
+      "name": "Hard-boiled egg",
+      "amount": "1"
+    },
+    {
+      "name": "Cold water (for broth)",
+      "amount": "450 ml"
+    },
+    {
+      "name": "Water (for boiling noodles)",
+      "amount": "1.5 L"
+    },
+    {
+      "name": "Vinegar",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Sugar",
+      "amount": "1–1.5 tbsp, plus 1/2 tsp for kimchi (optional)"
+    },
+    {
+      "name": "Korean soup soy sauce (guk-ganjang)",
+      "amount": "1 tbsp (or 1/2 tbsp fish sauce)"
+    },
+    {
+      "name": "Salt",
+      "amount": "a pinch"
+    },
+    {
+      "name": "Toasted sesame oil",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Sesame seeds",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Shredded roasted seaweed (gim)",
+      "amount": "a little (optional)"
+    },
+    {
+      "name": "Ice cubes",
+      "amount": "6–8"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "In a large bowl, stir together 450 ml cold water, 100 ml kimchi brine, 2 tbsp vinegar, 1 tbsp sugar, and 1 tbsp Korean soup soy sauce (or 1/2 tbsp fish sauce). Taste and add up to 1/2 tbsp more sugar if needed, depending on the kimchi's tartness. Season with a pinch of salt and refrigerate until very cold.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "Cut 150 g kimchi into bite-size pieces and toss with 1 tsp toasted sesame oil and 1/2 tsp sesame seeds. If the kimchi is very sour, optionally add 1/2 tsp sugar. Julienne 1/3 cucumber and halve the hard-boiled egg.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "Bring 1.5 L water to a boil and cook 200 g somyeon according to the package, usually 3–4 minutes. Immediately rinse and gently rub the noodles under cold water 2–3 times to remove excess starch, then drain thoroughly.",
+      "image": "images/step-3.webp"
+    },
+    {
+      "id": 4,
+      "description": "Divide the noodles between two bowls. Top with seasoned kimchi, julienned cucumber, and the egg halves. Pour in the chilled broth, add 6–8 ice cubes, and finish with the remaining 1/2 tsp sesame seeds and optional shredded roasted seaweed. Serve immediately.",
+      "image": "images/step-4.webp"
+    }
+  ]
+}
