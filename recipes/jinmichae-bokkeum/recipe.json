@@ -1,0 +1,88 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "jinmichae-bokkeum",
+  "locale": "ko-KR",
+  "title": "진미채볶음",
+  "summary": "부드럽게 버무린 진미채에 달콤매콤한 고추장 양념을 입힌 밥반찬입니다.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "반찬",
+    "한식"
+  ],
+  "ingredients": [
+    {
+      "name": "진미채",
+      "amount": "120g"
+    },
+    {
+      "name": "마요네즈",
+      "amount": "1큰술"
+    },
+    {
+      "name": "고추장",
+      "amount": "1큰술"
+    },
+    {
+      "name": "올리고당",
+      "amount": "1큰술"
+    },
+    {
+      "name": "진간장",
+      "amount": "1작은술"
+    },
+    {
+      "name": "다진 마늘",
+      "amount": "1/2작은술"
+    },
+    {
+      "name": "식용유",
+      "amount": "1작은술"
+    },
+    {
+      "name": "물",
+      "amount": "2큰술"
+    },
+    {
+      "name": "참기름",
+      "amount": "1작은술"
+    },
+    {
+      "name": "통깨",
+      "amount": "1작은술"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "진미채 120g은 가위로 5~6cm 길이로 자르고 뭉친 부분을 풀어 줍니다.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "볼에 진미채와 마요네즈 1큰술을 넣고 고루 버무려 5분간 둡니다.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "작은 그릇에 고추장 1큰술, 올리고당 1큰술, 진간장 1작은술, 다진 마늘 1/2작은술, 물 2큰술을 섞어 양념을 만듭니다.",
+      "image": "images/step-3.webp"
+    },
+    {
+      "id": 4,
+      "description": "팬에 식용유 1작은술을 두르고 약불로 달군 뒤 양념을 넣어 30초~1분 정도 저으며 살짝 끓입니다.",
+      "image": "images/step-4.webp"
+    },
+    {
+      "id": 5,
+      "description": "불을 끄고 마요네즈에 버무린 진미채를 넣어 양념이 골고루 묻도록 섞습니다. 양념이 잘 섞이지 않으면 아주 약한 불에서 20~30초만 더 볶습니다.",
+      "image": "images/step-5.webp"
+    },
+    {
+      "id": 6,
+      "description": "참기름 1작은술을 넣어 섞고 통깨 1작은술을 뿌려 마무리합니다.",
+      "image": "images/step-6.webp"
+    }
+  ]
+}
