@@ -1,0 +1,60 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "black-sesame-salad-dressing",
+  "locale": "ko-KR",
+  "title": "흑임자 샐러드 드레싱",
+  "summary": "곱게 간 흑임자에 마요네즈와 식초·꿀을 더해 고소하고 산뜻하게 즐기는 크리미한 샐러드 드레싱입니다.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "소스/드레싱"
+  ],
+  "ingredients": [
+    {
+      "name": "볶은 흑임자",
+      "amount": "2큰술(약 20g)"
+    },
+    {
+      "name": "마요네즈",
+      "amount": "3큰술"
+    },
+    {
+      "name": "식초",
+      "amount": "1큰술"
+    },
+    {
+      "name": "꿀",
+      "amount": "2작은술"
+    },
+    {
+      "name": "진간장",
+      "amount": "1작은술"
+    },
+    {
+      "name": "물",
+      "amount": "1~2큰술"
+    },
+    {
+      "name": "소금(선택)",
+      "amount": "한 꼬집"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "볶은 흑임자 2큰술을 절구나 믹서에 넣고 곱게 갑니다. 약간의 입자가 남아도 괜찮습니다.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "볼에 마요네즈 3큰술, 식초 1큰술, 꿀 2작은술, 진간장 1작은술, 갈아 둔 흑임자를 넣습니다. 취향에 따라 소금 한 꼬집을 추가합니다.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "거품기로 고루 섞은 뒤 물 1큰술을 넣습니다. 걸쭉하면 물을 1큰술 더 추가해 원하는 농도로 맞춥니다. 완성한 드레싱은 바로 사용합니다.",
+      "image": "images/step-3.webp"
+    }
+  ]
+}

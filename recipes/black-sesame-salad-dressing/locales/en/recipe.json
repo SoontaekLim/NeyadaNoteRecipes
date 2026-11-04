@@ -1,0 +1,60 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "black-sesame-salad-dressing",
+  "locale": "en",
+  "title": "Black Sesame Salad Dressing",
+  "summary": "A creamy, nutty salad dressing made with ground toasted black sesame seeds, mayonnaise, vinegar, and honey.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Sauce/Dressing"
+  ],
+  "ingredients": [
+    {
+      "name": "Toasted black sesame seeds",
+      "amount": "2 tbsp (about 20 g)"
+    },
+    {
+      "name": "Mayonnaise",
+      "amount": "3 tbsp"
+    },
+    {
+      "name": "Vinegar",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Honey",
+      "amount": "2 tsp"
+    },
+    {
+      "name": "Soy sauce",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Water",
+      "amount": "1–2 tbsp"
+    },
+    {
+      "name": "Salt (optional)",
+      "amount": "a pinch"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Grind 2 tbsp toasted black sesame seeds in a mortar or blender until fine. A little texture is fine.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "In a bowl, combine 3 tbsp mayonnaise, 1 tbsp vinegar, 2 tsp honey, 1 tsp soy sauce, and the ground sesame seeds. Add a pinch of salt if desired.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "Whisk until evenly mixed, then add 1 tbsp water. If too thick, add up to 1 tbsp more water to reach your preferred consistency. Use the finished dressing immediately.",
+      "image": "images/step-3.webp"
+    }
+  ]
+}
