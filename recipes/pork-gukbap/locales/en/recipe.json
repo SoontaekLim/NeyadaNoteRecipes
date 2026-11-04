@@ -1,0 +1,99 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "pork-gukbap",
+  "locale": "en",
+  "title": "Dwaeji Gukbap (Korean Pork and Rice Soup)",
+  "summary": "Busan-style pork and rice soup made with a gently simmered pork-bone broth and tender sliced pork, seasoned at the table with salted shrimp.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "One-bowl meal",
+    "Soup/Stew",
+    "Korean"
+  ],
+  "ingredients": [
+    {
+      "name": "Pork backbone bones",
+      "amount": "600g"
+    },
+    {
+      "name": "Pork shoulder (whole piece)",
+      "amount": "400g"
+    },
+    {
+      "name": "Water",
+      "amount": "2.5L, plus extra for blanching"
+    },
+    {
+      "name": "Large green onions (daepa)",
+      "amount": "2 stalks"
+    },
+    {
+      "name": "Onion",
+      "amount": "1"
+    },
+    {
+      "name": "Garlic cloves",
+      "amount": "6"
+    },
+    {
+      "name": "Fresh ginger",
+      "amount": "10g"
+    },
+    {
+      "name": "Whole black peppercorns",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Cooked rice",
+      "amount": "2 bowls"
+    },
+    {
+      "name": "Garlic chives (buchu)",
+      "amount": "40g"
+    },
+    {
+      "name": "Salted fermented shrimp (saeujeot)",
+      "amount": "2 tsp"
+    },
+    {
+      "name": "Salt",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Korean red pepper flakes (gochugaru)",
+      "amount": "1 tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Soak the pork bones in cold water for about 30 minutes to draw out blood. Blanch them in boiling water for 5 minutes, then rinse under running water to remove impurities."
+    },
+    {
+      "id": 2,
+      "description": "Place the blanched bones, pork shoulder, 2.5L water, 1 green onion, onion, garlic, ginger, and peppercorns in a large pot. Bring to a boil, skim off the foam, then reduce to low heat."
+    },
+    {
+      "id": 3,
+      "description": "Simmer with the lid slightly ajar for 50–60 minutes. Once the pork shoulder is cooked through and tender, remove it and let it cool."
+    },
+    {
+      "id": 4,
+      "description": "Continue gently simmering the bones and aromatics for another 50–60 minutes. Add a little water if the liquid reduces too much. Strain out solids, skim excess fat, and reserve about 1.2L of broth."
+    },
+    {
+      "id": 5,
+      "description": "Thinly slice the cooked pork. Finely slice the remaining green onion and cut the garlic chives into 4–5cm lengths."
+    },
+    {
+      "id": 6,
+      "description": "Divide the cooked rice between two bowls and arrange the sliced pork on top. Pour about 600ml of piping-hot broth into each bowl."
+    },
+    {
+      "id": 7,
+      "description": "Divide the green onion and chives between the bowls. Serve the salted shrimp, salt, and gochugaru on the side, adding each a little at a time to taste."
+    }
+  ]
+}
