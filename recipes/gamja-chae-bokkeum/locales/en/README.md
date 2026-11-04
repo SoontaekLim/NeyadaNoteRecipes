@@ -22,11 +22,28 @@ A simple Korean side dish of thin potato strips stir-fried with carrot and onion
 ## Instructions
 
 1. Peel the 2 potatoes and cut them into thin matchsticks about 2–3mm thick.
+
+   ![Step 1 — Thin potato matchsticks](images/step-1.webp)
+
 2. Soak the potato matchsticks in enough cold water to cover for about 5 minutes to remove surface starch. Rinse twice, drain thoroughly in a colander, and shake off excess water.
+
+   ![Step 2 — Soaking potato strips](images/step-2.webp)
+
 3. Cut the 1/4 onion and 1/4 carrot into matchsticks roughly the same thickness as the potatoes.
+
+   ![Step 3 — Matchstick-cut onion and carrot](images/step-3.webp)
+
 4. Heat 1 1/2 tbsp neutral cooking oil in a skillet over medium heat. Add the potatoes and carrots and stir-fry for about 4 minutes, tossing regularly.
+
+   ![Step 4 — Stir-frying potatoes and carrots](images/step-4.webp)
+
 5. Add the onion and stir-fry for another 2–3 minutes, until the potato strips are slightly translucent and cooked through but still hold their shape. Cook for 1–2 minutes longer if needed.
+
+   ![Step 5 — Adding the sliced onion](images/step-5.webp)
+
 6. Season with 1/3 tsp salt and a pinch of ground black pepper. Turn off the heat, toss with 1 tsp toasted sesame oil, and finish with 1 tsp toasted sesame seeds.
+
+   ![Step 6 — Finished potato stir-fry with sesame seeds](images/step-6.webp)
 
 ---
 
