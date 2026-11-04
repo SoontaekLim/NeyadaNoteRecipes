@@ -2,51 +2,80 @@
 
 ![Lee Yeon-bok–Style Old-School Seafood Jjamppong cover image](images/cover.webp)
 
-An old-school Korean-Chinese seafood noodle soup with a spicy broth built by stir-frying pork, napa cabbage, and seafood.
+Old-school spicy Korean-Chinese noodles made by frying green onion and garlic first, adding pork and chili next, and simmering octopus, shrimp and clams in the savory broth.
 
 - Servings: 2
 - Categories: Noodles/Pasta, Chinese
 
 ## Ingredients
 
-- Fresh wheat noodles (Chinese-style) — 300g
-- Thinly sliced pork — 80g
-- Cleaned squid — 120g
-- Shrimp — 6 pieces
-- Purged clams (bajirak) — 12 pieces
-- Napa cabbage leaves — 3 leaves
-- Onion — 1/2
-- Korean zucchini (aehobak), or zucchini — 1/4
-- Carrot — 1/4
-- Green onion — 1 stalk
-- Bok choy — 2 heads
-- Button mushrooms — 2
-- Rehydrated wood ear mushrooms — 30g
+- Fresh Chinese-style wheat noodles — 300g
+- Pork loin or shoulder — 50g
+- Cleaned small octopus (nakji) — 1 (about 120g)
+- Shrimp — 6
+- Purged short-neck clams (bajirak) — 7–8
+- Onion — 1/4
+- Napa cabbage — 3 leaves
+- Korean zucchini (aehobak) or zucchini — 1/4
+- Bok choy — 2 small heads
+- Green onion (daepa) — 1 stalk
 - Cheongyang chili pepper — 1
 - Minced garlic — 1/2 tbsp
 - Neutral cooking oil — 3 tbsp
 - Soy sauce — 1/2 tbsp
 - Korean red pepper flakes (gochugaru) — 2 tbsp
-- Oyster sauce — 1 tbsp
-- Chicken stock powder — 1 tsp
-- Salt — 1/4 tsp
-- Water (for soup) — 800ml
+- Water (for blooming pepper flakes) — 2 tbsp
+- Water (for broth) — 600ml
+- Chicken stock powder — 1/2 tbsp
+- Salt — 1/3 tbsp (adjust to taste)
+- Oyster sauce — 1 1/2 tbsp
 - Water (for cooking noodles) — about 2L
 
 ## Instructions
 
-1. Rinse the purged clams, cut the squid into bite-size pieces, clean the shrimp, and slice the pork. Thinly slice the napa cabbage, onion, zucchini, carrot, button mushrooms, and rehydrated wood ear mushrooms. Chop the green onion and chili pepper, and halve the bok choy lengthwise.
-2. Heat 3 tbsp neutral cooking oil in a deep pan over medium heat. Add the green onion, 1/2 tbsp minced garlic, and the chili pepper, and stir-fry for about 1 minute until fragrant.
-3. Add 80g pork and stir-fry over medium-high heat for about 2 minutes until the outside is cooked. Drizzle 1/2 tbsp soy sauce along the edge of the pan and toss briefly.
-4. Add the napa cabbage, onion, zucchini, carrot, button mushrooms, and wood ear mushrooms. Stir-fry over high heat for about 2 minutes. Reduce the heat, then add 2 tbsp gochugaru and 2 tbsp taken from the 800ml soup water. Stir for 20–30 seconds, taking care not to burn the pepper flakes.
-5. Pour in the remaining approximately 770ml soup water. Add 1 tbsp oyster sauce and 1 tsp chicken stock powder. Bring to a boil, then simmer over medium heat for about 3 minutes.
-6. Add the clams and cook for 2 minutes. Add the squid and shrimp and cook for another 2–3 minutes. Once the clams open and the shrimp turn opaque, add the bok choy and cook for about 30 seconds. Season with up to 1/4 tsp salt, tasting before adding it all. Discard any clams that remain closed.
-7. In a separate pot, bring about 2L water to a boil. Cook 300g fresh wheat noodles for roughly 30 seconds less than the package directions. Drain, rinse briefly with cold water, then dip back into the hot cooking water for 20–30 seconds. Drain well.
-8. Divide the noodles between two bowls. Ladle the hot broth over them, distributing the pork, seafood, and vegetables evenly. Serve immediately.
+1. Wash and cut 1/4 onion, 3 napa cabbage leaves, 1/4 zucchini, 2 small heads of bok choy, 1 green onion stalk, and 1 Cheongyang chili pepper into suitable pieces. Keep the bok choy separate from the other vegetables.
+
+   ![Step 1 — Prepare vegetables](images/step-1.webp)
+
+2. Cut 1 cleaned small octopus and 50g pork into generous bite-size pieces. Peel and devein 6 shrimp, and rinse 7–8 purged clams.
+
+   ![Step 2 — Prepare seafood and pork](images/step-2.webp)
+
+3. Heat 3 tbsp cooking oil in a deep pan over medium heat. Stir-fry the green onion and 1/2 tbsp minced garlic for about 1 minute until fragrant. Do not add the chili pepper yet.
+
+   ![Step 3 — Fry green onion and garlic](images/step-3.webp)
+
+4. Add the 50g pork and the sliced Cheongyang chili pepper together. Stir-fry over medium-high heat for 1–2 minutes, until the outside of the pork is cooked.
+
+   ![Step 4 — Cook pork with chili](images/step-4.webp)
+
+5. Drizzle 1/2 tbsp soy sauce along the edge of the pan. Add the onion, napa cabbage and zucchini, leaving out the bok choy, and stir-fry over high heat for about 2 minutes.
+
+   ![Step 5 — Add soy sauce and vegetables](images/step-5.webp)
+
+6. When the vegetables soften, reduce the heat and add 2 tbsp Korean red pepper flakes and 2 tbsp water. Stir-fry for 20–30 seconds, taking care not to burn the flakes.
+
+   ![Step 6 — Toast pepper flakes](images/step-6.webp)
+
+7. Pour in an additional 600ml water, 1/2 tbsp chicken stock powder, 1 1/2 tbsp oyster sauce, and up to 1/3 tbsp salt. You can start with half the salt and adjust later. Add the 7–8 clams, 6 shrimp and prepared octopus. Bring to a boil, then cook at a simmer for 3–5 minutes, until the seafood is fully cooked.
+
+   ![Step 7 — Simmer the seafood broth](images/step-7.webp)
+
+8. In another pot, boil about 2L water. Cook 300g fresh Chinese-style noodles according to the package directions, then drain well.
+
+   ![Step 8 — Cook the noodles](images/step-8.webp)
+
+9. While the broth is boiling, add the reserved 2 heads of bok choy and blanch for 30–60 seconds. Taste the broth and adjust the salt if needed. Discard any clams that remain unopened.
+
+   ![Step 9 — Blanch bok choy](images/step-9.webp)
+
+10. Divide the cooked noodles between two bowls. Ladle over the hot seafood broth, toppings and bok choy, and serve immediately.
+
+   ![Step 10 — Assemble and serve](images/step-10.webp)
 
 ## Reference
 
-Inspired by [Lee Yeon-bok's old-school jjamppong video](https://www.youtube.com/watch?v=3FBKcTumM5w); ingredient quantities and instructions are adapted for everyday home cooking.
+Adapted for home cooking from [Lee Yeon-bok’s old-school jjamppong video](https://www.youtube.com/watch?v=3FBKcTumM5w). The 10-step cooking order follows the provided reference.
 
 ---
 
