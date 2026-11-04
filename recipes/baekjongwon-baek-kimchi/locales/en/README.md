@@ -36,7 +36,7 @@ A small-batch, non-spicy napa cabbage kimchi adapted from SBS's Delicious Rendez
 
 6. Gently mix the radish, scallions, and red chili. Tuck small portions between the leaves of the well-drained cabbage.
 
-7. Pack the stuffed cabbage into a clean, lidded container. Pour over the brine from step 5 and gently press the cabbage below the surface.
+7. Pack the stuffed cabbage snugly into a clean, narrow, deep, lidded container. Pour in the brine from step 5 and use a clean fermentation weight or small plate to keep the cabbage beneath the liquid. The roughly 1.2L of prepared brine may not cover the cabbage in a wider container; if necessary, prepare and add more of the step-5 brine using the same ingredient proportions.
 
 8. Leave covered in a cool spot out of direct sunlight for 12–24 hours, then refrigerate. Let mature for another 1–2 days in the fridge; taste and cut into serving pieces.
 
