@@ -1,0 +1,64 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "black-sesame-salad-dressing",
+  "locale": "en",
+  "title": "Black Sesame Salad Dressing",
+  "summary": "A creamy, tangy sesame dressing combining toasted black and white sesame seeds, peanut butter, and unsweetened soy milk.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Sauce/Dressing"
+  ],
+  "ingredients": [
+    {
+      "name": "Toasted black sesame seeds",
+      "amount": "3 tbsp"
+    },
+    {
+      "name": "Toasted white sesame seeds",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Mayonnaise",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Unsweetened peanut butter",
+      "amount": "1/2 tbsp"
+    },
+    {
+      "name": "Lemon juice",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Sugar",
+      "amount": "2 tsp"
+    },
+    {
+      "name": "Salt",
+      "amount": "a pinch"
+    },
+    {
+      "name": "Unsweetened soy milk",
+      "amount": "40–60 ml"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Grind 3 tbsp toasted black sesame seeds and 1 tbsp toasted white sesame seeds in a mortar or small blender until fine. Grinding releases their nutty aroma.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "In a bowl, mix the ground sesame seeds with 2 tbsp mayonnaise, 1/2 tbsp unsweetened peanut butter, 1 tbsp lemon juice, 2 tsp sugar, and a pinch of salt until evenly combined.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "Pour in 40 ml unsweetened soy milk and whisk until smooth. For a thinner dressing, gradually add more soy milk, up to 60 ml total. Serve with your salad.",
+      "image": "images/step-3.webp"
+    }
+  ]
+}
