@@ -52,6 +52,4 @@
 
    ![조리 단계 7](images/step-7.webp)
 
----
-
 The canonical data for this recipe is [recipe.json](recipe.json).
