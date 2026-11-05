@@ -1,0 +1,147 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "pan-seared-salmon-bistro-plate",
+  "locale": "en",
+  "title": "Pan-Seared Salmon Bistro Plate with Lemon-Dill Butter Sauce",
+  "summary": "Crisp-skinned pan-seared salmon with silky potato purée, honey-butter glazed carrots, garlic asparagus, and a bright lemon-dill butter sauce. A French bistro-inspired dinner in about 40–45 minutes.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Main Dish",
+    "Western"
+  ],
+  "ingredients": [
+    {
+      "name": "Salmon fillets, preferably skin-on",
+      "amount": "2 pieces (160–200g each)"
+    },
+    {
+      "name": "Starchy potatoes (e.g., mehligkochend)",
+      "amount": "500g"
+    },
+    {
+      "name": "Carrots",
+      "amount": "2 (about 200g)"
+    },
+    {
+      "name": "Green asparagus",
+      "amount": "8–10 spears"
+    },
+    {
+      "name": "Shallot",
+      "amount": "1/2"
+    },
+    {
+      "name": "Garlic",
+      "amount": "1 clove"
+    },
+    {
+      "name": "Fresh dill (or parsley), finely chopped",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Lemon",
+      "amount": "1 (1 tbsp juice, 1/2 tsp zest, plus a few drops for carrots)"
+    },
+    {
+      "name": "Unsalted butter, for potato purée",
+      "amount": "40g"
+    },
+    {
+      "name": "Unsalted butter, for carrots",
+      "amount": "15g"
+    },
+    {
+      "name": "Unsalted butter, for asparagus",
+      "amount": "10g"
+    },
+    {
+      "name": "Cold unsalted butter, for sauce",
+      "amount": "35g"
+    },
+    {
+      "name": "Milk",
+      "amount": "80–100ml"
+    },
+    {
+      "name": "Honey",
+      "amount": "2 tsp"
+    },
+    {
+      "name": "Olive oil, for salmon",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Olive oil, for asparagus",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Dry white wine (or water/vegetable stock)",
+      "amount": "40ml"
+    },
+    {
+      "name": "Water, for carrots",
+      "amount": "60ml"
+    },
+    {
+      "name": "Water, for boiling potatoes",
+      "amount": "Enough to cover"
+    },
+    {
+      "name": "Salt",
+      "amount": "About 1 tsp total, divided; adjust to taste"
+    },
+    {
+      "name": "Ground pepper",
+      "amount": "To taste"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Peel 500g potatoes, cut into roughly 3cm pieces, and cover with cold water. Add a little salt and bring to a boil. Simmer over medium-low heat for 15–20 minutes, until a skewer slides through easily.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "While the potatoes cook, quarter or sixth the 2 carrots lengthwise (or cut into 1cm diagonal slices). Trim 2–3cm off the woody bases of 8–10 asparagus spears. Finely chop 1/2 shallot and 1 tbsp dill, thinly slice 1 garlic clove, and prepare the lemon juice and zest.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "Put the carrots, 60ml water, and a pinch of salt in a pan. Cover and cook over medium heat for 5–7 minutes. Uncover and reduce almost all the water, then toss with 15g butter and 2 tsp honey for 1–2 minutes until glossy. Add a few drops of lemon juice to balance the sweetness.",
+      "image": "images/step-3.webp"
+    },
+    {
+      "id": 4,
+      "description": "Drain the cooked potatoes thoroughly and return them to low heat for 30–60 seconds to evaporate moisture. While hot, mash with a ricer or masher. Mix in 40g butter, then gradually add 80–100ml warm milk until smooth. Season with salt; pass through a sieve if desired. Avoid using a hand blender, which can make the purée gluey.",
+      "image": "images/step-4.webp"
+    },
+    {
+      "id": 5,
+      "description": "Heat 1 tsp olive oil in a skillet over medium-high heat. Sear the asparagus for 3–5 minutes. Add 10g butter and the sliced garlic; sauté another 30–60 seconds. Season with salt and pepper, leaving the asparagus slightly crisp. Keep warm.",
+      "image": "images/step-5.webp"
+    },
+    {
+      "id": 6,
+      "description": "In a small saucepan, simmer the minced shallot and 40ml dry white wine over medium heat until only about 1–2 tbsp liquid remains. Turn off the heat and reserve the reduction as the sauce base.",
+      "image": "images/step-6.webp"
+    },
+    {
+      "id": 7,
+      "description": "Pat the 2 salmon fillets dry and season with salt and pepper. Heat 1 tbsp olive oil in a skillet over medium-high heat. Put the fillets in skin-side down, pressing gently for the first 15–20 seconds. Cook undisturbed for 4–6 minutes; flip and cook for another 2–4 minutes. Rest for 2 minutes. Adjust to thickness and check for an internal temperature of 63°C if cooking fully through for food safety.",
+      "image": "images/step-7.webp"
+    },
+    {
+      "id": 8,
+      "description": "While the salmon rests, gently rewarm the shallot-wine reduction over very low heat. Whisk in 35g cold butter a few pieces at a time to emulsify. Stir in 1 tbsp lemon juice, 1/2 tsp zest, and 1 tbsp chopped dill; season with salt and pepper. Do not let the butter sauce boil.",
+      "image": "images/step-8.webp"
+    },
+    {
+      "id": 9,
+      "description": "Spread the potato purée into an oval on warm plates and place the salmon on top with the crisp skin facing up. Arrange the glazed carrots and asparagus beside it. Spoon 1–2 tbsp lemon-dill butter sauce around the salmon and the edges of the purée, keeping most of it off the crisp skin.",
+      "image": "images/step-9.webp"
+    }
+  ]
+}
