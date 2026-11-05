@@ -52,6 +52,4 @@ Thick pork loin cutlets coated in airy Japanese panko breadcrumbs and fried unti
 
    ![Cooking step 7](images/step-7.webp)
 
----
-
 The canonical data for this recipe is [recipe.json](recipe.json).
