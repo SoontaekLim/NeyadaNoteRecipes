@@ -1,0 +1,218 @@
+[
+  {
+    "id": "onion",
+    "name_ko": "양파",
+    "name_en": "Onion",
+    "category": "채소/과일",
+    "sort_order": 10,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "spring_onion",
+    "name_ko": "대파",
+    "name_en": "Green onion",
+    "category": "채소/과일",
+    "sort_order": 20,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "garlic",
+    "name_ko": "마늘",
+    "name_en": "Garlic",
+    "category": "채소/과일",
+    "sort_order": 30,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "potato",
+    "name_ko": "감자",
+    "name_en": "Potato",
+    "category": "채소/과일",
+    "sort_order": 40,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tomato",
+    "name_ko": "토마토",
+    "name_en": "Tomato",
+    "category": "채소/과일",
+    "sort_order": 50,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "banana",
+    "name_ko": "바나나",
+    "name_en": "Banana",
+    "category": "채소/과일",
+    "sort_order": 60,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "apple",
+    "name_ko": "사과",
+    "name_en": "Apple",
+    "category": "채소/과일",
+    "sort_order": 70,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "eggs",
+    "name_ko": "계란",
+    "name_en": "Eggs",
+    "category": "정육/계란",
+    "sort_order": 100,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chicken",
+    "name_ko": "닭고기",
+    "name_en": "Chicken",
+    "category": "정육/계란",
+    "sort_order": 110,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pork",
+    "name_ko": "돼지고기",
+    "name_en": "Pork",
+    "category": "정육/계란",
+    "sort_order": 120,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "beef",
+    "name_ko": "소고기",
+    "name_en": "Beef",
+    "category": "정육/계란",
+    "sort_order": 130,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "salmon",
+    "name_ko": "연어",
+    "name_en": "Salmon",
+    "category": "수산/건어물",
+    "sort_order": 200,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tofu",
+    "name_ko": "두부",
+    "name_en": "Tofu",
+    "category": "가공/냉동식품",
+    "sort_order": 300,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "instant_noodles",
+    "name_ko": "라면",
+    "name_en": "Instant noodles",
+    "category": "가공/냉동식품",
+    "sort_order": 310,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "milk",
+    "name_ko": "우유",
+    "name_en": "Milk",
+    "category": "유제품/음료",
+    "sort_order": 400,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cheese",
+    "name_ko": "치즈",
+    "name_en": "Cheese",
+    "category": "유제품/음료",
+    "sort_order": 410,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "yogurt",
+    "name_ko": "요거트",
+    "name_en": "Yogurt",
+    "category": "유제품/음료",
+    "sort_order": 420,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "soy_sauce",
+    "name_ko": "간장",
+    "name_en": "Soy sauce",
+    "category": "양념/소스",
+    "sort_order": 500,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "salt",
+    "name_ko": "소금",
+    "name_en": "Salt",
+    "category": "양념/소스",
+    "sort_order": 510,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sugar",
+    "name_ko": "설탕",
+    "name_en": "Sugar",
+    "category": "양념/소스",
+    "sort_order": 520,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bread",
+    "name_ko": "식빵",
+    "name_en": "Bread",
+    "category": "과자/빵",
+    "sort_order": 600,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cereal",
+    "name_ko": "시리얼",
+    "name_en": "Cereal",
+    "category": "과자/빵",
+    "sort_order": 610,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dish_soap",
+    "name_ko": "주방세제",
+    "name_en": "Dish soap",
+    "category": "생활용품/기타",
+    "sort_order": 700,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tissue",
+    "name_ko": "휴지",
+    "name_en": "Tissue",
+    "category": "생활용품/기타",
+    "sort_order": 710,
+    "is_active": true,
+    "default_quantity": null
+  }
+]

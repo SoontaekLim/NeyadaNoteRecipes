@@ -5,6 +5,8 @@ from pathlib import Path
 
 from jsonschema import Draft202012Validator
 
+from shopping_catalog import SOURCE_PATH, validated_items
+
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = ROOT / "schema" / "recipe-v1.schema.json"
 RECIPES_DIR = ROOT / "recipes"
@@ -105,6 +107,11 @@ def main() -> int:
                 step_image = step.get("image") if isinstance(step, dict) else None
                 if step_image:
                     validate_asset(recipe_dir, step_image, errors)
+
+    try:
+        validated_items(json.loads(SOURCE_PATH.read_text(encoding="utf-8")))
+    except (OSError, ValueError, TypeError, json.JSONDecodeError) as exc:
+        errors.append(f"shopping/items.json: {exc}")
 
     if errors:
         print("Recipe validation failed:")

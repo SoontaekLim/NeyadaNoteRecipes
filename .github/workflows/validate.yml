@@ -5,6 +5,7 @@ on:
     paths:
       - "schema/**"
       - "recipes/**"
+      - "shopping/**"
       - "scripts/**"
       - ".github/workflows/validate.yml"
       - ".github/workflows/deploy-pages.yml"
