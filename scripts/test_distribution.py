@@ -9,6 +9,7 @@ from zipfile import ZipFile
 from jsonschema import Draft202012Validator
 
 from build_dist import ROOT, build_distribution
+from shopping_catalog import published_items, validated_items
 
 CATALOG_SCHEMA = ROOT / "schema" / "catalog-v1.schema.json"
 RECIPE_SCHEMA = ROOT / "schema" / "recipe-v1.schema.json"
@@ -137,6 +138,57 @@ class DistributionBuildTest(unittest.TestCase):
                 ["en", "ko-KR"],
                 [variant["locale"] for variant in sample["variants"]],
             )
+
+
+class ShoppingCatalogBuildTest(unittest.TestCase):
+    @staticmethod
+    def sample(identifier="onion", active=True):
+        return {
+            "id": identifier,
+            "name_ko": "양파",
+            "name_en": "Onion",
+            "category": "채소/과일",
+            "sort_order": 20,
+            "is_active": active,
+            "default_quantity": None,
+        }
+
+    def test_catalog_is_published_to_pages_artifact(self):
+        with tempfile.TemporaryDirectory() as output:
+            directory = Path(output)
+            build_distribution(directory)
+            catalog_path = directory / "shopping" / "catalog.json"
+            self.assertTrue(catalog_path.is_file())
+            published = json.loads(catalog_path.read_text(encoding="utf-8"))
+            self.assertTrue(any(item["id"] == "onion" for item in published))
+            self.assertEqual(
+                sorted(published, key=lambda item: (item["sort_order"], item["id"])),
+                published,
+            )
+            self.assertTrue(all("is_active" not in item for item in published))
+
+    def test_disabled_items_are_not_published(self):
+        published = published_items([
+            self.sample("onion", active=True),
+            self.sample("milk", active=False),
+        ])
+        self.assertEqual(["onion"], [entry["id"] for entry in published])
+
+    def test_invalid_source_is_rejected_before_pages_deployment(self):
+        invalid_cases = [
+            [self.sample(), self.sample()],
+            [{**self.sample(), "category": "not-in-app"}],
+            [{**self.sample(), "sort_order": True}],
+            [{**self.sample(), "is_active": "true"}],
+            [{**self.sample(), "name_ko": ""}],
+            [{**self.sample(), "unknown": "unexpected"}],
+            [{"id": "incomplete"}],
+            {"items": [self.sample()]},
+        ]
+        for invalid in invalid_cases:
+            with self.subTest(invalid=invalid):
+                with self.assertRaises(ValueError):
+                    validated_items(invalid)
 
 
 if __name__ == "__main__":
