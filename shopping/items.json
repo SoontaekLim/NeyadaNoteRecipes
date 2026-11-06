@@ -214,5 +214,1526 @@
     "sort_order": 710,
     "is_active": true,
     "default_quantity": null
+  },
+  {
+    "id": "carrot",
+    "name_ko": "당근",
+    "name_en": "Carrot",
+    "category": "채소/과일",
+    "sort_order": 71,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cabbage",
+    "name_ko": "양배추",
+    "name_en": "Cabbage",
+    "category": "채소/과일",
+    "sort_order": 72,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "napa_cabbage",
+    "name_ko": "배추",
+    "name_en": "Napa cabbage",
+    "category": "채소/과일",
+    "sort_order": 73,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cucumber",
+    "name_ko": "오이",
+    "name_en": "Cucumber",
+    "category": "채소/과일",
+    "sort_order": 74,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "zucchini",
+    "name_ko": "애호박",
+    "name_en": "Korean zucchini",
+    "category": "채소/과일",
+    "sort_order": 75,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "broccoli",
+    "name_ko": "브로콜리",
+    "name_en": "Broccoli",
+    "category": "채소/과일",
+    "sort_order": 76,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lettuce",
+    "name_ko": "상추",
+    "name_en": "Lettuce",
+    "category": "채소/과일",
+    "sort_order": 77,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "spinach",
+    "name_ko": "시금치",
+    "name_en": "Spinach",
+    "category": "채소/과일",
+    "sort_order": 78,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bean_sprouts",
+    "name_ko": "콩나물",
+    "name_en": "Soybean sprouts",
+    "category": "채소/과일",
+    "sort_order": 79,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mushrooms",
+    "name_ko": "버섯",
+    "name_en": "Mushrooms",
+    "category": "채소/과일",
+    "sort_order": 80,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "ginger",
+    "name_ko": "생강",
+    "name_en": "Ginger",
+    "category": "채소/과일",
+    "sort_order": 81,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bell_pepper",
+    "name_ko": "파프리카",
+    "name_en": "Bell pepper",
+    "category": "채소/과일",
+    "sort_order": 82,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chili_pepper",
+    "name_ko": "고추",
+    "name_en": "Chili pepper",
+    "category": "채소/과일",
+    "sort_order": 83,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sweet_potato",
+    "name_ko": "고구마",
+    "name_en": "Sweet potato",
+    "category": "채소/과일",
+    "sort_order": 84,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "strawberries",
+    "name_ko": "딸기",
+    "name_en": "Strawberries",
+    "category": "채소/과일",
+    "sort_order": 85,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "oranges",
+    "name_ko": "오렌지",
+    "name_en": "Oranges",
+    "category": "채소/과일",
+    "sort_order": 86,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lemon",
+    "name_ko": "레몬",
+    "name_en": "Lemon",
+    "category": "채소/과일",
+    "sort_order": 87,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pork_belly",
+    "name_ko": "삼겹살",
+    "name_en": "Pork belly",
+    "category": "정육/계란",
+    "sort_order": 131,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chicken_breast",
+    "name_ko": "닭가슴살",
+    "name_en": "Chicken breast",
+    "category": "정육/계란",
+    "sort_order": 132,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "ground_beef",
+    "name_ko": "다진 소고기",
+    "name_en": "Ground beef",
+    "category": "정육/계란",
+    "sort_order": 133,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pork_shoulder",
+    "name_ko": "돼지 앞다리살",
+    "name_en": "Pork shoulder",
+    "category": "정육/계란",
+    "sort_order": 134,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "duck",
+    "name_ko": "오리고기",
+    "name_en": "Duck",
+    "category": "정육/계란",
+    "sort_order": 135,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mackerel",
+    "name_ko": "고등어",
+    "name_en": "Mackerel",
+    "category": "수산/건어물",
+    "sort_order": 201,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "shrimp",
+    "name_ko": "새우",
+    "name_en": "Shrimp",
+    "category": "수산/건어물",
+    "sort_order": 202,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "squid",
+    "name_ko": "오징어",
+    "name_en": "Squid",
+    "category": "수산/건어물",
+    "sort_order": 203,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "clams",
+    "name_ko": "조개",
+    "name_en": "Clams",
+    "category": "수산/건어물",
+    "sort_order": 204,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dried_anchovies",
+    "name_ko": "국물용 멸치",
+    "name_en": "Dried anchovies",
+    "category": "수산/건어물",
+    "sort_order": 205,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dried_seaweed",
+    "name_ko": "미역",
+    "name_en": "Dried seaweed",
+    "category": "수산/건어물",
+    "sort_order": 206,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "nori",
+    "name_ko": "김",
+    "name_en": "Roasted seaweed",
+    "category": "수산/건어물",
+    "sort_order": 207,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mussels",
+    "name_ko": "홍합",
+    "name_en": "Mussels",
+    "category": "수산/건어물",
+    "sort_order": 208,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rice",
+    "name_ko": "쌀",
+    "name_en": "Rice",
+    "category": "가공/냉동식품",
+    "sort_order": 311,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "frozen_dumplings",
+    "name_ko": "냉동만두",
+    "name_en": "Frozen dumplings",
+    "category": "가공/냉동식품",
+    "sort_order": 312,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "kimchi",
+    "name_ko": "김치",
+    "name_en": "Kimchi",
+    "category": "가공/냉동식품",
+    "sort_order": 313,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "flour",
+    "name_ko": "밀가루",
+    "name_en": "Wheat flour",
+    "category": "가공/냉동식품",
+    "sort_order": 314,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "thin_noodles",
+    "name_ko": "소면",
+    "name_en": "Thin wheat noodles",
+    "category": "가공/냉동식품",
+    "sort_order": 315,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "udon_noodles",
+    "name_ko": "우동면",
+    "name_en": "Udon noodles",
+    "category": "가공/냉동식품",
+    "sort_order": 316,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "frozen_pizza",
+    "name_ko": "냉동피자",
+    "name_en": "Frozen pizza",
+    "category": "가공/냉동식품",
+    "sort_order": 317,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "canned_tuna",
+    "name_ko": "참치캔",
+    "name_en": "Canned tuna",
+    "category": "가공/냉동식품",
+    "sort_order": 318,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "oatmeal",
+    "name_ko": "오트밀",
+    "name_en": "Oatmeal",
+    "category": "가공/냉동식품",
+    "sort_order": 319,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rice_cakes",
+    "name_ko": "떡",
+    "name_en": "Rice cakes",
+    "category": "가공/냉동식품",
+    "sort_order": 320,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "butter",
+    "name_ko": "버터",
+    "name_en": "Butter",
+    "category": "유제품/음료",
+    "sort_order": 421,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "soy_milk",
+    "name_ko": "두유",
+    "name_en": "Soy milk",
+    "category": "유제품/음료",
+    "sort_order": 422,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "heavy_cream",
+    "name_ko": "생크림",
+    "name_en": "Heavy cream",
+    "category": "유제품/음료",
+    "sort_order": 423,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "orange_juice",
+    "name_ko": "오렌지주스",
+    "name_en": "Orange juice",
+    "category": "유제품/음료",
+    "sort_order": 424,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sparkling_water",
+    "name_ko": "탄산수",
+    "name_en": "Sparkling water",
+    "category": "유제품/음료",
+    "sort_order": 425,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bottled_water",
+    "name_ko": "생수",
+    "name_en": "Bottled water",
+    "category": "유제품/음료",
+    "sort_order": 426,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "black_pepper",
+    "name_ko": "후추",
+    "name_en": "Black pepper",
+    "category": "양념/소스",
+    "sort_order": 521,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sesame_oil",
+    "name_ko": "참기름",
+    "name_en": "Sesame oil",
+    "category": "양념/소스",
+    "sort_order": 522,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "gochujang",
+    "name_ko": "고추장",
+    "name_en": "Gochujang",
+    "category": "양념/소스",
+    "sort_order": 523,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "doenjang",
+    "name_ko": "된장",
+    "name_en": "Doenjang",
+    "category": "양념/소스",
+    "sort_order": 524,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "vinegar",
+    "name_ko": "식초",
+    "name_en": "Vinegar",
+    "category": "양념/소스",
+    "sort_order": 525,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cooking_oil",
+    "name_ko": "식용유",
+    "name_en": "Cooking oil",
+    "category": "양념/소스",
+    "sort_order": 526,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chili_flakes",
+    "name_ko": "고춧가루",
+    "name_en": "Korean red pepper flakes",
+    "category": "양념/소스",
+    "sort_order": 527,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mayonnaise",
+    "name_ko": "마요네즈",
+    "name_en": "Mayonnaise",
+    "category": "양념/소스",
+    "sort_order": 528,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "ketchup",
+    "name_ko": "케첩",
+    "name_en": "Ketchup",
+    "category": "양념/소스",
+    "sort_order": 529,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "oyster_sauce",
+    "name_ko": "굴소스",
+    "name_en": "Oyster sauce",
+    "category": "양념/소스",
+    "sort_order": 530,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "honey",
+    "name_ko": "꿀",
+    "name_en": "Honey",
+    "category": "양념/소스",
+    "sort_order": 531,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sesame_seeds",
+    "name_ko": "참깨",
+    "name_en": "Sesame seeds",
+    "category": "양념/소스",
+    "sort_order": 532,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bagels",
+    "name_ko": "베이글",
+    "name_en": "Bagels",
+    "category": "과자/빵",
+    "sort_order": 611,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "crackers",
+    "name_ko": "크래커",
+    "name_en": "Crackers",
+    "category": "과자/빵",
+    "sort_order": 612,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cookies",
+    "name_ko": "쿠키",
+    "name_en": "Cookies",
+    "category": "과자/빵",
+    "sort_order": 613,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chocolate",
+    "name_ko": "초콜릿",
+    "name_en": "Chocolate",
+    "category": "과자/빵",
+    "sort_order": 614,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "croissant",
+    "name_ko": "크루아상",
+    "name_en": "Croissant",
+    "category": "과자/빵",
+    "sort_order": 615,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "snacks",
+    "name_ko": "과자",
+    "name_en": "Snacks",
+    "category": "과자/빵",
+    "sort_order": 616,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "laundry_detergent",
+    "name_ko": "세탁세제",
+    "name_en": "Laundry detergent",
+    "category": "생활용품/기타",
+    "sort_order": 711,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "fabric_softener",
+    "name_ko": "섬유유연제",
+    "name_en": "Fabric softener",
+    "category": "생활용품/기타",
+    "sort_order": 712,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dish_sponge",
+    "name_ko": "수세미",
+    "name_en": "Dish sponge",
+    "category": "생활용품/기타",
+    "sort_order": 713,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "trash_bags",
+    "name_ko": "쓰레기봉투",
+    "name_en": "Trash bags",
+    "category": "생활용품/기타",
+    "sort_order": 714,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "paper_towels",
+    "name_ko": "키친타월",
+    "name_en": "Paper towels",
+    "category": "생활용품/기타",
+    "sort_order": 715,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "toothpaste",
+    "name_ko": "치약",
+    "name_en": "Toothpaste",
+    "category": "생활용품/기타",
+    "sort_order": 716,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "toothbrush",
+    "name_ko": "칫솔",
+    "name_en": "Toothbrush",
+    "category": "생활용품/기타",
+    "sort_order": 717,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "shampoo",
+    "name_ko": "샴푸",
+    "name_en": "Shampoo",
+    "category": "생활용품/기타",
+    "sort_order": 718,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "body_wash",
+    "name_ko": "바디워시",
+    "name_en": "Body wash",
+    "category": "생활용품/기타",
+    "sort_order": 719,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "plastic_wrap",
+    "name_ko": "랩",
+    "name_en": "Plastic wrap",
+    "category": "생활용품/기타",
+    "sort_order": 720,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "aluminum_foil",
+    "name_ko": "쿠킹호일",
+    "name_en": "Aluminum foil",
+    "category": "생활용품/기타",
+    "sort_order": 721,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "acai_berries",
+    "name_ko": "아사이베리",
+    "name_en": "Açaí berries",
+    "category": "채소/과일",
+    "sort_order": 1000,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "apricot",
+    "name_ko": "살구",
+    "name_en": "Apricot",
+    "category": "채소/과일",
+    "sort_order": 1001,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "artichokes",
+    "name_ko": "아티초크",
+    "name_en": "Artichokes",
+    "category": "채소/과일",
+    "sort_order": 1002,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "arugula",
+    "name_ko": "루꼴라",
+    "name_en": "Arugula",
+    "category": "채소/과일",
+    "sort_order": 1003,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "asparagus",
+    "name_ko": "아스파라거스",
+    "name_en": "Asparagus",
+    "category": "채소/과일",
+    "sort_order": 1004,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "avocado",
+    "name_ko": "아보카도",
+    "name_en": "Avocado",
+    "category": "채소/과일",
+    "sort_order": 1005,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "basil",
+    "name_ko": "바질",
+    "name_en": "Basil",
+    "category": "채소/과일",
+    "sort_order": 1006,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "beets",
+    "name_ko": "비트",
+    "name_en": "Beets",
+    "category": "채소/과일",
+    "sort_order": 1007,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "berries",
+    "name_ko": "베리류",
+    "name_en": "Berries",
+    "category": "채소/과일",
+    "sort_order": 1008,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "black_salsify",
+    "name_ko": "흑살시피",
+    "name_en": "Black salsify",
+    "category": "채소/과일",
+    "sort_order": 1009,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "blackberries",
+    "name_ko": "블랙베리",
+    "name_en": "Blackberries",
+    "category": "채소/과일",
+    "sort_order": 1010,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "blood_orange",
+    "name_ko": "블러드 오렌지",
+    "name_en": "Blood orange",
+    "category": "채소/과일",
+    "sort_order": 1011,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "blueberries",
+    "name_ko": "블루베리",
+    "name_en": "Blueberries",
+    "category": "채소/과일",
+    "sort_order": 1012,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bok_choy",
+    "name_ko": "청경채",
+    "name_en": "Bok choy",
+    "category": "채소/과일",
+    "sort_order": 1013,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "brussels_sprouts",
+    "name_ko": "방울양배추",
+    "name_en": "Brussels sprouts",
+    "category": "채소/과일",
+    "sort_order": 1014,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "butternut_squash",
+    "name_ko": "버터넛 호박",
+    "name_en": "Butternut pumpkin",
+    "category": "채소/과일",
+    "sort_order": 1015,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "canola_oil",
+    "name_ko": "카놀라유",
+    "name_en": "Canola oil",
+    "category": "채소/과일",
+    "sort_order": 1016,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cauliflower",
+    "name_ko": "콜리플라워",
+    "name_en": "Cauliflower",
+    "category": "채소/과일",
+    "sort_order": 1017,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "celeriac",
+    "name_ko": "셀러리악",
+    "name_en": "Celeriac",
+    "category": "채소/과일",
+    "sort_order": 1018,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "celery",
+    "name_ko": "셀러리",
+    "name_en": "Celery",
+    "category": "채소/과일",
+    "sort_order": 1019,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chanterelles",
+    "name_ko": "꾀꼬리버섯",
+    "name_en": "Chanterelles",
+    "category": "채소/과일",
+    "sort_order": 1020,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chard",
+    "name_ko": "근대",
+    "name_en": "Chard",
+    "category": "채소/과일",
+    "sort_order": 1021,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cherries",
+    "name_ko": "체리",
+    "name_en": "Cherries",
+    "category": "채소/과일",
+    "sort_order": 1022,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cherry_tomatoes",
+    "name_ko": "방울토마토",
+    "name_en": "Cherry tomatoes",
+    "category": "채소/과일",
+    "sort_order": 1023,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chestnuts",
+    "name_ko": "밤",
+    "name_en": "Chestnuts",
+    "category": "채소/과일",
+    "sort_order": 1024,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chicory",
+    "name_ko": "치커리",
+    "name_en": "Chicory",
+    "category": "채소/과일",
+    "sort_order": 1025,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chives",
+    "name_ko": "차이브",
+    "name_en": "Chives",
+    "category": "채소/과일",
+    "sort_order": 1026,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cilantro",
+    "name_ko": "고수",
+    "name_en": "Cilantro",
+    "category": "채소/과일",
+    "sort_order": 1027,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "clementines",
+    "name_ko": "클레멘타인",
+    "name_en": "Clementines",
+    "category": "채소/과일",
+    "sort_order": 1028,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "coconut",
+    "name_ko": "코코넛",
+    "name_en": "Coconut",
+    "category": "채소/과일",
+    "sort_order": 1029,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "coconut_oil",
+    "name_ko": "코코넛오일",
+    "name_en": "Coconut oil",
+    "category": "채소/과일",
+    "sort_order": 1030,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "corncobs",
+    "name_ko": "옥수수",
+    "name_en": "Corncobs",
+    "category": "채소/과일",
+    "sort_order": 1031,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cranberries",
+    "name_ko": "크랜베리",
+    "name_en": "Cranberries",
+    "category": "채소/과일",
+    "sort_order": 1032,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cress",
+    "name_ko": "크레스",
+    "name_en": "Cress",
+    "category": "채소/과일",
+    "sort_order": 1033,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "currants",
+    "name_ko": "커런트",
+    "name_en": "Currants",
+    "category": "채소/과일",
+    "sort_order": 1034,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dates",
+    "name_ko": "대추야자",
+    "name_en": "Dates",
+    "category": "채소/과일",
+    "sort_order": 1035,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dill",
+    "name_ko": "딜",
+    "name_en": "Dill",
+    "category": "채소/과일",
+    "sort_order": 1036,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dragon_fruit",
+    "name_ko": "용과",
+    "name_en": "Dragon fruit",
+    "category": "채소/과일",
+    "sort_order": 1037,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "eggplant",
+    "name_ko": "가지",
+    "name_en": "Eggplant",
+    "category": "채소/과일",
+    "sort_order": 1038,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "fennel",
+    "name_ko": "펜넬",
+    "name_en": "Fennel",
+    "category": "채소/과일",
+    "sort_order": 1039,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "figs",
+    "name_ko": "무화과",
+    "name_en": "Figs",
+    "category": "채소/과일",
+    "sort_order": 1040,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "flaxseed",
+    "name_ko": "아마씨",
+    "name_en": "Flaxseed",
+    "category": "채소/과일",
+    "sort_order": 1041,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "fruit",
+    "name_ko": "과일류",
+    "name_en": "Fruit",
+    "category": "채소/과일",
+    "sort_order": 1042,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "goji_berries",
+    "name_ko": "구기자",
+    "name_en": "Goji berries",
+    "category": "채소/과일",
+    "sort_order": 1043,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "gooseberries",
+    "name_ko": "구스베리",
+    "name_en": "Gooseberries",
+    "category": "채소/과일",
+    "sort_order": 1044,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "grapefruit",
+    "name_ko": "자몽",
+    "name_en": "Grapefruit",
+    "category": "채소/과일",
+    "sort_order": 1045,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "grapes",
+    "name_ko": "포도",
+    "name_en": "Grapes",
+    "category": "채소/과일",
+    "sort_order": 1046,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "guava",
+    "name_ko": "구아바",
+    "name_en": "Guava",
+    "category": "채소/과일",
+    "sort_order": 1047,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "halloween_pumpkin",
+    "name_ko": "할로윈 호박",
+    "name_en": "Halloween pumpkin",
+    "category": "채소/과일",
+    "sort_order": 1048,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "herbs",
+    "name_ko": "허브류",
+    "name_en": "Herbs",
+    "category": "채소/과일",
+    "sort_order": 1049,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "hokkaido_pumpkin",
+    "name_ko": "홋카이도 단호박",
+    "name_en": "Hokkaido pumpkin",
+    "category": "채소/과일",
+    "sort_order": 1050,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "honeydew_melon",
+    "name_ko": "허니듀 멜론",
+    "name_en": "Honeydew melon",
+    "category": "채소/과일",
+    "sort_order": 1051,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "kiwis",
+    "name_ko": "키위",
+    "name_en": "Kiwis",
+    "category": "채소/과일",
+    "sort_order": 1052,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lambs_lettuce",
+    "name_ko": "마셰",
+    "name_en": "Lamb's lettuce",
+    "category": "채소/과일",
+    "sort_order": 1053,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "leek",
+    "name_ko": "리크",
+    "name_en": "Leek",
+    "category": "채소/과일",
+    "sort_order": 1054,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lemongrass",
+    "name_ko": "레몬그라스",
+    "name_en": "Lemongrass",
+    "category": "채소/과일",
+    "sort_order": 1055,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lime",
+    "name_ko": "라임",
+    "name_en": "Lime",
+    "category": "채소/과일",
+    "sort_order": 1056,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lychee",
+    "name_ko": "리치",
+    "name_en": "Lychee",
+    "category": "채소/과일",
+    "sort_order": 1057,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mandarins",
+    "name_ko": "귤",
+    "name_en": "Mandarins",
+    "category": "채소/과일",
+    "sort_order": 1058,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mango",
+    "name_ko": "망고",
+    "name_en": "Mango",
+    "category": "채소/과일",
+    "sort_order": 1059,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "marjoram",
+    "name_ko": "마조람",
+    "name_en": "Marjoram",
+    "category": "채소/과일",
+    "sort_order": 1060,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "melon",
+    "name_ko": "멜론",
+    "name_en": "Melon",
+    "category": "채소/과일",
+    "sort_order": 1061,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mint",
+    "name_ko": "민트",
+    "name_en": "Mint",
+    "category": "채소/과일",
+    "sort_order": 1062,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mirabelles",
+    "name_ko": "미라벨 자두",
+    "name_en": "Mirabelles",
+    "category": "채소/과일",
+    "sort_order": 1063,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "nectarine",
+    "name_ko": "천도복숭아",
+    "name_en": "Nectarine",
+    "category": "채소/과일",
+    "sort_order": 1064,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "olives",
+    "name_ko": "올리브",
+    "name_en": "Olives",
+    "category": "채소/과일",
+    "sort_order": 1065,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "papaya",
+    "name_ko": "파파야",
+    "name_en": "Papaya",
+    "category": "채소/과일",
+    "sort_order": 1066,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "parsley",
+    "name_ko": "파슬리",
+    "name_en": "Parsley",
+    "category": "채소/과일",
+    "sort_order": 1067,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "parsnips",
+    "name_ko": "파스닙",
+    "name_en": "Parsnips",
+    "category": "채소/과일",
+    "sort_order": 1068,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "passion_fruit",
+    "name_ko": "패션프루트",
+    "name_en": "Passion fruit",
+    "category": "채소/과일",
+    "sort_order": 1069,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pea_eggplant",
+    "name_ko": "완두콩 가지",
+    "name_en": "Pea eggplant",
+    "category": "채소/과일",
+    "sort_order": 1070,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "peach",
+    "name_ko": "복숭아",
+    "name_en": "Peach",
+    "category": "채소/과일",
+    "sort_order": 1071,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pears",
+    "name_ko": "배",
+    "name_en": "Pears",
+    "category": "채소/과일",
+    "sort_order": 1072,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "peas",
+    "name_ko": "완두콩",
+    "name_en": "Peas",
+    "category": "채소/과일",
+    "sort_order": 1073,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pineapple",
+    "name_ko": "파인애플",
+    "name_en": "Pineapple",
+    "category": "채소/과일",
+    "sort_order": 1074,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "prunes",
+    "name_ko": "건자두",
+    "name_en": "Prunes",
+    "category": "채소/과일",
+    "sort_order": 1075,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "purslane",
+    "name_ko": "쇠비름",
+    "name_en": "Purslane",
+    "category": "채소/과일",
+    "sort_order": 1076,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "quinces",
+    "name_ko": "모과",
+    "name_en": "Quinces",
+    "category": "채소/과일",
+    "sort_order": 1077,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "radish",
+    "name_ko": "무",
+    "name_en": "Radish",
+    "category": "채소/과일",
+    "sort_order": 1078,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "raspberries",
+    "name_ko": "라즈베리",
+    "name_en": "Raspberries",
+    "category": "채소/과일",
+    "sort_order": 1079,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "red_cabbage",
+    "name_ko": "적양배추",
+    "name_en": "Red cabbage",
+    "category": "채소/과일",
+    "sort_order": 1080,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rhubarb",
+    "name_ko": "루바브",
+    "name_en": "Rhubarb",
+    "category": "채소/과일",
+    "sort_order": 1081,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sage",
+    "name_ko": "세이지",
+    "name_en": "Sage",
+    "category": "채소/과일",
+    "sort_order": 1082,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "salad",
+    "name_ko": "샐러드 채소",
+    "name_en": "Salad",
+    "category": "채소/과일",
+    "sort_order": 1083,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "savoy_cabbage",
+    "name_ko": "사보이 양배추",
+    "name_en": "Savoy cabbage",
+    "category": "채소/과일",
+    "sort_order": 1084,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "squash",
+    "name_ko": "호박류",
+    "name_en": "Squash",
+    "category": "채소/과일",
+    "sort_order": 1085,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "star_fruit",
+    "name_ko": "스타프루트",
+    "name_en": "Star fruit",
+    "category": "채소/과일",
+    "sort_order": 1086,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sun_dried_tomatoes",
+    "name_ko": "선드라이 토마토",
+    "name_en": "Sun-dried tomatoes",
+    "category": "채소/과일",
+    "sort_order": 1087,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sweet_corn",
+    "name_ko": "초당옥수수",
+    "name_en": "Sweet corn",
+    "category": "채소/과일",
+    "sort_order": 1088,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "thai_basil",
+    "name_ko": "타이 바질",
+    "name_en": "Thai basil",
+    "category": "채소/과일",
+    "sort_order": 1089,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "thyme",
+    "name_ko": "타임",
+    "name_en": "Thyme",
+    "category": "채소/과일",
+    "sort_order": 1090,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "vegetables",
+    "name_ko": "채소류",
+    "name_en": "Vegetables",
+    "category": "채소/과일",
+    "sort_order": 1091,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "watermelon",
+    "name_ko": "수박",
+    "name_en": "Watermelon",
+    "category": "채소/과일",
+    "sort_order": 1092,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "wheatgrass",
+    "name_ko": "밀싹",
+    "name_en": "Wheatgrass",
+    "category": "채소/과일",
+    "sort_order": 1093,
+    "is_active": true,
+    "default_quantity": null
   }
 ]
