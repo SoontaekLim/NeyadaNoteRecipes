@@ -7,6 +7,8 @@ import sys
 from pathlib import Path, PurePosixPath
 from zipfile import ZIP_STORED, ZipFile, ZipInfo
 
+from shopping_catalog import build_shopping_catalog
+
 ROOT = Path(__file__).resolve().parents[1]
 RECIPES_DIR = ROOT / "recipes"
 DIST_DIR = ROOT / "dist"
@@ -256,6 +258,7 @@ def build_distribution(output_dir: Path = DIST_DIR) -> dict:
     entries.sort(key=lambda recipe: recipe["id"])
     catalog = write_catalog(output_dir, entries)
     write_index(output_dir, catalog)
+    build_shopping_catalog(output_dir)
     return catalog
 
 
