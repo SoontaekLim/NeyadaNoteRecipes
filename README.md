@@ -63,6 +63,19 @@ Official recipes use one primary category (main dish, side dish, soup/stew, one-
 
 See [Recipe Taxonomy Standard v1](docs/recipe-taxonomy.md) for the canonical Korean/English tag names, classification rules, and compatibility plan for existing app category labels.
 
+## Shopping list suggestions
+
+The same GitHub Pages distribution also publishes a separate, read-only
+[shopping item catalog](shopping/README.md) from
+`shopping/items.json`. The builder validates the source, omits disabled
+entries, and writes `dist/shopping/catalog.json`.
+
+`https://soontaeklim.github.io/NeyadaNoteRecipes/shopping/catalog.json`
+
+This is a recommendation list, not the user's shopping-list storage.
+Changes become available after the next approved `main` Pages deployment;
+existing app data stays local.
+
 ## Validation
 
 Install the validator and run the repository checks locally:
