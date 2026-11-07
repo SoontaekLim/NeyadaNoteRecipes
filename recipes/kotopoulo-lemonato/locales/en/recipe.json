@@ -1,0 +1,76 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "kotopoulo-lemonato",
+  "locale": "en",
+  "title": "Greek Lemon Chicken and Potatoes (Kotopoulo Lemonato)",
+  "summary": "A Greek one-pan dinner of chicken thighs and potatoes roasted in lemon, olive oil, and oregano until deeply golden.",
+  "servings": 2,
+  "tags": [
+    "Main Dish"
+  ],
+  "ingredients": [
+    {
+      "name": "Bone-in chicken thighs",
+      "amount": "2 pieces (500g total)"
+    },
+    {
+      "name": "Potatoes",
+      "amount": "400g"
+    },
+    {
+      "name": "Lemon",
+      "amount": "1"
+    },
+    {
+      "name": "Garlic cloves",
+      "amount": "3"
+    },
+    {
+      "name": "Olive oil",
+      "amount": "3 tbsp"
+    },
+    {
+      "name": "Dried oregano",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Paprika",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Salt",
+      "amount": "3/4 tsp"
+    },
+    {
+      "name": "Ground black pepper",
+      "amount": "1/4 tsp"
+    },
+    {
+      "name": "Water",
+      "amount": "100ml"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Preheat the oven to 200°C (conventional). Scrub 400g potatoes and cut into thick wedges; peel 3 garlic cloves. Halve the lemon, juice one half, and thinly slice the other half."
+    },
+    {
+      "id": 2,
+      "description": "Mix 3 tbsp olive oil, juice from 1/2 lemon, 1 tsp dried oregano, 1/2 tsp paprika, 3/4 tsp salt, and 1/4 tsp pepper. Toss the 2 chicken thighs, potatoes, and garlic in the marinade."
+    },
+    {
+      "id": 3,
+      "description": "Spread the potatoes in a baking dish and arrange the chicken skin-side up. Tuck in the slices from the remaining 1/2 lemon and pour 100ml water around the edge."
+    },
+    {
+      "id": 4,
+      "description": "Roast at 200°C for 35 minutes. Turn the potatoes, baste the chicken with pan juices, and roast 15–20 minutes longer. Check that the thickest part of the chicken reaches at least 74°C and the potatoes are tender."
+    },
+    {
+      "id": 5,
+      "description": "Let rest for 5 minutes, then divide the chicken and potatoes between 2 plates and serve with the roasted lemon and pan juices."
+    }
+  ]
+}
