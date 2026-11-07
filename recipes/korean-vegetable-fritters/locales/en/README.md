@@ -29,7 +29,7 @@ Korean snack-shop style vegetable fritters made with thin strips of sweet potato
 
 3. Sprinkle the remaining 20g tempura flour evenly over the prepared vegetables and toss lightly. Pour in the batter from step 2 and fold just 2–3 times, until the vegetables are lightly coated rather than submerged.
 
-4. Pour about 700ml neutral oil into a deep pot, never filling it more than halfway, and heat to 170–175°C (340–350°F). Gather loose clusters of about 2 tbsp vegetable mixture each to make 6–8 fritters. Fry in batches without crowding for 3–4 minutes, turning once halfway through, until golden and the sweet potato is cooked.
+4. Pour about 700ml neutral oil into a deep pot, never filling it more than halfway, and heat to 170–175°C (340–350°F). Gather loose clusters of about 1/3 cup (80–100g) vegetable mixture each to make 6–8 fritters. Fry in batches without crowding for 3–4 minutes, turning once halfway through, until golden and the sweet potato is cooked.
 
 5. Transfer the fritters to a wire rack and let excess oil drain for 1–2 minutes. Stir together 1 tbsp soy sauce, 1 tsp vinegar, and 1 tbsp water for the dipping sauce. Serve immediately while crisp.
 
