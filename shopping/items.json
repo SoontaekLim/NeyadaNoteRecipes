@@ -1735,5 +1735,1238 @@
     "sort_order": 1093,
     "is_active": true,
     "default_quantity": null
+  },
+  {
+    "id": "baguette",
+    "name_ko": "바게트",
+    "name_en": "Baguette",
+    "category": "과자/빵",
+    "sort_order": 1200,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "buns",
+    "name_ko": "번 빵",
+    "name_en": "Buns",
+    "category": "과자/빵",
+    "sort_order": 1201,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "crispbread",
+    "name_ko": "크리스프브레드",
+    "name_en": "Crispbread",
+    "category": "과자/빵",
+    "sort_order": 1202,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dinner_rolls",
+    "name_ko": "디너롤",
+    "name_en": "Dinner rolls",
+    "category": "과자/빵",
+    "sort_order": 1203,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "donuts",
+    "name_ko": "도넛",
+    "name_en": "Donuts",
+    "category": "과자/빵",
+    "sort_order": 1204,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "muffins",
+    "name_ko": "머핀",
+    "name_en": "Muffins",
+    "category": "과자/빵",
+    "sort_order": 1205,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pancake_mix",
+    "name_ko": "팬케이크 믹스",
+    "name_en": "Pancake mix",
+    "category": "과자/빵",
+    "sort_order": 1206,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pie",
+    "name_ko": "파이",
+    "name_en": "Pie",
+    "category": "과자/빵",
+    "sort_order": 1207,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pizza_dough",
+    "name_ko": "피자 도우",
+    "name_en": "Pizza dough",
+    "category": "과자/빵",
+    "sort_order": 1208,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "puff_pastry",
+    "name_ko": "퍼프 페이스트리",
+    "name_en": "Puff pastry",
+    "category": "과자/빵",
+    "sort_order": 1209,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pumpkin_pie",
+    "name_ko": "호박파이",
+    "name_en": "Pumpkin pie",
+    "category": "과자/빵",
+    "sort_order": 1210,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rolls",
+    "name_ko": "롤빵",
+    "name_en": "Rolls",
+    "category": "과자/빵",
+    "sort_order": 1211,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "scones",
+    "name_ko": "스콘",
+    "name_en": "Scones",
+    "category": "과자/빵",
+    "sort_order": 1212,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sliced_bread",
+    "name_ko": "슬라이스 식빵",
+    "name_en": "Sliced bread",
+    "category": "과자/빵",
+    "sort_order": 1213,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "toast",
+    "name_ko": "토스트",
+    "name_en": "Toast",
+    "category": "과자/빵",
+    "sort_order": 1214,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tortillas",
+    "name_ko": "토르티야",
+    "name_en": "Tortillas",
+    "category": "과자/빵",
+    "sort_order": 1215,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "waffles",
+    "name_ko": "와플",
+    "name_en": "Waffles",
+    "category": "과자/빵",
+    "sort_order": 1216,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "blue_cheese",
+    "name_ko": "블루치즈",
+    "name_en": "Blue cheese",
+    "category": "유제품/음료",
+    "sort_order": 1217,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cheddar",
+    "name_ko": "체더치즈",
+    "name_en": "Cheddar",
+    "category": "유제품/음료",
+    "sort_order": 1218,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cottage_cheese",
+    "name_ko": "코티지치즈",
+    "name_en": "Cottage cheese",
+    "category": "유제품/음료",
+    "sort_order": 1219,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cream",
+    "name_ko": "크림",
+    "name_en": "Cream",
+    "category": "유제품/음료",
+    "sort_order": 1220,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cream_cheese",
+    "name_ko": "크림치즈",
+    "name_en": "Cream cheese",
+    "category": "유제품/음료",
+    "sort_order": 1221,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "creme_fraiche",
+    "name_ko": "크렘 프레슈",
+    "name_en": "Crème fraîche",
+    "category": "유제품/음료",
+    "sort_order": 1222,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "feta",
+    "name_ko": "페타치즈",
+    "name_en": "Feta",
+    "category": "유제품/음료",
+    "sort_order": 1223,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "gorgonzola",
+    "name_ko": "고르곤졸라",
+    "name_en": "Gorgonzola",
+    "category": "유제품/음료",
+    "sort_order": 1224,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "grated_cheese",
+    "name_ko": "슈레드 치즈",
+    "name_en": "Grated cheese",
+    "category": "유제품/음료",
+    "sort_order": 1225,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "grilled_cheese",
+    "name_ko": "그릴드 치즈",
+    "name_en": "Grilled cheese",
+    "category": "유제품/음료",
+    "sort_order": 1226,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "margarine",
+    "name_ko": "마가린",
+    "name_en": "Margarine",
+    "category": "유제품/음료",
+    "sort_order": 1227,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mascarpone",
+    "name_ko": "마스카르포네",
+    "name_en": "Mascarpone",
+    "category": "유제품/음료",
+    "sort_order": 1228,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mozzarella",
+    "name_ko": "모차렐라",
+    "name_en": "Mozzarella",
+    "category": "유제품/음료",
+    "sort_order": 1229,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "parmesan",
+    "name_ko": "파르메산 치즈",
+    "name_en": "Parmesan",
+    "category": "유제품/음료",
+    "sort_order": 1230,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "quark",
+    "name_ko": "크바르크",
+    "name_en": "Quark",
+    "category": "유제품/음료",
+    "sort_order": 1231,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "ricotta",
+    "name_ko": "리코타",
+    "name_en": "Ricotta",
+    "category": "유제품/음료",
+    "sort_order": 1232,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sour_cream",
+    "name_ko": "사워크림",
+    "name_en": "Sour cream",
+    "category": "유제품/음료",
+    "sort_order": 1233,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "soy_yogurt",
+    "name_ko": "소이 요거트",
+    "name_en": "Soy yogurt",
+    "category": "유제품/음료",
+    "sort_order": 1234,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bacon",
+    "name_ko": "베이컨",
+    "name_en": "Bacon",
+    "category": "정육/계란",
+    "sort_order": 1235,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bratwurst",
+    "name_ko": "브라트부르스트",
+    "name_en": "Bratwurst",
+    "category": "정육/계란",
+    "sort_order": 1236,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chicken_thigh",
+    "name_ko": "닭다리살",
+    "name_en": "Chicken thigh",
+    "category": "정육/계란",
+    "sort_order": 1237,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cold_cuts",
+    "name_ko": "콜드컷",
+    "name_en": "Cold cuts",
+    "category": "정육/계란",
+    "sort_order": 1238,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "game_meat",
+    "name_ko": "사냥육",
+    "name_en": "Game meat",
+    "category": "정육/계란",
+    "sort_order": 1239,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "ground_meat",
+    "name_ko": "다진 고기",
+    "name_en": "Ground meat",
+    "category": "정육/계란",
+    "sort_order": 1240,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "ham",
+    "name_ko": "햄",
+    "name_en": "Ham",
+    "category": "정육/계란",
+    "sort_order": 1241,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "hamburger",
+    "name_ko": "햄버거",
+    "name_en": "Hamburger",
+    "category": "정육/계란",
+    "sort_order": 1242,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "hot_dog",
+    "name_ko": "핫도그",
+    "name_en": "Hot dog",
+    "category": "정육/계란",
+    "sort_order": 1243,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lamb",
+    "name_ko": "양고기",
+    "name_en": "Lamb",
+    "category": "정육/계란",
+    "sort_order": 1244,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "meat",
+    "name_ko": "고기류",
+    "name_en": "Meat",
+    "category": "정육/계란",
+    "sort_order": 1245,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "prosciutto",
+    "name_ko": "프로슈토",
+    "name_en": "Prosciutto",
+    "category": "정육/계란",
+    "sort_order": 1246,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "salami",
+    "name_ko": "살라미",
+    "name_en": "Salami",
+    "category": "정육/계란",
+    "sort_order": 1247,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sausage",
+    "name_ko": "소시지",
+    "name_en": "Sausage",
+    "category": "정육/계란",
+    "sort_order": 1248,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sliced_beef",
+    "name_ko": "얇게 썬 소고기",
+    "name_en": "Sliced beef",
+    "category": "정육/계란",
+    "sort_order": 1249,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "steak",
+    "name_ko": "스테이크",
+    "name_en": "Steak",
+    "category": "정육/계란",
+    "sort_order": 1250,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "turkey",
+    "name_ko": "칠면조고기",
+    "name_en": "Turkey",
+    "category": "정육/계란",
+    "sort_order": 1251,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "turkey_breast",
+    "name_ko": "칠면조 가슴살",
+    "name_en": "Turkey breast",
+    "category": "정육/계란",
+    "sort_order": 1252,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "veal",
+    "name_ko": "송아지고기",
+    "name_en": "Veal",
+    "category": "정육/계란",
+    "sort_order": 1253,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "anchovies",
+    "name_ko": "멸치",
+    "name_en": "Anchovies",
+    "category": "수산/건어물",
+    "sort_order": 1254,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "fish",
+    "name_ko": "생선류",
+    "name_en": "Fish",
+    "category": "수산/건어물",
+    "sort_order": 1255,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lobster",
+    "name_ko": "랍스터",
+    "name_en": "Lobster",
+    "category": "수산/건어물",
+    "sort_order": 1256,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "oysters",
+    "name_ko": "굴",
+    "name_en": "Oysters",
+    "category": "수산/건어물",
+    "sort_order": 1257,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tuna",
+    "name_ko": "참치",
+    "name_en": "Tuna",
+    "category": "수산/건어물",
+    "sort_order": 1258,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "amaranth",
+    "name_ko": "아마란스",
+    "name_en": "Amaranth",
+    "category": "가공/냉동식품",
+    "sort_order": 1259,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "beans",
+    "name_ko": "콩류",
+    "name_en": "Beans",
+    "category": "가공/냉동식품",
+    "sort_order": 1260,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "breadcrumbs",
+    "name_ko": "빵가루",
+    "name_en": "Breadcrumbs",
+    "category": "가공/냉동식품",
+    "sort_order": 1261,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "canned_tomatoes",
+    "name_ko": "토마토 통조림",
+    "name_en": "Canned tomatoes",
+    "category": "가공/냉동식품",
+    "sort_order": 1262,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cornbread_stuffing",
+    "name_ko": "콘브레드 스터핑",
+    "name_en": "Cornbread stuffing",
+    "category": "가공/냉동식품",
+    "sort_order": 1263,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cornflour",
+    "name_ko": "옥수수 전분",
+    "name_en": "Cornflour",
+    "category": "가공/냉동식품",
+    "sort_order": 1264,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "ground_almonds",
+    "name_ko": "아몬드 가루",
+    "name_en": "Ground almonds",
+    "category": "가공/냉동식품",
+    "sort_order": 1265,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "kidney_beans",
+    "name_ko": "강낭콩",
+    "name_en": "Kidney beans",
+    "category": "가공/냉동식품",
+    "sort_order": 1266,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lentils",
+    "name_ko": "렌틸콩",
+    "name_en": "Lentils",
+    "category": "가공/냉동식품",
+    "sort_order": 1267,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mashed_potatoes",
+    "name_ko": "매시드 포테이토",
+    "name_en": "Mashed potatoes",
+    "category": "가공/냉동식품",
+    "sort_order": 1268,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "nutritional_yeast",
+    "name_ko": "영양효모",
+    "name_en": "Nutritional yeast",
+    "category": "가공/냉동식품",
+    "sort_order": 1269,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "polenta",
+    "name_ko": "폴렌타",
+    "name_en": "Polenta",
+    "category": "가공/냉동식품",
+    "sort_order": 1270,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "popp_salmon_spread",
+    "name_ko": "포프 연어 스프레드",
+    "name_en": "Popp Alaska pollock spread",
+    "category": "가공/냉동식품",
+    "sort_order": 1271,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "popp_egg_salad_spread",
+    "name_ko": "포프 에그샐러드 스프레드",
+    "name_en": "Popp egg salad spread",
+    "category": "가공/냉동식품",
+    "sort_order": 1272,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "popp_poultry_spread",
+    "name_ko": "포프 매콤 파프리카 닭고기 스프레드",
+    "name_en": "Popp spicy paprika poultry spread",
+    "category": "가공/냉동식품",
+    "sort_order": 1273,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "stock",
+    "name_ko": "육수 농축액",
+    "name_en": "Stock",
+    "category": "가공/냉동식품",
+    "sort_order": 1274,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "ubu_sushi",
+    "name_ko": "우부 스시",
+    "name_en": "Ubu Sushi",
+    "category": "가공/냉동식품",
+    "sort_order": 1275,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "yeast",
+    "name_ko": "이스트",
+    "name_en": "Yeast",
+    "category": "가공/냉동식품",
+    "sort_order": 1276,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "almond_extract",
+    "name_ko": "아몬드 에센스",
+    "name_en": "Almond extract",
+    "category": "양념/소스",
+    "sort_order": 1277,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "almonds",
+    "name_ko": "아몬드",
+    "name_en": "Almonds",
+    "category": "양념/소스",
+    "sort_order": 1278,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "anise",
+    "name_ko": "아니스",
+    "name_en": "Anise",
+    "category": "양념/소스",
+    "sort_order": 1279,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "apple_sauce",
+    "name_ko": "애플소스",
+    "name_en": "Apple sauce",
+    "category": "양념/소스",
+    "sort_order": 1280,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "baking_powder",
+    "name_ko": "베이킹파우더",
+    "name_en": "Baking powder",
+    "category": "양념/소스",
+    "sort_order": 1281,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "baking_soda",
+    "name_ko": "베이킹소다",
+    "name_en": "Baking soda",
+    "category": "양념/소스",
+    "sort_order": 1282,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "balsamic_vinegar",
+    "name_ko": "발사믹 식초",
+    "name_en": "Balsamic vinegar",
+    "category": "양념/소스",
+    "sort_order": 1283,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bbq_sauce",
+    "name_ko": "바비큐 소스",
+    "name_en": "BBQ sauce",
+    "category": "양념/소스",
+    "sort_order": 1284,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "buttermilk",
+    "name_ko": "버터밀크",
+    "name_en": "Buttermilk",
+    "category": "양념/소스",
+    "sort_order": 1285,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "capers",
+    "name_ko": "케이퍼",
+    "name_en": "Capers",
+    "category": "양념/소스",
+    "sort_order": 1286,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cashews",
+    "name_ko": "캐슈너트",
+    "name_en": "Cashews",
+    "category": "양념/소스",
+    "sort_order": 1287,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chilli_powder",
+    "name_ko": "칠리 파우더",
+    "name_en": "Chilli powder",
+    "category": "양념/소스",
+    "sort_order": 1288,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chutney",
+    "name_ko": "처트니",
+    "name_en": "Chutney",
+    "category": "양념/소스",
+    "sort_order": 1289,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cinnamon",
+    "name_ko": "계피",
+    "name_en": "Cinnamon",
+    "category": "양념/소스",
+    "sort_order": 1290,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "coconut_milk",
+    "name_ko": "코코넛밀크",
+    "name_en": "Coconut milk",
+    "category": "양념/소스",
+    "sort_order": 1291,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "coconut_water",
+    "name_ko": "코코넛워터",
+    "name_en": "Coconut water",
+    "category": "양념/소스",
+    "sort_order": 1292,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cranberry_sauce",
+    "name_ko": "크랜베리 소스",
+    "name_en": "Cranberry sauce",
+    "category": "양념/소스",
+    "sort_order": 1293,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cumin",
+    "name_ko": "커민",
+    "name_en": "Cumin",
+    "category": "양념/소스",
+    "sort_order": 1294,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "curry_paste",
+    "name_ko": "커리 페이스트",
+    "name_en": "Curry paste",
+    "category": "양념/소스",
+    "sort_order": 1295,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dip",
+    "name_ko": "딥소스",
+    "name_en": "Dip",
+    "category": "양념/소스",
+    "sort_order": 1296,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "fish_sauce",
+    "name_ko": "피시 소스",
+    "name_en": "Fish sauce",
+    "category": "양념/소스",
+    "sort_order": 1297,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "food_coloring",
+    "name_ko": "식용 색소",
+    "name_en": "Food coloring",
+    "category": "양념/소스",
+    "sort_order": 1298,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "gravy",
+    "name_ko": "그레이비 소스",
+    "name_en": "Gravy",
+    "category": "양념/소스",
+    "sort_order": 1299,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "hazelnuts",
+    "name_ko": "헤이즐넛",
+    "name_en": "Hazelnuts",
+    "category": "양념/소스",
+    "sort_order": 1300,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "hemp_seeds",
+    "name_ko": "대마씨",
+    "name_en": "Hemp seeds",
+    "category": "양념/소스",
+    "sort_order": 1301,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "hot_sauce",
+    "name_ko": "핫소스",
+    "name_en": "Hot sauce",
+    "category": "양념/소스",
+    "sort_order": 1302,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "icing",
+    "name_ko": "아이싱",
+    "name_en": "Icing",
+    "category": "양념/소스",
+    "sort_order": 1303,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "icing_sugar",
+    "name_ko": "슈거파우더",
+    "name_en": "Icing sugar",
+    "category": "양념/소스",
+    "sort_order": 1304,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rum_extract",
+    "name_ko": "럼 에센스",
+    "name_en": "Rum extract",
+    "category": "양념/소스",
+    "sort_order": 1305,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "kaffir_lime_leaves",
+    "name_ko": "카피르라임 잎",
+    "name_en": "Kaffir lime leaves",
+    "category": "양념/소스",
+    "sort_order": 1306,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "maple_syrup",
+    "name_ko": "메이플 시럽",
+    "name_en": "Maple syrup",
+    "category": "양념/소스",
+    "sort_order": 1307,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "marinade",
+    "name_ko": "마리네이드",
+    "name_en": "Marinade",
+    "category": "양념/소스",
+    "sort_order": 1308,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "meat_spice",
+    "name_ko": "고기용 시즈닝",
+    "name_en": "Meat spice",
+    "category": "양념/소스",
+    "sort_order": 1309,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mustard",
+    "name_ko": "머스터드",
+    "name_en": "Mustard",
+    "category": "양념/소스",
+    "sort_order": 1310,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "nutmeg",
+    "name_ko": "육두구",
+    "name_en": "Nutmeg",
+    "category": "양념/소스",
+    "sort_order": 1311,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "nuts",
+    "name_ko": "견과류",
+    "name_en": "Nuts",
+    "category": "양념/소스",
+    "sort_order": 1312,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "olive_oil",
+    "name_ko": "올리브유",
+    "name_en": "Olive oil",
+    "category": "양념/소스",
+    "sort_order": 1313,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "oregano",
+    "name_ko": "오레가노",
+    "name_en": "Oregano",
+    "category": "양념/소스",
+    "sort_order": 1314,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "paprika_powder",
+    "name_ko": "파프리카 가루",
+    "name_en": "Paprika",
+    "category": "양념/소스",
+    "sort_order": 1315,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pasta_sauce",
+    "name_ko": "파스타 소스",
+    "name_en": "Pasta sauce",
+    "category": "양념/소스",
+    "sort_order": 1316,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "peanut_butter",
+    "name_ko": "땅콩버터",
+    "name_en": "Peanut butter",
+    "category": "양념/소스",
+    "sort_order": 1317,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "peppercorns",
+    "name_ko": "통후추",
+    "name_en": "Peppercorns",
+    "category": "양념/소스",
+    "sort_order": 1318,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pesto",
+    "name_ko": "페스토",
+    "name_en": "Pesto",
+    "category": "양념/소스",
+    "sort_order": 1319,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pine_nuts",
+    "name_ko": "잣",
+    "name_en": "Pine nuts",
+    "category": "양념/소스",
+    "sort_order": 1320,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pistachio",
+    "name_ko": "피스타치오",
+    "name_en": "Pistachio",
+    "category": "양념/소스",
+    "sort_order": 1321,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pumpkin_seeds",
+    "name_ko": "호박씨",
+    "name_en": "Pumpkin seeds",
+    "category": "양념/소스",
+    "sort_order": 1322,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rosemary",
+    "name_ko": "로즈마리",
+    "name_en": "Rosemary",
+    "category": "양념/소스",
+    "sort_order": 1323,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "salad_dressing",
+    "name_ko": "샐러드 드레싱",
+    "name_en": "Salad dressing",
+    "category": "양념/소스",
+    "sort_order": 1324,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sea_salt",
+    "name_ko": "천일염",
+    "name_en": "Sea salt",
+    "category": "양념/소스",
+    "sort_order": 1325,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sprinkles",
+    "name_ko": "스프링클",
+    "name_en": "Sprinkles",
+    "category": "양념/소스",
+    "sort_order": 1326,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sunflower_seeds",
+    "name_ko": "해바라기씨",
+    "name_en": "Sunflower seeds",
+    "category": "양념/소스",
+    "sort_order": 1327,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tahini",
+    "name_ko": "타히니",
+    "name_en": "Tahini",
+    "category": "양념/소스",
+    "sort_order": 1328,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tamarind_paste",
+    "name_ko": "타마린드 페이스트",
+    "name_en": "Tamarind paste",
+    "category": "양념/소스",
+    "sort_order": 1329,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tomato_puree",
+    "name_ko": "토마토 퓌레",
+    "name_en": "Tomato purée",
+    "category": "양념/소스",
+    "sort_order": 1330,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tomato_sauce",
+    "name_ko": "토마토 소스",
+    "name_en": "Tomato sauce",
+    "category": "양념/소스",
+    "sort_order": 1331,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "truffle",
+    "name_ko": "트러플",
+    "name_en": "Truffle",
+    "category": "양념/소스",
+    "sort_order": 1332,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "vanilla",
+    "name_ko": "바닐라",
+    "name_en": "Vanilla",
+    "category": "양념/소스",
+    "sort_order": 1333,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "vanilla_bourbon",
+    "name_ko": "버번 바닐라",
+    "name_en": "Vanilla bourbon",
+    "category": "양념/소스",
+    "sort_order": 1334,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "vegetable_broth",
+    "name_ko": "채소 육수",
+    "name_en": "Vegetable broth",
+    "category": "양념/소스",
+    "sort_order": 1335,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "walnuts",
+    "name_ko": "호두",
+    "name_en": "Walnuts",
+    "category": "양념/소스",
+    "sort_order": 1336,
+    "is_active": true,
+    "default_quantity": null
   }
 ]
