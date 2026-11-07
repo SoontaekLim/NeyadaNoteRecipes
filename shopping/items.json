@@ -2378,7 +2378,7 @@
   {
     "id": "popp_salmon_spread",
     "name_ko": "포프 연어 스프레드",
-    "name_en": "Popp Alaska pollock spread",
+    "name_en": "Popp Brotaufstrich Alaska-Seelachs",
     "category": "가공/냉동식품",
     "sort_order": 1271,
     "is_active": true,
@@ -2387,7 +2387,7 @@
   {
     "id": "popp_egg_salad_spread",
     "name_ko": "포프 에그샐러드 스프레드",
-    "name_en": "Popp egg salad spread",
+    "name_en": "Popp Brotaufstrich Eiersalat",
     "category": "가공/냉동식품",
     "sort_order": 1272,
     "is_active": true,
@@ -2396,7 +2396,7 @@
   {
     "id": "popp_poultry_spread",
     "name_ko": "포프 매콤 파프리카 닭고기 스프레드",
-    "name_en": "Popp spicy paprika poultry spread",
+    "name_en": "Popp Brotaufstrich Geflügel Spicy-Paprika",
     "category": "가공/냉동식품",
     "sort_order": 1273,
     "is_active": true,
@@ -2442,7 +2442,7 @@
     "id": "almonds",
     "name_ko": "아몬드",
     "name_en": "Almonds",
-    "category": "양념/소스",
+    "category": "가공/냉동식품",
     "sort_order": 1278,
     "is_active": true,
     "default_quantity": null
@@ -2505,7 +2505,7 @@
     "id": "buttermilk",
     "name_ko": "버터밀크",
     "name_en": "Buttermilk",
-    "category": "양념/소스",
+    "category": "유제품/음료",
     "sort_order": 1285,
     "is_active": true,
     "default_quantity": null
@@ -2523,7 +2523,7 @@
     "id": "cashews",
     "name_ko": "캐슈너트",
     "name_en": "Cashews",
-    "category": "양념/소스",
+    "category": "가공/냉동식품",
     "sort_order": 1287,
     "is_active": true,
     "default_quantity": null
@@ -2559,7 +2559,7 @@
     "id": "coconut_milk",
     "name_ko": "코코넛밀크",
     "name_en": "Coconut milk",
-    "category": "양념/소스",
+    "category": "유제품/음료",
     "sort_order": 1291,
     "is_active": true,
     "default_quantity": null
@@ -2568,7 +2568,7 @@
     "id": "coconut_water",
     "name_ko": "코코넛워터",
     "name_en": "Coconut water",
-    "category": "양념/소스",
+    "category": "유제품/음료",
     "sort_order": 1292,
     "is_active": true,
     "default_quantity": null
@@ -2640,7 +2640,7 @@
     "id": "hazelnuts",
     "name_ko": "헤이즐넛",
     "name_en": "Hazelnuts",
-    "category": "양념/소스",
+    "category": "가공/냉동식품",
     "sort_order": 1300,
     "is_active": true,
     "default_quantity": null
@@ -2649,7 +2649,7 @@
     "id": "hemp_seeds",
     "name_ko": "대마씨",
     "name_en": "Hemp seeds",
-    "category": "양념/소스",
+    "category": "가공/냉동식품",
     "sort_order": 1301,
     "is_active": true,
     "default_quantity": null
@@ -2748,7 +2748,7 @@
     "id": "nuts",
     "name_ko": "견과류",
     "name_en": "Nuts",
-    "category": "양념/소스",
+    "category": "가공/냉동식품",
     "sort_order": 1312,
     "is_active": true,
     "default_quantity": null
@@ -2820,7 +2820,7 @@
     "id": "pine_nuts",
     "name_ko": "잣",
     "name_en": "Pine nuts",
-    "category": "양념/소스",
+    "category": "가공/냉동식품",
     "sort_order": 1320,
     "is_active": true,
     "default_quantity": null
@@ -2829,7 +2829,7 @@
     "id": "pistachio",
     "name_ko": "피스타치오",
     "name_en": "Pistachio",
-    "category": "양념/소스",
+    "category": "가공/냉동식품",
     "sort_order": 1321,
     "is_active": true,
     "default_quantity": null
@@ -2838,7 +2838,7 @@
     "id": "pumpkin_seeds",
     "name_ko": "호박씨",
     "name_en": "Pumpkin seeds",
-    "category": "양념/소스",
+    "category": "가공/냉동식품",
     "sort_order": 1322,
     "is_active": true,
     "default_quantity": null
@@ -2883,7 +2883,7 @@
     "id": "sunflower_seeds",
     "name_ko": "해바라기씨",
     "name_en": "Sunflower seeds",
-    "category": "양념/소스",
+    "category": "가공/냉동식품",
     "sort_order": 1327,
     "is_active": true,
     "default_quantity": null
@@ -2964,7 +2964,7 @@
     "id": "walnuts",
     "name_ko": "호두",
     "name_en": "Walnuts",
-    "category": "양념/소스",
+    "category": "가공/냉동식품",
     "sort_order": 1336,
     "is_active": true,
     "default_quantity": null
