@@ -1,5 +1,7 @@
 # Classic Tteokbokki
 
+![Classic Tteokbokki cover image](images/cover.webp)
+
 Chewy Korean rice cakes and fish cakes simmered in a sweet-and-spicy gochujang sauce.
 
 - Servings: 2
