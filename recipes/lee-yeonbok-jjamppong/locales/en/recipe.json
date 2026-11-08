@@ -1,0 +1,152 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "lee-yeonbok-jjamppong",
+  "locale": "en",
+  "title": "Lee Yeon-bok–Style Old-School Seafood Jjamppong",
+  "summary": "Old-school spicy Korean-Chinese noodles made by frying green onion and garlic first, adding pork and chili next, and simmering octopus, shrimp and clams in the savory broth.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Noodles/Pasta",
+    "Chinese"
+  ],
+  "ingredients": [
+    {
+      "name": "Fresh Chinese-style wheat noodles",
+      "amount": "300g"
+    },
+    {
+      "name": "Pork loin or shoulder",
+      "amount": "50g"
+    },
+    {
+      "name": "Cleaned small octopus (nakji)",
+      "amount": "1 (about 120g)"
+    },
+    {
+      "name": "Shrimp",
+      "amount": "6"
+    },
+    {
+      "name": "Purged short-neck clams (bajirak)",
+      "amount": "7–8"
+    },
+    {
+      "name": "Onion",
+      "amount": "1/4"
+    },
+    {
+      "name": "Napa cabbage",
+      "amount": "3 leaves"
+    },
+    {
+      "name": "Korean zucchini (aehobak) or zucchini",
+      "amount": "1/4"
+    },
+    {
+      "name": "Bok choy",
+      "amount": "2 small heads"
+    },
+    {
+      "name": "Green onion (daepa)",
+      "amount": "1 stalk"
+    },
+    {
+      "name": "Cheongyang chili pepper",
+      "amount": "1"
+    },
+    {
+      "name": "Minced garlic",
+      "amount": "1/2 tbsp"
+    },
+    {
+      "name": "Neutral cooking oil",
+      "amount": "3 tbsp"
+    },
+    {
+      "name": "Soy sauce",
+      "amount": "1/2 tbsp"
+    },
+    {
+      "name": "Korean red pepper flakes (gochugaru)",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Water (for blooming pepper flakes)",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Water (for broth)",
+      "amount": "600ml"
+    },
+    {
+      "name": "Chicken stock powder",
+      "amount": "1/2 tbsp"
+    },
+    {
+      "name": "Salt",
+      "amount": "1/3 tbsp (adjust to taste)"
+    },
+    {
+      "name": "Oyster sauce",
+      "amount": "1 1/2 tbsp"
+    },
+    {
+      "name": "Water (for cooking noodles)",
+      "amount": "about 2L"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Wash and cut 1/4 onion, 3 napa cabbage leaves, 1/4 zucchini, 2 small heads of bok choy, 1 green onion stalk, and 1 Cheongyang chili pepper into suitable pieces. Keep the bok choy separate from the other vegetables.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "Cut 1 cleaned small octopus and 50g pork into generous bite-size pieces. Peel and devein 6 shrimp, and rinse 7–8 purged clams.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "Heat 3 tbsp cooking oil in a deep pan over medium heat. Stir-fry the green onion and 1/2 tbsp minced garlic for about 1 minute until fragrant. Do not add the chili pepper yet.",
+      "image": "images/step-3.webp"
+    },
+    {
+      "id": 4,
+      "description": "Add the 50g pork and the sliced Cheongyang chili pepper together. Stir-fry over medium-high heat for 1–2 minutes, until the outside of the pork is cooked.",
+      "image": "images/step-4.webp"
+    },
+    {
+      "id": 5,
+      "description": "Drizzle 1/2 tbsp soy sauce along the edge of the pan. Add the onion, napa cabbage and zucchini, leaving out the bok choy, and stir-fry over high heat for about 2 minutes.",
+      "image": "images/step-5.webp"
+    },
+    {
+      "id": 6,
+      "description": "When the vegetables soften, reduce the heat and add 2 tbsp Korean red pepper flakes and 2 tbsp water. Stir-fry for 20–30 seconds, taking care not to burn the flakes.",
+      "image": "images/step-6.webp"
+    },
+    {
+      "id": 7,
+      "description": "Pour in an additional 600ml water, 1/2 tbsp chicken stock powder, 1 1/2 tbsp oyster sauce, and up to 1/3 tbsp salt. You can start with half the salt and adjust later. Add the 7–8 clams, 6 shrimp and prepared octopus. Bring to a boil, then cook at a simmer for 3–5 minutes, until the seafood is fully cooked.",
+      "image": "images/step-7.webp"
+    },
+    {
+      "id": 8,
+      "description": "In another pot, boil about 2L water. Cook 300g fresh Chinese-style noodles according to the package directions, then drain well.",
+      "image": "images/step-8.webp"
+    },
+    {
+      "id": 9,
+      "description": "While the broth is boiling, add the reserved 2 heads of bok choy and blanch for 30–60 seconds. Taste the broth and adjust the salt if needed. Discard any clams that remain unopened.",
+      "image": "images/step-9.webp"
+    },
+    {
+      "id": 10,
+      "description": "Divide the cooked noodles between two bowls. Ladle over the hot seafood broth, toppings and bok choy, and serve immediately.",
+      "image": "images/step-10.webp"
+    }
+  ]
+}
