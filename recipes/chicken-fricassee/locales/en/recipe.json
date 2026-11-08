@@ -1,0 +1,84 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "chicken-fricassee",
+  "locale": "en",
+  "title": "Chicken Fricassée (French Creamy Chicken Stew)",
+  "summary": "A comforting French chicken-and-mushroom fricassée gently simmered in broth, cream, and thyme.",
+  "servings": 2,
+  "tags": [
+    "Main Dish"
+  ],
+  "ingredients": [
+    {
+      "name": "Boneless chicken thighs",
+      "amount": "400g"
+    },
+    {
+      "name": "Button mushrooms",
+      "amount": "200g"
+    },
+    {
+      "name": "Onion",
+      "amount": "1 (about 150g)"
+    },
+    {
+      "name": "Butter",
+      "amount": "30g"
+    },
+    {
+      "name": "All-purpose flour",
+      "amount": "1 tbsp (about 10g)"
+    },
+    {
+      "name": "Chicken stock",
+      "amount": "250ml"
+    },
+    {
+      "name": "Heavy cream",
+      "amount": "100ml"
+    },
+    {
+      "name": "Lemon juice",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Dried thyme",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Salt",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Black pepper",
+      "amount": "1/4 tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Cut 400g boneless chicken thighs into 4cm pieces and pat dry. Thickly slice 200g mushrooms and finely chop 1 onion."
+    },
+    {
+      "id": 2,
+      "description": "Melt 20g butter in a deep skillet over medium heat. Lightly brown the chicken for 4–5 minutes; it need not be fully cooked yet. Transfer to a plate."
+    },
+    {
+      "id": 3,
+      "description": "Melt the remaining 10g butter in the same skillet. Sauté the onion and mushrooms for 5–6 minutes until softened and much of the mushroom moisture has evaporated."
+    },
+    {
+      "id": 4,
+      "description": "Sprinkle over 1 tbsp flour and stir for 1 minute, then gradually pour in 250ml chicken stock while stirring to make a smooth sauce."
+    },
+    {
+      "id": 5,
+      "description": "Return the chicken and resting juices to the pan, then add 1/2 tsp dried thyme. Cover and simmer gently for 12–15 minutes until the chicken reaches at least 74°C internally."
+    },
+    {
+      "id": 6,
+      "description": "Stir in 100ml heavy cream and heat gently for another 3 minutes. Season with 1/2 tsp salt, 1/4 tsp black pepper, and 1 tsp lemon juice, then divide between two servings."
+    }
+  ]
+}
