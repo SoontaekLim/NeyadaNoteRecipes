@@ -111,7 +111,7 @@
     "id": "tofu",
     "name_ko": "두부",
     "name_en": "Tofu",
-    "category": "가공/냉동식품",
+    "category": "곡물 및 가루류",
     "sort_order": 300,
     "is_active": true,
     "default_quantity": null
@@ -120,7 +120,7 @@
     "id": "instant_noodles",
     "name_ko": "라면",
     "name_en": "Instant noodles",
-    "category": "가공/냉동식품",
+    "category": "곡물 및 가루류",
     "sort_order": 310,
     "is_active": true,
     "default_quantity": null
@@ -192,7 +192,7 @@
     "id": "cereal",
     "name_ko": "시리얼",
     "name_en": "Cereal",
-    "category": "과자/빵",
+    "category": "곡물 및 가루류",
     "sort_order": 610,
     "is_active": true,
     "default_quantity": null
@@ -201,7 +201,7 @@
     "id": "dish_soap",
     "name_ko": "주방세제",
     "name_en": "Dish soap",
-    "category": "생활용품/기타",
+    "category": "가정용품",
     "sort_order": 700,
     "is_active": true,
     "default_quantity": null
@@ -210,7 +210,7 @@
     "id": "tissue",
     "name_ko": "휴지",
     "name_en": "Tissue",
-    "category": "생활용품/기타",
+    "category": "건강/위생",
     "sort_order": 710,
     "is_active": true,
     "default_quantity": null
@@ -489,7 +489,7 @@
     "id": "rice",
     "name_ko": "쌀",
     "name_en": "Rice",
-    "category": "가공/냉동식품",
+    "category": "곡물 및 가루류",
     "sort_order": 311,
     "is_active": true,
     "default_quantity": null
@@ -516,7 +516,7 @@
     "id": "flour",
     "name_ko": "밀가루",
     "name_en": "Wheat flour",
-    "category": "가공/냉동식품",
+    "category": "곡물 및 가루류",
     "sort_order": 314,
     "is_active": true,
     "default_quantity": null
@@ -561,7 +561,7 @@
     "id": "oatmeal",
     "name_ko": "오트밀",
     "name_en": "Oatmeal",
-    "category": "가공/냉동식품",
+    "category": "곡물 및 가루류",
     "sort_order": 319,
     "is_active": true,
     "default_quantity": null
@@ -795,7 +795,7 @@
     "id": "laundry_detergent",
     "name_ko": "세탁세제",
     "name_en": "Laundry detergent",
-    "category": "생활용품/기타",
+    "category": "가정용품",
     "sort_order": 711,
     "is_active": true,
     "default_quantity": null
@@ -804,7 +804,7 @@
     "id": "fabric_softener",
     "name_ko": "섬유유연제",
     "name_en": "Fabric softener",
-    "category": "생활용품/기타",
+    "category": "가정용품",
     "sort_order": 712,
     "is_active": true,
     "default_quantity": null
@@ -813,7 +813,7 @@
     "id": "dish_sponge",
     "name_ko": "수세미",
     "name_en": "Dish sponge",
-    "category": "생활용품/기타",
+    "category": "가정용품",
     "sort_order": 713,
     "is_active": true,
     "default_quantity": null
@@ -822,7 +822,7 @@
     "id": "trash_bags",
     "name_ko": "쓰레기봉투",
     "name_en": "Trash bags",
-    "category": "생활용품/기타",
+    "category": "가정용품",
     "sort_order": 714,
     "is_active": true,
     "default_quantity": null
@@ -831,7 +831,7 @@
     "id": "paper_towels",
     "name_ko": "키친타월",
     "name_en": "Paper towels",
-    "category": "생활용품/기타",
+    "category": "가정용품",
     "sort_order": 715,
     "is_active": true,
     "default_quantity": null
@@ -840,7 +840,7 @@
     "id": "toothpaste",
     "name_ko": "치약",
     "name_en": "Toothpaste",
-    "category": "생활용품/기타",
+    "category": "건강/위생",
     "sort_order": 716,
     "is_active": true,
     "default_quantity": null
@@ -849,7 +849,7 @@
     "id": "toothbrush",
     "name_ko": "칫솔",
     "name_en": "Toothbrush",
-    "category": "생활용품/기타",
+    "category": "건강/위생",
     "sort_order": 717,
     "is_active": true,
     "default_quantity": null
@@ -858,7 +858,7 @@
     "id": "shampoo",
     "name_ko": "샴푸",
     "name_en": "Shampoo",
-    "category": "생활용품/기타",
+    "category": "건강/위생",
     "sort_order": 718,
     "is_active": true,
     "default_quantity": null
@@ -867,7 +867,7 @@
     "id": "body_wash",
     "name_ko": "바디워시",
     "name_en": "Body wash",
-    "category": "생활용품/기타",
+    "category": "건강/위생",
     "sort_order": 719,
     "is_active": true,
     "default_quantity": null
@@ -876,7 +876,7 @@
     "id": "plastic_wrap",
     "name_ko": "랩",
     "name_en": "Plastic wrap",
-    "category": "생활용품/기타",
+    "category": "가정용품",
     "sort_order": 720,
     "is_active": true,
     "default_quantity": null
@@ -885,7 +885,7 @@
     "id": "aluminum_foil",
     "name_ko": "쿠킹호일",
     "name_en": "Aluminum foil",
-    "category": "생활용품/기타",
+    "category": "가정용품",
     "sort_order": 721,
     "is_active": true,
     "default_quantity": null
@@ -2966,6 +2966,1347 @@
     "name_en": "Walnuts",
     "category": "가공/냉동식품",
     "sort_order": 1336,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "basmati_rice",
+    "name_ko": "바스마티쌀",
+    "name_en": "Basmati rice",
+    "category": "곡물 및 가루류",
+    "sort_order": 1400,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chia_seeds",
+    "name_ko": "치아씨드",
+    "name_en": "Chia seeds",
+    "category": "곡물 및 가루류",
+    "sort_order": 1401,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chickpeas",
+    "name_ko": "병아리콩",
+    "name_en": "Chickpeas",
+    "category": "곡물 및 가루류",
+    "sort_order": 1402,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "corn_flakes",
+    "name_ko": "콘플레이크",
+    "name_en": "Corn flakes",
+    "category": "곡물 및 가루류",
+    "sort_order": 1403,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "couscous",
+    "name_ko": "쿠스쿠스",
+    "name_en": "Couscous",
+    "category": "곡물 및 가루류",
+    "sort_order": 1404,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "fusilli",
+    "name_ko": "푸실리",
+    "name_en": "Fusilli",
+    "category": "곡물 및 가루류",
+    "sort_order": 1405,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "jasmine_rice",
+    "name_ko": "자스민쌀",
+    "name_en": "Jasmine rice",
+    "category": "곡물 및 가루류",
+    "sort_order": 1406,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "muesli",
+    "name_ko": "뮤즐리",
+    "name_en": "Muesli",
+    "category": "곡물 및 가루류",
+    "sort_order": 1407,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "noodles",
+    "name_ko": "국수",
+    "name_en": "Noodles",
+    "category": "곡물 및 가루류",
+    "sort_order": 1408,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pasta",
+    "name_ko": "파스타면",
+    "name_en": "Pasta",
+    "category": "곡물 및 가루류",
+    "sort_order": 1409,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "penne",
+    "name_ko": "펜네",
+    "name_en": "Penne",
+    "category": "곡물 및 가루류",
+    "sort_order": 1410,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rice_noodles",
+    "name_ko": "쌀국수면",
+    "name_en": "Rice noodles",
+    "category": "곡물 및 가루류",
+    "sort_order": 1411,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rice_paper",
+    "name_ko": "라이스페이퍼",
+    "name_en": "Rice paper",
+    "category": "곡물 및 가루류",
+    "sort_order": 1412,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "risotto_rice",
+    "name_ko": "리소토용 쌀",
+    "name_en": "Risotto rice",
+    "category": "곡물 및 가루류",
+    "sort_order": 1413,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "semolina",
+    "name_ko": "세몰리나",
+    "name_en": "Semolina",
+    "category": "곡물 및 가루류",
+    "sort_order": 1414,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "spaghetti",
+    "name_ko": "스파게티면",
+    "name_en": "Spaghetti",
+    "category": "곡물 및 가루류",
+    "sort_order": 1415,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "spelt_flour",
+    "name_ko": "스펠트밀가루",
+    "name_en": "Spelt flour",
+    "category": "곡물 및 가루류",
+    "sort_order": 1416,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "spirulina",
+    "name_ko": "스피룰리나",
+    "name_en": "Spirulina",
+    "category": "곡물 및 가루류",
+    "sort_order": 1417,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tempeh",
+    "name_ko": "템페",
+    "name_en": "Tempeh",
+    "category": "곡물 및 가루류",
+    "sort_order": 1418,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tortellini",
+    "name_ko": "토르텔리니",
+    "name_en": "Tortellini",
+    "category": "곡물 및 가루류",
+    "sort_order": 1419,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "wild_rice",
+    "name_ko": "야생쌀",
+    "name_en": "Wild rice",
+    "category": "곡물 및 가루류",
+    "sort_order": 1420,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "mouthwash",
+    "name_ko": "구강청결제",
+    "name_en": "Mouthwash",
+    "category": "건강/위생",
+    "sort_order": 1500,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "muscle_cream",
+    "name_ko": "근육크림",
+    "name_en": "Muscle cream",
+    "category": "건강/위생",
+    "sort_order": 1501,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "nail_file",
+    "name_ko": "손톱줄",
+    "name_en": "Nail file",
+    "category": "건강/위생",
+    "sort_order": 1502,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "nail_polish",
+    "name_ko": "매니큐어",
+    "name_en": "Nail polish",
+    "category": "건강/위생",
+    "sort_order": 1503,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "nail_polish_remover",
+    "name_ko": "매니큐어 리무버",
+    "name_en": "Nail polish remover",
+    "category": "건강/위생",
+    "sort_order": 1504,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "nasal_ointment",
+    "name_ko": "비강 연고",
+    "name_en": "Nasal ointment",
+    "category": "건강/위생",
+    "sort_order": 1505,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "ointment",
+    "name_ko": "연고",
+    "name_en": "Ointment",
+    "category": "건강/위생",
+    "sort_order": 1506,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sanitary_pads",
+    "name_ko": "생리대",
+    "name_en": "Pads",
+    "category": "건강/위생",
+    "sort_order": 1507,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pain_reliever",
+    "name_ko": "진통제",
+    "name_en": "Pain reliever",
+    "category": "건강/위생",
+    "sort_order": 1508,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "peeling",
+    "name_ko": "각질 제거제",
+    "name_en": "Peeling",
+    "category": "건강/위생",
+    "sort_order": 1509,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "perfume",
+    "name_ko": "향수",
+    "name_en": "Perfume",
+    "category": "건강/위생",
+    "sort_order": 1510,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cosmetic_powder",
+    "name_ko": "화장용 파우더",
+    "name_en": "Powder",
+    "category": "건강/위생",
+    "sort_order": 1511,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "razor",
+    "name_ko": "면도기",
+    "name_en": "Razor",
+    "category": "건강/위생",
+    "sort_order": 1512,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "razor_blades",
+    "name_ko": "면도날",
+    "name_en": "Razor blades",
+    "category": "건강/위생",
+    "sort_order": 1513,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "shaving_cream",
+    "name_ko": "면도 크림",
+    "name_en": "Shaving cream",
+    "category": "건강/위생",
+    "sort_order": 1514,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "soap",
+    "name_ko": "비누",
+    "name_en": "Soap",
+    "category": "건강/위생",
+    "sort_order": 1515,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sunblock",
+    "name_ko": "자외선 차단제",
+    "name_en": "Sunblock",
+    "category": "건강/위생",
+    "sort_order": 1516,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tampons",
+    "name_ko": "탐폰",
+    "name_en": "Tampons",
+    "category": "건강/위생",
+    "sort_order": 1517,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "thermometer",
+    "name_ko": "체온계",
+    "name_en": "Thermometer",
+    "category": "건강/위생",
+    "sort_order": 1518,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "toilet_paper",
+    "name_ko": "화장지",
+    "name_en": "Toilet paper",
+    "category": "건강/위생",
+    "sort_order": 1519,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tweezers",
+    "name_ko": "핀셋",
+    "name_en": "Tweezers",
+    "category": "건강/위생",
+    "sort_order": 1520,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "vitamins",
+    "name_ko": "비타민",
+    "name_en": "Vitamins",
+    "category": "건강/위생",
+    "sort_order": 1521,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "wet_wipes",
+    "name_ko": "물티슈",
+    "name_en": "Wet wipes",
+    "category": "건강/위생",
+    "sort_order": 1522,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bird_food",
+    "name_ko": "새 모이",
+    "name_en": "Bird food",
+    "category": "반려동물용품",
+    "sort_order": 1523,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cat_food",
+    "name_ko": "고양이 사료",
+    "name_en": "Cat food",
+    "category": "반려동물용품",
+    "sort_order": 1524,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cat_litter",
+    "name_ko": "고양이 모래",
+    "name_en": "Cat litter",
+    "category": "반려동물용품",
+    "sort_order": 1525,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cat_treats",
+    "name_ko": "고양이 간식",
+    "name_en": "Cat treats",
+    "category": "반려동물용품",
+    "sort_order": 1526,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dog_food",
+    "name_ko": "강아지 사료",
+    "name_en": "Dog food",
+    "category": "반려동물용품",
+    "sort_order": 1527,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dog_treats",
+    "name_ko": "강아지 간식",
+    "name_en": "Dog treats",
+    "category": "반려동물용품",
+    "sort_order": 1528,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "fish_food",
+    "name_ko": "물고기 사료",
+    "name_en": "Fish food",
+    "category": "반려동물용품",
+    "sort_order": 1529,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rubbing_alcohol",
+    "name_ko": "소독용 알코올",
+    "name_en": "Alcohol",
+    "category": "가정용품",
+    "sort_order": 1530,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "baby_food",
+    "name_ko": "이유식",
+    "name_en": "Baby food",
+    "category": "가정용품",
+    "sort_order": 1531,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "balloons",
+    "name_ko": "풍선",
+    "name_en": "Balloon",
+    "category": "가정용품",
+    "sort_order": 1532,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "barbecue_lighter",
+    "name_ko": "바비큐 점화기",
+    "name_en": "Barbecue lighter",
+    "category": "가정용품",
+    "sort_order": 1533,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "barbecue_tongs",
+    "name_ko": "바비큐 집게",
+    "name_en": "Barbecue tongs",
+    "category": "가정용품",
+    "sort_order": 1534,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bathroom_cleaner",
+    "name_ko": "욕실 세정제",
+    "name_en": "Bathroom cleaner",
+    "category": "가정용품",
+    "sort_order": 1535,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "batteries",
+    "name_ko": "건전지",
+    "name_en": "Batteries",
+    "category": "가정용품",
+    "sort_order": 1536,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bowl",
+    "name_ko": "그릇",
+    "name_en": "Bowl",
+    "category": "가정용품",
+    "sort_order": 1537,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "candles",
+    "name_ko": "양초",
+    "name_en": "Candles",
+    "category": "가정용품",
+    "sort_order": 1538,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cap",
+    "name_ko": "모자",
+    "name_en": "Cap",
+    "category": "가정용품",
+    "sort_order": 1539,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "christmas_tree_candles",
+    "name_ko": "크리스마스트리 초",
+    "name_en": "Christmas tree candles",
+    "category": "가정용품",
+    "sort_order": 1540,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "christmas_tree_ornaments",
+    "name_ko": "크리스마스트리 장식",
+    "name_en": "Christmas tree ornaments",
+    "category": "가정용품",
+    "sort_order": 1541,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cinnamon_stars",
+    "name_ko": "시나몬 별 쿠키",
+    "name_en": "Cinnamon stars",
+    "category": "가정용품",
+    "sort_order": 1542,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cleaning_rags",
+    "name_ko": "청소용 걸레",
+    "name_en": "Cleaning rags",
+    "category": "가정용품",
+    "sort_order": 1543,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cleaning_supplies",
+    "name_ko": "청소용품",
+    "name_en": "Cleaning supplies",
+    "category": "가정용품",
+    "sort_order": 1544,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cocktail_umbrellas",
+    "name_ko": "칵테일 우산 장식",
+    "name_en": "Cocktail umbrellas",
+    "category": "가정용품",
+    "sort_order": 1545,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "cookie_cutters",
+    "name_ko": "쿠키 커터",
+    "name_en": "Cookie cutters",
+    "category": "가정용품",
+    "sort_order": 1546,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "costume",
+    "name_ko": "코스튬 의상",
+    "name_en": "Costume",
+    "category": "가정용품",
+    "sort_order": 1547,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "descaling_agent",
+    "name_ko": "석회 제거제",
+    "name_en": "Descaling agent",
+    "category": "가정용품",
+    "sort_order": 1548,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dishwasher_salt",
+    "name_ko": "식기세척기 소금",
+    "name_en": "Dishwasher salt",
+    "category": "가정용품",
+    "sort_order": 1549,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dishwasher_tabs",
+    "name_ko": "식기세척기 세제 탭",
+    "name_en": "Dishwasher tabs",
+    "category": "가정용품",
+    "sort_order": 1550,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "drain_cleaner",
+    "name_ko": "배수관 세정제",
+    "name_en": "Drain cleaner",
+    "category": "가정용품",
+    "sort_order": 1551,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "envelopes",
+    "name_ko": "봉투",
+    "name_en": "Envelopes",
+    "category": "가정용품",
+    "sort_order": 1552,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "eraser",
+    "name_ko": "지우개",
+    "name_en": "Eraser",
+    "category": "가정용품",
+    "sort_order": 1553,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "feather_duster",
+    "name_ko": "먼지털이",
+    "name_en": "Feather duster",
+    "category": "가정용품",
+    "sort_order": 1554,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "flashlight",
+    "name_ko": "손전등",
+    "name_en": "Flashlight",
+    "category": "가정용품",
+    "sort_order": 1555,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "flowers",
+    "name_ko": "꽃",
+    "name_en": "Flowers",
+    "category": "가정용품",
+    "sort_order": 1556,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "frosch_baby_dish_cleaner",
+    "name_ko": "프로쉬 베이비 주방세제",
+    "name_en": "Frosch Baby Spül-Reiniger",
+    "category": "가정용품",
+    "sort_order": 1557,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "frosch_baby_detergent",
+    "name_ko": "프로쉬 베이비 세탁세제",
+    "name_en": "Frosch Baby Waschmittel",
+    "category": "가정용품",
+    "sort_order": 1558,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "frosch_baby_softener",
+    "name_ko": "프로쉬 베이비 섬유유연제",
+    "name_en": "Frosch Baby Weichspüler",
+    "category": "가정용품",
+    "sort_order": 1559,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "furniture_polish",
+    "name_ko": "가구 광택제",
+    "name_en": "Furniture polish",
+    "category": "가정용품",
+    "sort_order": 1560,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "gift",
+    "name_ko": "선물",
+    "name_en": "Gift",
+    "category": "가정용품",
+    "sort_order": 1561,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "gift_ribbon",
+    "name_ko": "선물 리본",
+    "name_en": "Gift ribbon",
+    "category": "가정용품",
+    "sort_order": 1562,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "glade_one",
+    "name_ko": "글레이드 원",
+    "name_en": "Glade eins",
+    "category": "가정용품",
+    "sort_order": 1563,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "glass_cleaner",
+    "name_ko": "유리 세정제",
+    "name_en": "Glass cleaner",
+    "category": "가정용품",
+    "sort_order": 1564,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "gloves",
+    "name_ko": "장갑",
+    "name_en": "Gloves",
+    "category": "가정용품",
+    "sort_order": 1565,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "juicer",
+    "name_ko": "착즙기",
+    "name_en": "Juicer",
+    "category": "가정용품",
+    "sort_order": 1566,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "light_bulb",
+    "name_ko": "전구",
+    "name_en": "Light bulb",
+    "category": "가정용품",
+    "sort_order": 1567,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lighter",
+    "name_ko": "라이터",
+    "name_en": "Lighter",
+    "category": "가정용품",
+    "sort_order": 1568,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "marker",
+    "name_ko": "마커펜",
+    "name_en": "Marker",
+    "category": "가정용품",
+    "sort_order": 1569,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "multipurpose_cleaner",
+    "name_ko": "다목적 세정제",
+    "name_en": "Multi-purpose cleaner",
+    "category": "가정용품",
+    "sort_order": 1570,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "napkins",
+    "name_ko": "냅킨",
+    "name_en": "Napkins",
+    "category": "가정용품",
+    "sort_order": 1571,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "notepad",
+    "name_ko": "메모장",
+    "name_en": "Notepad",
+    "category": "가정용품",
+    "sort_order": 1572,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "paper",
+    "name_ko": "종이",
+    "name_en": "Paper",
+    "category": "가정용품",
+    "sort_order": 1573,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "paperclips",
+    "name_ko": "클립",
+    "name_en": "Paperclips",
+    "category": "가정용품",
+    "sort_order": 1574,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "parchment_paper",
+    "name_ko": "종이 호일",
+    "name_en": "Parchment paper",
+    "category": "가정용품",
+    "sort_order": 1575,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pastry_brush",
+    "name_ko": "베이킹 붓",
+    "name_en": "Pastry brush",
+    "category": "가정용품",
+    "sort_order": 1576,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pen",
+    "name_ko": "볼펜",
+    "name_en": "Pen",
+    "category": "가정용품",
+    "sort_order": 1577,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pencil",
+    "name_ko": "연필",
+    "name_en": "Pencil",
+    "category": "가정용품",
+    "sort_order": 1578,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "post_its",
+    "name_ko": "접착 메모지",
+    "name_en": "Post-it's",
+    "category": "가정용품",
+    "sort_order": 1579,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "punch",
+    "name_ko": "펀치",
+    "name_en": "Punch",
+    "category": "가정용품",
+    "sort_order": 1580,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "reflectors",
+    "name_ko": "반사 안전용품",
+    "name_en": "Reflectors",
+    "category": "가정용품",
+    "sort_order": 1581,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rorax_drain_cleaner",
+    "name_ko": "로락스 배수관 세정제",
+    "name_en": "rorax rohrfrei Rohrreiniger",
+    "category": "가정용품",
+    "sort_order": 1582,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rubber_gloves",
+    "name_ko": "고무장갑",
+    "name_en": "Rubber gloves",
+    "category": "가정용품",
+    "sort_order": 1583,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "scarf",
+    "name_ko": "목도리",
+    "name_en": "Scarf",
+    "category": "가정용품",
+    "sort_order": 1584,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "sharpener",
+    "name_ko": "연필깎이",
+    "name_en": "Sharpener",
+    "category": "가정용품",
+    "sort_order": 1585,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "skewers",
+    "name_ko": "꼬치",
+    "name_en": "Skewers",
+    "category": "가정용품",
+    "sort_order": 1586,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "long_neck_socks",
+    "name_ko": "긴목 양말",
+    "name_en": "socks w. long neck (for ST)",
+    "category": "가정용품",
+    "sort_order": 1587,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "spatula",
+    "name_ko": "주걱",
+    "name_en": "Spatula",
+    "category": "가정용품",
+    "sort_order": 1588,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "starch",
+    "name_ko": "풀·전분 가공품",
+    "name_en": "starch",
+    "category": "가정용품",
+    "sort_order": 1589,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "table_bomb",
+    "name_ko": "파티용 테이블 폭죽",
+    "name_en": "Table bomb",
+    "category": "가정용품",
+    "sort_order": 1590,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tinsel",
+    "name_ko": "반짝이 장식",
+    "name_en": "Tinsel",
+    "category": "가정용품",
+    "sort_order": 1591,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "toilet_brush",
+    "name_ko": "변기솔",
+    "name_en": "Toilet brush",
+    "category": "가정용품",
+    "sort_order": 1592,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "toilet_cleaner",
+    "name_ko": "변기 세정제",
+    "name_en": "Toilet cleaner",
+    "category": "가정용품",
+    "sort_order": 1593,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "toner",
+    "name_ko": "프린터 토너",
+    "name_en": "Toner",
+    "category": "가정용품",
+    "sort_order": 1594,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "vacuum_cleaner_bags",
+    "name_ko": "진공청소기 먼지봉투",
+    "name_en": "Vacuum cleaner bags",
+    "category": "가정용품",
+    "sort_order": 1595,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "whisk",
+    "name_ko": "거품기",
+    "name_en": "Whisk",
+    "category": "가정용품",
+    "sort_order": 1596,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "wool_socks",
+    "name_ko": "양모 양말",
+    "name_en": "Wool socks",
+    "category": "가정용품",
+    "sort_order": 1597,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "wrapping_paper",
+    "name_ko": "포장지",
+    "name_en": "Wrapping paper",
+    "category": "가정용품",
+    "sort_order": 1598,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "bolts",
+    "name_ko": "나사·볼트",
+    "name_en": "Bolts",
+    "category": "집/정원",
+    "sort_order": 1599,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "briquettes",
+    "name_ko": "연탄·압축연료",
+    "name_en": "Briquettes",
+    "category": "집/정원",
+    "sort_order": 1600,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "brush",
+    "name_ko": "붓",
+    "name_en": "Brush",
+    "category": "집/정원",
+    "sort_order": 1601,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "charcoal",
+    "name_ko": "숯",
+    "name_en": "Charcoal",
+    "category": "집/정원",
+    "sort_order": 1602,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "dibble",
+    "name_ko": "파종봉",
+    "name_en": "Dibble",
+    "category": "집/정원",
+    "sort_order": 1603,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "fertilizer",
+    "name_ko": "비료",
+    "name_en": "Fertilizer",
+    "category": "집/정원",
+    "sort_order": 1604,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "fir_green",
+    "name_ko": "전나무 가지",
+    "name_en": "Fir green",
+    "category": "집/정원",
+    "sort_order": 1605,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "flower_trowel",
+    "name_ko": "모종삽",
+    "name_en": "Flower Trowel",
+    "category": "집/정원",
+    "sort_order": 1606,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "garden_tool",
+    "name_ko": "원예 도구",
+    "name_en": "Garden tool",
+    "category": "집/정원",
+    "sort_order": 1607,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "gardening_gloves",
+    "name_ko": "원예용 장갑",
+    "name_en": "Gardening Gloves",
+    "category": "집/정원",
+    "sort_order": 1608,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "grill",
+    "name_ko": "그릴",
+    "name_en": "Grill",
+    "category": "집/정원",
+    "sort_order": 1609,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "hedge_shears",
+    "name_ko": "전정가위",
+    "name_en": "Hedge Shears",
+    "category": "집/정원",
+    "sort_order": 1610,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "hoe",
+    "name_ko": "괭이",
+    "name_en": "Hoe",
+    "category": "집/정원",
+    "sort_order": 1611,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "lawnmower",
+    "name_ko": "잔디깎이",
+    "name_en": "Lawnmower",
+    "category": "집/정원",
+    "sort_order": 1612,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "nails",
+    "name_ko": "못",
+    "name_en": "Nails",
+    "category": "집/정원",
+    "sort_order": 1613,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "parasol",
+    "name_ko": "파라솔",
+    "name_en": "Parasol",
+    "category": "집/정원",
+    "sort_order": 1614,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pesticides",
+    "name_ko": "살충제",
+    "name_en": "Pesticides",
+    "category": "집/정원",
+    "sort_order": 1615,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "planter_box",
+    "name_ko": "화분 상자",
+    "name_en": "Planter box",
+    "category": "집/정원",
+    "sort_order": 1616,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "plants",
+    "name_ko": "식물",
+    "name_en": "Plants",
+    "category": "집/정원",
+    "sort_order": 1617,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pots",
+    "name_ko": "화분",
+    "name_en": "Pots",
+    "category": "집/정원",
+    "sort_order": 1618,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "potting_soil",
+    "name_ko": "분갈이 흙",
+    "name_en": "Potting soil",
+    "category": "집/정원",
+    "sort_order": 1619,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "propane",
+    "name_ko": "프로판 가스",
+    "name_en": "Propane",
+    "category": "집/정원",
+    "sort_order": 1620,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "road_salt",
+    "name_ko": "제설용 소금",
+    "name_en": "Road salt",
+    "category": "집/정원",
+    "sort_order": 1621,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "seed",
+    "name_ko": "씨앗 한 봉지",
+    "name_en": "Seed",
+    "category": "집/정원",
+    "sort_order": 1622,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "seedlings",
+    "name_ko": "모종",
+    "name_en": "Seedlings",
+    "category": "집/정원",
+    "sort_order": 1623,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "seeds",
+    "name_ko": "씨앗",
+    "name_en": "Seeds",
+    "category": "집/정원",
+    "sort_order": 1624,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "snow_chains",
+    "name_ko": "스노체인",
+    "name_en": "Snow chains",
+    "category": "집/정원",
+    "sort_order": 1625,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "snow_shovel",
+    "name_ko": "눈삽",
+    "name_en": "Snow shovel",
+    "category": "집/정원",
+    "sort_order": 1626,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "watering_can",
+    "name_ko": "물뿌리개",
+    "name_en": "Watering can",
+    "category": "집/정원",
+    "sort_order": 1627,
     "is_active": true,
     "default_quantity": null
   }

@@ -53,3 +53,13 @@ python scripts/build_dist.py
 ```
 
 The recipe packages and existing `catalog.json` remain unchanged.
+
+## Grain Products (2026-11-08)
+
+The source now contains **351 items**: 330 retained IDs, plus **21 distinct Grain Products** items captured in the two additional reference screenshots. Six already-present IDs (`cereal`, `flour`, `oatmeal`, `instant_noodles`, `rice`, `tofu`) are assigned to the new first-party `곡물 및 가루류` (Grains & Flour) category. The existing `instant_noodles` item represents “ramen” in the screenshots, avoiding a duplicate ID.
+
+The Android app adds the corresponding built-in category, local seed and vector icons via a separate PR. Existing local user modifications remain authoritative.
+
+## Non-food categories (2026-11-08)
+
+Four new categories (`건강/위생`, `반려동물용품`, `가정용품`, `집/정원`) add **128** unique entries and reclassify 13 existing household/health templates without creating duplicate catalog IDs. Total: **479 entries**. Local user overrides take priority on Android. Reference-brand names in the source are plain text; no third-party artwork or logos are distributed.
