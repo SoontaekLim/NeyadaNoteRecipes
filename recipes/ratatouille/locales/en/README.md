@@ -1,5 +1,7 @@
 # French Ratatouille
 
+![French ratatouille cover image](images/cover.webp)
+
 A Provençal vegetable stew in which eggplant, zucchini, peppers, and tomatoes are gently simmered with olive oil and thyme.
 
 - Servings: 2
