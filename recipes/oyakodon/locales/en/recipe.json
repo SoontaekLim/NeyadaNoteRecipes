@@ -72,7 +72,9 @@
     },
     {
       "id": 5,
-      "description": "Divide 2 bowls of warm rice between serving bowls and spoon half the chicken, egg, onion, and broth over each. Scatter with optional spring onion and serve immediately."
+      "description": "Divide 2 bowls of warm rice between serving bowls and spoon half the chicken, egg, onion, and broth over each. Scatter with optional spring onion and serve immediately.",
+      "image": "images/step-5.webp"
     }
-  ]
+  ],
+  "coverImage": "images/cover.webp"
 }

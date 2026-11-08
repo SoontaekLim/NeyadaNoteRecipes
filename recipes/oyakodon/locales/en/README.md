@@ -1,5 +1,7 @@
 # Oyakodon (Japanese Chicken and Egg Rice Bowl)
 
+![Oyakodon cover image](images/cover.webp)
+
 A comforting Japanese rice bowl topped with chicken, onion, and softly set eggs simmered in a savory-sweet dashi sauce.
 
 - Servings: 2
@@ -29,5 +31,7 @@ A comforting Japanese rice bowl topped with chicken, onion, and softly set eggs 
 4. Pour in two-thirds of the eggs in a circular motion and cook 30 seconds. Add the rest, cover, and gently cook for 1–2 minutes until softly set; cook longer if you prefer fully set eggs.
 
 5. Divide 2 bowls of warm rice between serving bowls and spoon half the chicken, egg, onion, and broth over each. Scatter with optional spring onion and serve immediately.
+
+   ![Oyakodon cooking step 5](images/step-5.webp)
 
 The canonical data for this recipe is [recipe.json](recipe.json).
