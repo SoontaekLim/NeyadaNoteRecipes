@@ -111,7 +111,7 @@
     "id": "tofu",
     "name_ko": "두부",
     "name_en": "Tofu",
-    "category": "가공/냉동식품",
+    "category": "곡물 및 가루류",
     "sort_order": 300,
     "is_active": true,
     "default_quantity": null
@@ -120,7 +120,7 @@
     "id": "instant_noodles",
     "name_ko": "라면",
     "name_en": "Instant noodles",
-    "category": "가공/냉동식품",
+    "category": "곡물 및 가루류",
     "sort_order": 310,
     "is_active": true,
     "default_quantity": null
@@ -192,7 +192,7 @@
     "id": "cereal",
     "name_ko": "시리얼",
     "name_en": "Cereal",
-    "category": "과자/빵",
+    "category": "곡물 및 가루류",
     "sort_order": 610,
     "is_active": true,
     "default_quantity": null
@@ -489,7 +489,7 @@
     "id": "rice",
     "name_ko": "쌀",
     "name_en": "Rice",
-    "category": "가공/냉동식품",
+    "category": "곡물 및 가루류",
     "sort_order": 311,
     "is_active": true,
     "default_quantity": null
@@ -516,7 +516,7 @@
     "id": "flour",
     "name_ko": "밀가루",
     "name_en": "Wheat flour",
-    "category": "가공/냉동식품",
+    "category": "곡물 및 가루류",
     "sort_order": 314,
     "is_active": true,
     "default_quantity": null
@@ -561,7 +561,7 @@
     "id": "oatmeal",
     "name_ko": "오트밀",
     "name_en": "Oatmeal",
-    "category": "가공/냉동식품",
+    "category": "곡물 및 가루류",
     "sort_order": 319,
     "is_active": true,
     "default_quantity": null
@@ -2966,6 +2966,195 @@
     "name_en": "Walnuts",
     "category": "가공/냉동식품",
     "sort_order": 1336,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "basmati_rice",
+    "name_ko": "바스마티쌀",
+    "name_en": "Basmati rice",
+    "category": "곡물 및 가루류",
+    "sort_order": 1400,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chia_seeds",
+    "name_ko": "치아씨드",
+    "name_en": "Chia seeds",
+    "category": "곡물 및 가루류",
+    "sort_order": 1401,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "chickpeas",
+    "name_ko": "병아리콩",
+    "name_en": "Chickpeas",
+    "category": "곡물 및 가루류",
+    "sort_order": 1402,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "corn_flakes",
+    "name_ko": "콘플레이크",
+    "name_en": "Corn flakes",
+    "category": "곡물 및 가루류",
+    "sort_order": 1403,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "couscous",
+    "name_ko": "쿠스쿠스",
+    "name_en": "Couscous",
+    "category": "곡물 및 가루류",
+    "sort_order": 1404,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "fusilli",
+    "name_ko": "푸실리",
+    "name_en": "Fusilli",
+    "category": "곡물 및 가루류",
+    "sort_order": 1405,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "jasmine_rice",
+    "name_ko": "자스민쌀",
+    "name_en": "Jasmine rice",
+    "category": "곡물 및 가루류",
+    "sort_order": 1406,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "muesli",
+    "name_ko": "뮤즐리",
+    "name_en": "Muesli",
+    "category": "곡물 및 가루류",
+    "sort_order": 1407,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "noodles",
+    "name_ko": "국수",
+    "name_en": "Noodles",
+    "category": "곡물 및 가루류",
+    "sort_order": 1408,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "pasta",
+    "name_ko": "파스타면",
+    "name_en": "Pasta",
+    "category": "곡물 및 가루류",
+    "sort_order": 1409,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "penne",
+    "name_ko": "펜네",
+    "name_en": "Penne",
+    "category": "곡물 및 가루류",
+    "sort_order": 1410,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rice_noodles",
+    "name_ko": "쌀국수면",
+    "name_en": "Rice noodles",
+    "category": "곡물 및 가루류",
+    "sort_order": 1411,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "rice_paper",
+    "name_ko": "라이스페이퍼",
+    "name_en": "Rice paper",
+    "category": "곡물 및 가루류",
+    "sort_order": 1412,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "risotto_rice",
+    "name_ko": "리소토용 쌀",
+    "name_en": "Risotto rice",
+    "category": "곡물 및 가루류",
+    "sort_order": 1413,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "semolina",
+    "name_ko": "세몰리나",
+    "name_en": "Semolina",
+    "category": "곡물 및 가루류",
+    "sort_order": 1414,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "spaghetti",
+    "name_ko": "스파게티면",
+    "name_en": "Spaghetti",
+    "category": "곡물 및 가루류",
+    "sort_order": 1415,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "spelt_flour",
+    "name_ko": "스펠트밀가루",
+    "name_en": "Spelt flour",
+    "category": "곡물 및 가루류",
+    "sort_order": 1416,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "spirulina",
+    "name_ko": "스피룰리나",
+    "name_en": "Spirulina",
+    "category": "곡물 및 가루류",
+    "sort_order": 1417,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tempeh",
+    "name_ko": "템페",
+    "name_en": "Tempeh",
+    "category": "곡물 및 가루류",
+    "sort_order": 1418,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "tortellini",
+    "name_ko": "토르텔리니",
+    "name_en": "Tortellini",
+    "category": "곡물 및 가루류",
+    "sort_order": 1419,
+    "is_active": true,
+    "default_quantity": null
+  },
+  {
+    "id": "wild_rice",
+    "name_ko": "야생쌀",
+    "name_en": "Wild rice",
+    "category": "곡물 및 가루류",
+    "sort_order": 1420,
     "is_active": true,
     "default_quantity": null
   }
