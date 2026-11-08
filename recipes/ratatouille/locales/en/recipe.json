@@ -1,0 +1,87 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "ratatouille",
+  "locale": "en",
+  "title": "French Ratatouille",
+  "summary": "A Provençal vegetable stew in which eggplant, zucchini, peppers, and tomatoes are gently simmered with olive oil and thyme.",
+  "servings": 2,
+  "tags": [
+    "Side Dish",
+    "Main Dish"
+  ],
+  "ingredients": [
+    {
+      "name": "Eggplant",
+      "amount": "1 (about 250g)"
+    },
+    {
+      "name": "Zucchini",
+      "amount": "1 (about 250g)"
+    },
+    {
+      "name": "Red bell pepper",
+      "amount": "1 (about 180g)"
+    },
+    {
+      "name": "Tomatoes",
+      "amount": "3 (about 350g)"
+    },
+    {
+      "name": "Onion",
+      "amount": "1 (about 150g)"
+    },
+    {
+      "name": "Garlic cloves",
+      "amount": "2"
+    },
+    {
+      "name": "Olive oil",
+      "amount": "3 tbsp"
+    },
+    {
+      "name": "Dried thyme",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Salt",
+      "amount": "3/4 tsp"
+    },
+    {
+      "name": "Ground black pepper",
+      "amount": "1/4 tsp"
+    },
+    {
+      "name": "Water",
+      "amount": "50ml"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Cut the eggplant, zucchini, red pepper, and 3 tomatoes into roughly 2cm pieces. Finely chop the onion and mince 2 garlic cloves.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "Heat 2 tbsp olive oil in a wide pot over medium-high heat. Sauté the eggplant and zucchini for 5–6 minutes until the edges color, then transfer to a plate.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "Add the remaining 1 tbsp olive oil to the pot. Sauté the onion and red pepper for 4 minutes, then stir in the garlic and cook 30 seconds until fragrant.",
+      "image": "images/step-3.webp"
+    },
+    {
+      "id": 4,
+      "description": "Add the tomatoes, 50ml water, and 1/2 tsp dried thyme. Bring to a simmer, then cook over medium-low heat with the lid slightly ajar for 10 minutes.",
+      "image": "images/step-4.webp"
+    },
+    {
+      "id": 5,
+      "description": "Return the eggplant and zucchini and simmer gently for another 15 minutes. Season with 3/4 tsp salt and 1/4 tsp pepper and serve in 2 bowls.",
+      "image": "images/step-5.webp"
+    }
+  ],
+  "coverImage": "images/cover.webp"
+}
