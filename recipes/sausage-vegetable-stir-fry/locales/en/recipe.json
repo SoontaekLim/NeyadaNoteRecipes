@@ -68,31 +68,38 @@
   "steps": [
     {
       "id": 1,
-      "description": "Make 2 or 3 shallow diagonal cuts on each Vienna sausage. Cut the onion and red, yellow, and green bell peppers into bite-size pieces."
+      "description": "Make 2 or 3 shallow diagonal cuts on each Vienna sausage. Cut the onion and red, yellow, and green bell peppers into bite-size pieces.",
+      "image": "images/step-1.webp"
     },
     {
       "id": 2,
-      "description": "Mix the ketchup, gochujang, soy sauce, sugar, and water in a small bowl to make the sauce."
+      "description": "Mix the ketchup, gochujang, soy sauce, sugar, and water in a small bowl to make the sauce.",
+      "image": "images/step-2.webp"
     },
     {
       "id": 3,
-      "description": "Heat the cooking oil in a pan over medium heat. Add the minced garlic and stir-fry for 20 to 30 seconds until fragrant."
+      "description": "Heat the cooking oil in a pan over medium heat. Add the minced garlic and stir-fry for 20 to 30 seconds until fragrant.",
+      "image": "images/step-3.webp"
     },
     {
       "id": 4,
-      "description": "Add the Vienna sausages and stir-fry for about 2 minutes until lightly browned."
+      "description": "Add the Vienna sausages and stir-fry for about 2 minutes until lightly browned.",
+      "image": "images/step-4.webp"
     },
     {
       "id": 5,
-      "description": "Add the onion and cook for 1 minute. Add the red, yellow, and green bell peppers and stir-fry for another 1 to 2 minutes, keeping them slightly crisp."
+      "description": "Add the onion and cook for 1 minute. Add the red, yellow, and green bell peppers and stir-fry for another 1 to 2 minutes, keeping them slightly crisp.",
+      "image": "images/step-5.webp"
     },
     {
       "id": 6,
-      "description": "Pour in the sauce and stir-fry over medium-low heat for 1 to 2 minutes until everything is evenly coated and the sauce thickens slightly."
+      "description": "Pour in the sauce and stir-fry over medium-low heat for 1 to 2 minutes until everything is evenly coated and the sauce thickens slightly.",
+      "image": "images/step-6.webp"
     },
     {
       "id": 7,
-      "description": "Turn off the heat and sprinkle with the toasted sesame seeds to finish."
+      "description": "Turn off the heat and sprinkle with the toasted sesame seeds to finish.",
+      "image": "images/step-7.webp"
     }
   ]
 }
