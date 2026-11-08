@@ -59,23 +59,28 @@
   "steps": [
     {
       "id": 1,
-      "description": "Cut the eggplant, zucchini, red pepper, and 3 tomatoes into roughly 2cm pieces. Finely chop the onion and mince 2 garlic cloves."
+      "description": "Cut the eggplant, zucchini, red pepper, and 3 tomatoes into roughly 2cm pieces. Finely chop the onion and mince 2 garlic cloves.",
+      "image": "images/step-1.webp"
     },
     {
       "id": 2,
-      "description": "Heat 2 tbsp olive oil in a wide pot over medium-high heat. Sauté the eggplant and zucchini for 5–6 minutes until the edges color, then transfer to a plate."
+      "description": "Heat 2 tbsp olive oil in a wide pot over medium-high heat. Sauté the eggplant and zucchini for 5–6 minutes until the edges color, then transfer to a plate.",
+      "image": "images/step-2.webp"
     },
     {
       "id": 3,
-      "description": "Add the remaining 1 tbsp olive oil to the pot. Sauté the onion and red pepper for 4 minutes, then stir in the garlic and cook 30 seconds until fragrant."
+      "description": "Add the remaining 1 tbsp olive oil to the pot. Sauté the onion and red pepper for 4 minutes, then stir in the garlic and cook 30 seconds until fragrant.",
+      "image": "images/step-3.webp"
     },
     {
       "id": 4,
-      "description": "Add the tomatoes, 50ml water, and 1/2 tsp dried thyme. Bring to a simmer, then cook over medium-low heat with the lid slightly ajar for 10 minutes."
+      "description": "Add the tomatoes, 50ml water, and 1/2 tsp dried thyme. Bring to a simmer, then cook over medium-low heat with the lid slightly ajar for 10 minutes.",
+      "image": "images/step-4.webp"
     },
     {
       "id": 5,
-      "description": "Return the eggplant and zucchini and simmer gently for another 15 minutes. Season with 3/4 tsp salt and 1/4 tsp pepper and serve in 2 bowls."
+      "description": "Return the eggplant and zucchini and simmer gently for another 15 minutes. Season with 3/4 tsp salt and 1/4 tsp pepper and serve in 2 bowls.",
+      "image": "images/step-5.webp"
     }
   ],
   "coverImage": "images/cover.webp"
