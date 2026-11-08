@@ -1,0 +1,65 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "gambas-al-ajillo",
+  "locale": "en",
+  "title": "Gambas al Ajillo (Spanish Garlic Shrimp)",
+  "summary": "Classic Spanish tapas of tender shrimp gently cooked in garlic-chili olive oil and served with bread for dipping.",
+  "servings": 2,
+  "tags": [
+    "Tapas",
+    "Main Dish"
+  ],
+  "ingredients": [
+    {
+      "name": "Peeled, deveined shrimp",
+      "amount": "300g"
+    },
+    {
+      "name": "Garlic cloves",
+      "amount": "7"
+    },
+    {
+      "name": "Olive oil",
+      "amount": "100ml"
+    },
+    {
+      "name": "Dried red chili",
+      "amount": "1"
+    },
+    {
+      "name": "Salt",
+      "amount": "1/3 tsp"
+    },
+    {
+      "name": "Fresh parsley",
+      "amount": "5g"
+    },
+    {
+      "name": "Baguette",
+      "amount": "150g"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Pat 300g peeled shrimp very dry with paper towels. Thinly slice 7 garlic cloves, halve 1 dried red chili, finely chop 5g parsley, and slice 150g baguette."
+    },
+    {
+      "id": 2,
+      "description": "Place 100ml olive oil, sliced garlic, and dried chili in a small skillet. Warm over low heat for 3–4 minutes until the garlic becomes pale golden; do not let it brown."
+    },
+    {
+      "id": 3,
+      "description": "Increase heat to medium and add the shrimp in a single layer. Cook for about 1–2 minutes per side, turning once."
+    },
+    {
+      "id": 4,
+      "description": "When the shrimp are pink and opaque all the way through, add 1/3 tsp salt and turn off the heat. Avoid overcooking."
+    },
+    {
+      "id": 5,
+      "description": "Sprinkle over 5g chopped parsley and serve immediately with the warm garlic oil and 150g sliced baguette for dipping."
+    }
+  ]
+}
