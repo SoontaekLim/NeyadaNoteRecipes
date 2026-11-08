@@ -1,0 +1,84 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "oyakodon",
+  "locale": "en",
+  "title": "Oyakodon (Japanese Chicken and Egg Rice Bowl)",
+  "summary": "A comforting Japanese rice bowl topped with chicken, onion, and softly set eggs simmered in a savory-sweet dashi sauce.",
+  "servings": 2,
+  "tags": [
+    "Main Dish",
+    "Rice Bowl",
+    "Japanese"
+  ],
+  "ingredients": [
+    {
+      "name": "Boneless skinless chicken thigh",
+      "amount": "250g"
+    },
+    {
+      "name": "Eggs",
+      "amount": "3"
+    },
+    {
+      "name": "Onion",
+      "amount": "1/2 (about 100g)"
+    },
+    {
+      "name": "Warm cooked rice",
+      "amount": "2 bowls"
+    },
+    {
+      "name": "Water",
+      "amount": "150ml"
+    },
+    {
+      "name": "Instant dashi powder",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Soy sauce",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Mirin",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Sugar",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Spring onion (optional)",
+      "amount": "1 stalk"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Cut 250g chicken thigh into bite-size pieces and thinly slice 1/2 onion. Lightly break the yolks of 3 eggs with chopsticks, leaving streaks of white. Slice the optional spring onion.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "Bring 150ml water, 1/2 tsp instant dashi, 2 tbsp soy sauce, 2 tbsp mirin, and 1 tsp sugar to a simmer in a small pan. Add the onion and cook over medium heat for 3 minutes.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "Spread the chicken evenly over the onion, cover, and simmer for about 5–7 minutes until the chicken reaches an internal temperature of at least 74°C. Reduce the heat if the sauce evaporates too quickly.",
+      "image": "images/step-3.webp"
+    },
+    {
+      "id": 4,
+      "description": "Pour in two-thirds of the eggs in a circular motion and cook 30 seconds. Add the rest, cover, and gently cook for 1–2 minutes until softly set; cook longer if you prefer fully set eggs.",
+      "image": "images/step-4.webp"
+    },
+    {
+      "id": 5,
+      "description": "Divide 2 bowls of warm rice between serving bowls and spoon half the chicken, egg, onion, and broth over each. Scatter with optional spring onion and serve immediately.",
+      "image": "images/step-5.webp"
+    }
+  ],
+  "coverImage": "images/cover.webp"
+}
