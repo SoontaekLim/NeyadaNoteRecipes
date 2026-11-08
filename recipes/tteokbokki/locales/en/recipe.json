@@ -1,0 +1,74 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "tteokbokki",
+  "servings": 2,
+  "locale": "en",
+  "title": "Classic Tteokbokki",
+  "summary": "Chewy Korean rice cakes and fish cakes simmered in a sweet-and-spicy gochujang sauce.",
+  "tags": [
+    "Korean",
+    "Snack/Dessert",
+    "Late-night snack"
+  ],
+  "ingredients": [
+    {
+      "name": "Korean cylindrical rice cakes (tteokbokki tteok)",
+      "amount": "300 g"
+    },
+    {
+      "name": "Korean fish cake sheets (eomuk)",
+      "amount": "120 g"
+    },
+    {
+      "name": "Green onion",
+      "amount": "1/2 stalk"
+    },
+    {
+      "name": "Water",
+      "amount": "500 ml"
+    },
+    {
+      "name": "Gochujang (Korean chili paste)",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Gochugaru (Korean chili flakes)",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Sugar",
+      "amount": "1 1/2 tbsp"
+    },
+    {
+      "name": "Korean soy sauce (jin-ganjang)",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Minced garlic",
+      "amount": "1 tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Separate the 300 g rice cakes if stuck together. Soak only firm rice cakes in cold water for 10 minutes, then drain. Cut the 120 g fish cake sheets into roughly 3 × 4 cm pieces and slice the 1/2 green onion diagonally."
+    },
+    {
+      "id": 2,
+      "description": "In a small bowl, combine 2 tbsp gochujang, 1 tbsp gochugaru, 1 1/2 tbsp sugar, 1 tbsp Korean soy sauce, and 1 tsp minced garlic into a smooth seasoning paste."
+    },
+    {
+      "id": 3,
+      "description": "Pour 500 ml water into a wide pan and stir in the seasoning paste. Bring to a simmer over medium-high heat, stirring until completely dissolved, then reduce the heat to medium."
+    },
+    {
+      "id": 4,
+      "description": "Add the rice cakes and simmer for 4–5 minutes, stirring occasionally. Add the fish cake pieces and cook for another 3–4 minutes, until the rice cakes are tender and the sauce has thickened slightly."
+    },
+    {
+      "id": 5,
+      "description": "Add the diagonally sliced green onion and simmer for 1–2 more minutes, then turn off the heat. Serve warm while a little sauce still remains in the pan."
+    }
+  ]
+}
