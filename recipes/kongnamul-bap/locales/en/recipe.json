@@ -1,0 +1,69 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "kongnamul-bap",
+  "locale": "en",
+  "title": "Kongnamul Bap (Korean Soybean Sprout Rice)",
+  "summary": "A comforting Korean rice bowl steamed with soybean sprouts and served with scallion-soy dressing.",
+  "servings": 2,
+  "tags": [
+    "Korean",
+    "Rice"
+  ],
+  "ingredients": [
+    {
+      "name": "Short-grain rice",
+      "amount": "180g"
+    },
+    {
+      "name": "Soybean sprouts",
+      "amount": "220g"
+    },
+    {
+      "name": "Water",
+      "amount": "200ml"
+    },
+    {
+      "name": "Scallion",
+      "amount": "25g"
+    },
+    {
+      "name": "Soy sauce",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Toasted sesame oil",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Gochugaru",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Sesame seeds",
+      "amount": "1 tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Rinse 180g rice until the water runs mostly clear, soak 15 minutes and drain. Rinse 220g soybean sprouts."
+    },
+    {
+      "id": 2,
+      "description": "Put the rice and 200ml water in a saucepan and spread sprouts evenly on top. Cover and bring to a simmer over medium heat, then reduce to low."
+    },
+    {
+      "id": 3,
+      "description": "Cook covered on low for 12 minutes, turn off heat and rest covered for 10 minutes. If the rice is still hard, add a splash of water and cook a little longer."
+    },
+    {
+      "id": 4,
+      "description": "Thinly slice 25g scallion and combine with 2 tbsp soy sauce, 1 tbsp toasted sesame oil, 1 tsp gochugaru and 1 tsp sesame seeds."
+    },
+    {
+      "id": 5,
+      "description": "Gently fluff the rice and sprouts together, divide into two bowls and add the soy dressing gradually to taste."
+    }
+  ]
+}
