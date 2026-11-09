@@ -1,0 +1,77 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "shakshuka",
+  "locale": "en",
+  "title": "Shakshuka",
+  "summary": "A North African and Middle Eastern-style skillet of eggs gently poached in spiced tomato and pepper sauce.",
+  "servings": 2,
+  "tags": [
+    "North African",
+    "Brunch"
+  ],
+  "ingredients": [
+    {
+      "name": "Eggs",
+      "amount": "4"
+    },
+    {
+      "name": "Canned tomatoes",
+      "amount": "400g"
+    },
+    {
+      "name": "Red bell pepper",
+      "amount": "1 (about 150g)"
+    },
+    {
+      "name": "Onion",
+      "amount": "1/2 (about 80g)"
+    },
+    {
+      "name": "Garlic",
+      "amount": "2 cloves"
+    },
+    {
+      "name": "Olive oil",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Ground cumin",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Sweet paprika",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Salt",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Bread",
+      "amount": "2 slices"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Dice onion and bell pepper into 1cm pieces and mince garlic. Have 4 eggs ready."
+    },
+    {
+      "id": 2,
+      "description": "Heat 1 tbsp olive oil in a skillet and sauté onion and bell pepper over medium heat for 6 minutes until softened."
+    },
+    {
+      "id": 3,
+      "description": "Add garlic, 1 tsp cumin and 1 tsp paprika and cook for 30 seconds. Add 400g tomatoes and 1/2 tsp salt and simmer 8 minutes."
+    },
+    {
+      "id": 4,
+      "description": "Make four wells in the sauce and crack an egg into each. Cover and cook on low for 5–8 minutes until the whites are set."
+    },
+    {
+      "id": 5,
+      "description": "Remove from heat when the eggs are cooked to your preference and serve with 2 slices of bread. Cook longer if you prefer fully set yolks."
+    }
+  ]
+}
