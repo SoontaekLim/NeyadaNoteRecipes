@@ -1,0 +1,77 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "mexican-chicken-fajitas",
+  "locale": "en",
+  "title": "Chicken Fajitas",
+  "summary": "Spiced chicken and sautéed peppers tucked into warm tortillas, Tex-Mex style.",
+  "servings": 2,
+  "tags": [
+    "Tex-Mex",
+    "Chicken"
+  ],
+  "ingredients": [
+    {
+      "name": "Chicken breast",
+      "amount": "300g"
+    },
+    {
+      "name": "Bell peppers",
+      "amount": "2 (about 300g)"
+    },
+    {
+      "name": "Onion",
+      "amount": "1 (about 150g)"
+    },
+    {
+      "name": "Flour tortillas",
+      "amount": "4"
+    },
+    {
+      "name": "Olive oil",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Ground cumin",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Paprika",
+      "amount": "1 tsp"
+    },
+    {
+      "name": "Chili powder",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Salt",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Lime",
+      "amount": "1"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Cut chicken into 1cm strips, and slice peppers and onion lengthwise. Prepare raw chicken and vegetables on separate boards."
+    },
+    {
+      "id": 2,
+      "description": "Toss chicken with 1 tbsp olive oil, cumin, paprika, chili powder and salt."
+    },
+    {
+      "id": 3,
+      "description": "Cook chicken in a hot skillet over medium-high heat for 5–7 minutes until it reaches at least 74°C internally, then set aside."
+    },
+    {
+      "id": 4,
+      "description": "Add the remaining 1 tbsp olive oil, peppers and onion to the skillet and cook 5–6 minutes. Return chicken and cook 1 minute more."
+    },
+    {
+      "id": 5,
+      "description": "Warm four tortillas for 20 seconds per side in a dry pan, fill with chicken and peppers and squeeze lime over the top."
+    }
+  ]
+}
