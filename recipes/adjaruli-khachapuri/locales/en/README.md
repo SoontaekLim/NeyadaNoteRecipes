@@ -1,5 +1,7 @@
 # Adjaruli Khachapuri (Georgian Cheese Bread)
 
+![Adjaruli khachapuri cover image](images/cover.webp)
+
 A Georgian boat-shaped bread filled with mozzarella and feta, baked until bubbling and finished with egg and butter.
 
 - Servings: 2
