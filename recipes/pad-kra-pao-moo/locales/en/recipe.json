@@ -63,23 +63,29 @@
   "steps": [
     {
       "id": 1,
-      "description": "Finely chop 4 garlic cloves and 2 Thai chilies. Rinse and dry 20g holy basil. In a small bowl, mix 1 tbsp oyster sauce, 1 tbsp fish sauce, 1 tsp soy sauce, 1 tsp sugar, and 2 tbsp water."
+      "description": "Finely chop 4 garlic cloves and 2 Thai chilies. Rinse and dry 20g holy basil. In a small bowl, mix 1 tbsp oyster sauce, 1 tbsp fish sauce, 1 tsp soy sauce, 1 tsp sugar, and 2 tbsp water.",
+      "image": "images/step-1.webp"
     },
     {
       "id": 2,
-      "description": "Heat 1 tbsp neutral oil in a pan and fry 2 eggs until the edges are crisp. Transfer to a plate."
+      "description": "Heat 1 tbsp neutral oil in a pan and fry 2 eggs until the edges are crisp. Transfer to a plate.",
+      "image": "images/step-2.webp"
     },
     {
       "id": 3,
-      "description": "Add the remaining 1 tbsp neutral oil to the pan, stir-fry the garlic and chilies for 20 seconds, then add 300g ground pork. Break it up and cook 4–5 minutes until fully cooked (at least 71°C internally)."
+      "description": "Add the remaining 1 tbsp neutral oil to the pan, stir-fry the garlic and chilies for 20 seconds, then add 300g ground pork. Break it up and cook 4–5 minutes until fully cooked (at least 71°C internally).",
+      "image": "images/step-3.webp"
     },
     {
       "id": 4,
-      "description": "Pour in the sauce and stir-fry for 1–2 minutes until it coats the pork. Add the 20g basil just before turning off the heat and toss for 20–30 seconds until wilted."
+      "description": "Pour in the sauce and stir-fry for 1–2 minutes until it coats the pork. Add the 20g basil just before turning off the heat and toss for 20–30 seconds until wilted.",
+      "image": "images/step-4.webp"
     },
     {
       "id": 5,
-      "description": "Divide the 2 bowls of warm rice between plates, top each with half the basil pork, and finish each with 1 fried egg. Serve hot."
+      "description": "Divide the 2 bowls of warm rice between plates, top each with half the basil pork, and finish each with 1 fried egg. Serve hot.",
+      "image": "images/step-5.webp"
     }
-  ]
+  ],
+  "coverImage": "images/cover.webp"
 }
