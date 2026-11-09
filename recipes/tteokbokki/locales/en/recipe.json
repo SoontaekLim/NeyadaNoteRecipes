@@ -52,23 +52,28 @@
   "steps": [
     {
       "id": 1,
-      "description": "Separate the 300 g rice cakes if stuck together. Soak only firm rice cakes in cold water for 10 minutes, then drain. Cut the 120 g fish cake sheets into roughly 3 × 4 cm pieces and slice the 1/2 green onion diagonally."
+      "description": "Separate the 300 g rice cakes if stuck together. Soak only firm rice cakes in cold water for 10 minutes, then drain. Cut the 120 g fish cake sheets into roughly 3 × 4 cm pieces and slice the 1/2 green onion diagonally.",
+      "image": "images/step-1.webp"
     },
     {
       "id": 2,
-      "description": "In a small bowl, combine 2 tbsp gochujang, 1 tbsp gochugaru, 1 1/2 tbsp sugar, 1 tbsp Korean soy sauce, and 1 tsp minced garlic into a smooth seasoning paste."
+      "description": "In a small bowl, combine 2 tbsp gochujang, 1 tbsp gochugaru, 1 1/2 tbsp sugar, 1 tbsp Korean soy sauce, and 1 tsp minced garlic into a smooth seasoning paste.",
+      "image": "images/step-2.webp"
     },
     {
       "id": 3,
-      "description": "Pour 500 ml water into a wide pan and stir in the seasoning paste. Bring to a simmer over medium-high heat, stirring until completely dissolved, then reduce the heat to medium."
+      "description": "Pour 500 ml water into a wide pan and stir in the seasoning paste. Bring to a simmer over medium-high heat, stirring until completely dissolved, then reduce the heat to medium.",
+      "image": "images/step-3.webp"
     },
     {
       "id": 4,
-      "description": "Add the rice cakes and simmer for 4–5 minutes, stirring occasionally. Add the fish cake pieces and cook for another 3–4 minutes, until the rice cakes are tender and the sauce has thickened slightly."
+      "description": "Add the rice cakes and simmer for 4–5 minutes, stirring occasionally. Add the fish cake pieces and cook for another 3–4 minutes, until the rice cakes are tender and the sauce has thickened slightly.",
+      "image": "images/step-4.webp"
     },
     {
       "id": 5,
-      "description": "Add the diagonally sliced green onion and simmer for 1–2 more minutes, then turn off the heat. Serve warm while a little sauce still remains in the pan."
+      "description": "Add the diagonally sliced green onion and simmer for 1–2 more minutes, then turn off the heat. Serve warm while a little sauce still remains in the pan.",
+      "image": "images/step-5.webp"
     }
   ],
   "coverImage": "images/cover.webp"
