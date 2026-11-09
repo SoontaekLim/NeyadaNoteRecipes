@@ -1,0 +1,69 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "pasta-alla-norma",
+  "locale": "en",
+  "title": "Pasta alla Norma",
+  "summary": "A Sicilian pasta with tender browned eggplant, tomato sauce, basil and a little grated cheese.",
+  "servings": 2,
+  "tags": [
+    "Italian",
+    "Pasta"
+  ],
+  "ingredients": [
+    {
+      "name": "Pasta",
+      "amount": "180g"
+    },
+    {
+      "name": "Eggplant",
+      "amount": "1 (about 300g)"
+    },
+    {
+      "name": "Canned tomatoes",
+      "amount": "400g"
+    },
+    {
+      "name": "Garlic",
+      "amount": "2 cloves"
+    },
+    {
+      "name": "Olive oil",
+      "amount": "3 tbsp"
+    },
+    {
+      "name": "Fresh basil",
+      "amount": "8g"
+    },
+    {
+      "name": "Ricotta salata or Parmesan",
+      "amount": "30g"
+    },
+    {
+      "name": "Salt",
+      "amount": "1 tsp (plus extra for pasta water)"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Cut eggplant into 2cm cubes, thinly slice garlic, rinse basil and grate the cheese."
+    },
+    {
+      "id": 2,
+      "description": "Heat 2 tbsp olive oil in a wide skillet and sauté eggplant over medium-high heat for 8–10 minutes until golden; set aside."
+    },
+    {
+      "id": 3,
+      "description": "Add remaining 1 tbsp oil and garlic to the skillet for 30 seconds. Add 400g tomatoes and 1 tsp salt; simmer for 10 minutes."
+    },
+    {
+      "id": 4,
+      "description": "Cook 180g pasta in salted boiling water for 1 minute less than package directions. Reserve 100ml pasta water and drain."
+    },
+    {
+      "id": 5,
+      "description": "Add eggplant and pasta to the sauce and toss for 1–2 minutes, loosening with reserved pasta water as needed. Turn off heat and finish with 8g basil and 30g cheese."
+    }
+  ]
+}
