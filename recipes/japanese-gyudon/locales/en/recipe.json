@@ -1,0 +1,73 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "japanese-gyudon",
+  "locale": "en",
+  "title": "Gyudon (Japanese Beef Rice Bowl)",
+  "summary": "Thinly sliced beef and onions simmered in a lightly sweet soy-dashi sauce and spooned over rice.",
+  "servings": 2,
+  "tags": [
+    "Japanese",
+    "Rice Bowl"
+  ],
+  "ingredients": [
+    {
+      "name": "Thinly sliced beef",
+      "amount": "250g"
+    },
+    {
+      "name": "Onion",
+      "amount": "1 (about 150g)"
+    },
+    {
+      "name": "Cooked rice",
+      "amount": "2 bowls (about 360g)"
+    },
+    {
+      "name": "Water",
+      "amount": "150ml"
+    },
+    {
+      "name": "Soy sauce",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Mirin",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Sugar",
+      "amount": "2 tsp"
+    },
+    {
+      "name": "Instant dashi powder",
+      "amount": "1/2 tsp"
+    },
+    {
+      "name": "Ginger",
+      "amount": "10g"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Thinly slice onion into 5mm strips and slice 10g ginger. Separate any clumps of beef."
+    },
+    {
+      "id": 2,
+      "description": "Combine 150ml water, 2 tbsp soy sauce, 2 tbsp mirin, 2 tsp sugar, 1/2 tsp dashi powder and ginger in a saucepan; bring to a simmer."
+    },
+    {
+      "id": 3,
+      "description": "Add onion and simmer over medium heat for 5 minutes until translucent."
+    },
+    {
+      "id": 4,
+      "description": "Add 250g beef a few slices at a time and simmer 4–6 minutes until fully cooked. Skim foam and add a splash of water if the sauce reduces too much."
+    },
+    {
+      "id": 5,
+      "description": "Divide warm rice between two bowls, top with beef and onion, and spoon over the remaining sauce to taste."
+    }
+  ]
+}
