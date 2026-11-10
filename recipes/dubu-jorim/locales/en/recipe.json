@@ -10,6 +10,7 @@
     "Side Dish",
     "Korean"
   ],
+  "coverImage": "images/cover.webp",
   "ingredients": [
     {
       "name": "Firm tofu",
@@ -59,7 +60,8 @@
   "steps": [
     {
       "id": 1,
-      "description": "Slice 400g firm tofu into roughly 1.5cm-thick pieces and pat dry thoroughly. Thinly slice 1/2 onion and finely slice 1/2 scallion."
+      "description": "Slice 400g firm tofu into roughly 1.5cm-thick pieces and pat dry thoroughly. Thinly slice 1/2 onion and finely slice 1/2 scallion.",
+      "image": "images/step-1.webp"
     },
     {
       "id": 2,

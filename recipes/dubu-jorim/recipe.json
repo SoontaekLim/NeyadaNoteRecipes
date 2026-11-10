@@ -10,6 +10,7 @@
     "반찬",
     "한식"
   ],
+  "coverImage": "images/cover.webp",
   "ingredients": [
     {
       "name": "단단한 두부",
@@ -59,7 +60,8 @@
   "steps": [
     {
       "id": 1,
-      "description": "두부 400g을 약 1.5cm 두께로 썰어 키친타월로 물기를 눌러 제거합니다. 양파 1/2개는 얇게 채 썰고 대파 1/2대는 송송 썹니다."
+      "description": "두부 400g을 약 1.5cm 두께로 썰어 키친타월로 물기를 눌러 제거합니다. 양파 1/2개는 얇게 채 썰고 대파 1/2대는 송송 썹니다.",
+      "image": "images/step-1.webp"
     },
     {
       "id": 2,

@@ -1,5 +1,7 @@
 # Dubu Jorim (Korean Braised Tofu)
 
+![Dubu Jorim cover photo](images/cover.webp)
+
 Golden pan-fried tofu gently braised in a savory, mildly spicy Korean soy-chili sauce with onion and scallion.
 
 - Servings: 2
@@ -22,6 +24,8 @@ Golden pan-fried tofu gently braised in a savory, mildly spicy Korean soy-chili 
 ## Instructions
 
 1. Slice 400g firm tofu into roughly 1.5cm-thick pieces and pat dry thoroughly. Thinly slice 1/2 onion and finely slice 1/2 scallion.
+
+   ![Step 1: Prepare tofu and vegetables](images/step-1.webp)
 
 2. Mix 120ml water, 2 tbsp soy sauce, 1 tbsp gochugaru, 1 tsp minced garlic, and 1 tsp sugar in a small bowl.
 
