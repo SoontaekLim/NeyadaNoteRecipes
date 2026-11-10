@@ -25,12 +25,22 @@ A Georgian boat-shaped bread filled with mozzarella and feta, baked until bubbli
 
 1. Warm 100ml milk and 60ml water to about 35–38°C, then stir in 4g dry yeast and 1 tsp sugar and let stand for 5 minutes. Add 250g all-purpose flour, 1/2 tsp salt, and 1 tbsp olive oil; knead for 8–10 minutes.
 
+   ![Step 1: Mix and knead the dough](images/step-1.webp)
+
 2. Cover the dough and let rise in a warm place for about 50–60 minutes, until nearly doubled. Meanwhile, shred 150g mozzarella and crumble 100g feta, then combine.
+
+   ![Step 2: Proof the dough and prepare the cheese](images/step-2.webp)
 
 3. Preheat the oven to 220°C. Divide the dough in two, roll each into an oval about 25×15cm, roll the long edges inward, and pinch both ends to form boats. Divide the cheese mixture between the boats.
 
+   ![Step 3: Shape and fill the dough boats](images/step-3.webp)
+
 4. Transfer to a parchment-lined tray and bake at 220°C for 13–17 minutes, until the edges are golden and the cheese is melted.
 
+   ![Step 4: Bake the cheese bread](images/step-4.webp)
+
 5. Make a small well in the melted cheese in each bread and crack 1 egg into each. Return to the oven for 3–5 minutes until the whites are set. Add 10g butter to each. Yolks may remain runny; bake longer if fully cooked eggs are preferred.
+
+   ![Step 5: Add egg and butter to finish](images/step-5.webp)
 
 The canonical data for this recipe is [recipe.json](recipe.json).
