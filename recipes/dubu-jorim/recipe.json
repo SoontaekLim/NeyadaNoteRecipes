@@ -1,0 +1,87 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "dubu-jorim",
+  "locale": "ko-KR",
+  "title": "두부조림",
+  "summary": "노릇하게 구운 두부를 간장과 고춧가루 양념에 자작하게 졸여 만드는 매콤짭조름한 한국식 반찬입니다.",
+  "servings": 2,
+  "tags": [
+    "반찬",
+    "한식"
+  ],
+  "coverImage": "images/cover.webp",
+  "ingredients": [
+    {
+      "name": "단단한 두부",
+      "amount": "400g"
+    },
+    {
+      "name": "양파",
+      "amount": "1/2개 (약 100g)"
+    },
+    {
+      "name": "대파",
+      "amount": "1/2대 (약 30g)"
+    },
+    {
+      "name": "식용유",
+      "amount": "2큰술"
+    },
+    {
+      "name": "물",
+      "amount": "120ml"
+    },
+    {
+      "name": "진간장",
+      "amount": "2큰술"
+    },
+    {
+      "name": "고춧가루",
+      "amount": "1큰술"
+    },
+    {
+      "name": "다진 마늘",
+      "amount": "1작은술"
+    },
+    {
+      "name": "설탕",
+      "amount": "1작은술"
+    },
+    {
+      "name": "참기름",
+      "amount": "1작은술"
+    },
+    {
+      "name": "통깨 (선택)",
+      "amount": "1작은술"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "두부 400g을 약 1.5cm 두께로 썰어 키친타월로 물기를 눌러 제거합니다. 양파 1/2개는 얇게 채 썰고 대파 1/2대는 송송 썹니다.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "작은 그릇에 물 120ml, 진간장 2큰술, 고춧가루 1큰술, 다진 마늘 1작은술, 설탕 1작은술을 넣어 골고루 섞습니다.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "넓은 팬을 중불로 달구고 식용유 2큰술을 두릅니다. 두부를 서로 겹치지 않게 올려 각 면을 2–3분씩 노릇하게 굽습니다.",
+      "image": "images/step-3.webp"
+    },
+    {
+      "id": 4,
+      "description": "두부 사이에 양파를 넣고 양념물을 골고루 붓습니다. 중약불로 줄여 뚜껑을 살짝 덮고 5분간 졸이며, 팬을 가볍게 흔들어 양념이 바닥에 눌어붙지 않게 합니다.",
+      "image": "images/step-4.webp"
+    },
+    {
+      "id": 5,
+      "description": "대파를 넣고 2–3분 더 졸여 양념이 자작하게 남으면 불을 끕니다. 참기름 1작은술을 둘러 마무리하고, 원하면 통깨 1작은술을 뿌립니다.",
+      "image": "images/step-5.webp"
+    }
+  ]
+}
