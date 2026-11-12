@@ -29,10 +29,18 @@ Golden pan-fried tofu gently braised in a savory, mildly spicy Korean soy-chili 
 
 2. Mix 120ml water, 2 tbsp soy sauce, 1 tbsp gochugaru, 1 tsp minced garlic, and 1 tsp sugar in a small bowl.
 
+   ![Step 2: Mix the seasoning sauce](images/step-2.webp)
+
 3. Heat 2 tbsp neutral oil in a wide skillet over medium heat. Add tofu in one layer and pan-fry for 2–3 minutes per side until golden.
+
+   ![Step 3: Pan-fry tofu until golden](images/step-3.webp)
 
 4. Add the onion around the tofu and pour the seasoning liquid over it. Reduce to medium-low, cover loosely, and simmer for 5 minutes, gently shaking the skillet to prevent sticking.
 
+   ![Step 4: Simmer tofu with onion and sauce](images/step-4.webp)
+
 5. Add the scallion and simmer for another 2–3 minutes until a little sauce remains. Turn off the heat, drizzle with 1 tsp toasted sesame oil, and optionally sprinkle with 1 tsp sesame seeds.
+
+   ![Step 5: Finish with scallion](images/step-5.webp)
 
 The canonical data for this recipe is [recipe.json](recipe.json).

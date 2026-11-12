@@ -65,19 +65,23 @@
     },
     {
       "id": 2,
-      "description": "Mix 120ml water, 2 tbsp soy sauce, 1 tbsp gochugaru, 1 tsp minced garlic, and 1 tsp sugar in a small bowl."
+      "description": "Mix 120ml water, 2 tbsp soy sauce, 1 tbsp gochugaru, 1 tsp minced garlic, and 1 tsp sugar in a small bowl.",
+      "image": "images/step-2.webp"
     },
     {
       "id": 3,
-      "description": "Heat 2 tbsp neutral oil in a wide skillet over medium heat. Add tofu in one layer and pan-fry for 2–3 minutes per side until golden."
+      "description": "Heat 2 tbsp neutral oil in a wide skillet over medium heat. Add tofu in one layer and pan-fry for 2–3 minutes per side until golden.",
+      "image": "images/step-3.webp"
     },
     {
       "id": 4,
-      "description": "Add the onion around the tofu and pour the seasoning liquid over it. Reduce to medium-low, cover loosely, and simmer for 5 minutes, gently shaking the skillet to prevent sticking."
+      "description": "Add the onion around the tofu and pour the seasoning liquid over it. Reduce to medium-low, cover loosely, and simmer for 5 minutes, gently shaking the skillet to prevent sticking.",
+      "image": "images/step-4.webp"
     },
     {
       "id": 5,
-      "description": "Add the scallion and simmer for another 2–3 minutes until a little sauce remains. Turn off the heat, drizzle with 1 tsp toasted sesame oil, and optionally sprinkle with 1 tsp sesame seeds."
+      "description": "Add the scallion and simmer for another 2–3 minutes until a little sauce remains. Turn off the heat, drizzle with 1 tsp toasted sesame oil, and optionally sprinkle with 1 tsp sesame seeds.",
+      "image": "images/step-5.webp"
     }
   ]
 }
