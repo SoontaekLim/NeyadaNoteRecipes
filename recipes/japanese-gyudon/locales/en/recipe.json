@@ -10,6 +10,7 @@
     "Japanese",
     "Rice Bowl"
   ],
+  "coverImage": "images/cover.webp",
   "ingredients": [
     {
       "name": "Thinly sliced beef",
@@ -51,23 +52,28 @@
   "steps": [
     {
       "id": 1,
-      "description": "Thinly slice onion into 5mm strips and slice 10g ginger. Separate any clumps of beef."
+      "description": "Thinly slice onion into 5mm strips and slice 10g ginger. Separate any clumps of beef.",
+      "image": "images/step-1.webp"
     },
     {
       "id": 2,
-      "description": "Combine 150ml water, 2 tbsp soy sauce, 2 tbsp mirin, 2 tsp sugar, 1/2 tsp dashi powder and ginger in a saucepan; bring to a simmer."
+      "description": "Combine 150ml water, 2 tbsp soy sauce, 2 tbsp mirin, 2 tsp sugar, 1/2 tsp dashi powder and ginger in a saucepan; bring to a simmer.",
+      "image": "images/step-2.webp"
     },
     {
       "id": 3,
-      "description": "Add onion and simmer over medium heat for 5 minutes until translucent."
+      "description": "Add onion and simmer over medium heat for 5 minutes until translucent.",
+      "image": "images/step-3.webp"
     },
     {
       "id": 4,
-      "description": "Add 250g beef a few slices at a time and simmer 4–6 minutes until fully cooked. Skim foam and add a splash of water if the sauce reduces too much."
+      "description": "Add 250g beef a few slices at a time and simmer 4–6 minutes until fully cooked. Skim foam and add a splash of water if the sauce reduces too much.",
+      "image": "images/step-4.webp"
     },
     {
       "id": 5,
-      "description": "Divide warm rice between two bowls, top with beef and onion, and spoon over the remaining sauce to taste."
+      "description": "Divide warm rice between two bowls, top with beef and onion, and spoon over the remaining sauce to taste.",
+      "image": "images/step-5.webp"
     }
   ]
 }
