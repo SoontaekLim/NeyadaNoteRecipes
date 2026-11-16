@@ -1,0 +1,96 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "cream-risotto",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "메인 요리",
+    "한그릇요리"
+  ],
+  "locale": "en",
+  "title": "Creamy Mushroom Risotto",
+  "summary": "A rich, creamy risotto made by browning button mushrooms, gradually cooking Arborio rice in warm stock, and finishing with cream and Parmesan cheese.",
+  "ingredients": [
+    {
+      "name": "Arborio rice (short-grain risotto rice)",
+      "amount": "180g"
+    },
+    {
+      "name": "Button mushrooms",
+      "amount": "150g"
+    },
+    {
+      "name": "Onion",
+      "amount": "80g"
+    },
+    {
+      "name": "Garlic",
+      "amount": "10g"
+    },
+    {
+      "name": "Olive oil",
+      "amount": "15ml"
+    },
+    {
+      "name": "Butter",
+      "amount": "20g"
+    },
+    {
+      "name": "Vegetable or chicken stock",
+      "amount": "650ml"
+    },
+    {
+      "name": "Heavy cream",
+      "amount": "100ml"
+    },
+    {
+      "name": "Parmesan cheese",
+      "amount": "40g"
+    },
+    {
+      "name": "Salt",
+      "amount": "1g"
+    },
+    {
+      "name": "Black pepper",
+      "amount": "1g"
+    },
+    {
+      "name": "Parsley",
+      "amount": "2g"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Finely dice 80g onion and 10g garlic, and slice 150g button mushrooms 3–4mm thick. Warm 650ml stock in a small saucepan and keep it hot over low heat.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "Heat 15ml olive oil and 10g butter in a wide pan over medium-high heat. Sauté the mushrooms for 4–5 minutes until golden, then transfer to a plate.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "Add the remaining 10g butter and the onion to the same pan. Cook over medium-low heat for 3 minutes, then add the garlic and cook for 30 seconds more until fragrant.",
+      "image": "images/step-3.webp"
+    },
+    {
+      "id": 4,
+      "description": "Add 180g unwashed Arborio rice and stir over medium heat for 1–2 minutes until the edges of the grains begin to look translucent.",
+      "image": "images/step-4.webp"
+    },
+    {
+      "id": 5,
+      "description": "Add the 650ml warm stock in roughly 100ml increments, stirring and waiting until each addition is nearly absorbed. Continue for 18–20 minutes. Return the mushrooms during the final 3 minutes and cook until the rice retains a slight bite at its center.",
+      "image": "images/step-5.webp"
+    },
+    {
+      "id": 6,
+      "description": "Turn off the heat and stir in 100ml heavy cream and 40g Parmesan. Season with 1g salt and 1g black pepper. Spoon into bowls, sprinkle with 2g chopped parsley, and serve immediately.",
+      "image": "images/step-6.webp"
+    }
+  ]
+}
