@@ -2,7 +2,7 @@
 
 ![Creamy Mushroom Risotto cover](images/cover.webp)
 
-A rich, creamy risotto made by browning button mushrooms, gradually cooking Arborio rice in warm stock, and finishing with cream and Parmesan cheese.
+Creamy mushroom risotto with golden sautéed mushrooms and Arborio rice simmered in warm stock, finished with cream and an off-heat mantecatura of cold butter and Parmesan.
 
 - Servings: 2
 - Categories: 메인 요리, 한그릇요리
@@ -14,7 +14,7 @@ A rich, creamy risotto made by browning button mushrooms, gradually cooking Arbo
 - Onion — 80g
 - Garlic — 10g
 - Olive oil — 15ml
-- Butter — 20g
+- Butter — 30g
 - Vegetable or chicken stock — 650ml
 - Heavy cream — 100ml
 - Parmesan cheese — 40g
@@ -32,7 +32,7 @@ A rich, creamy risotto made by browning button mushrooms, gradually cooking Arbo
 
    ![Step 2: Creamy Mushroom Risotto](images/step-2.webp)
 
-3. Add the remaining 10g butter and the onion to the same pan. Cook over medium-low heat for 3 minutes, then add the garlic and cook for 30 seconds more until fragrant.
+3. Use the oil left in the pan after removing the mushrooms to cook 80g onion over medium-low heat for 3 minutes. Add 10g chopped garlic and sauté for another 30 seconds until fragrant.
 
    ![Step 3: Creamy Mushroom Risotto](images/step-3.webp)
 
@@ -40,11 +40,11 @@ A rich, creamy risotto made by browning button mushrooms, gradually cooking Arbo
 
    ![Step 4: Creamy Mushroom Risotto](images/step-4.webp)
 
-5. Add the 650ml warm stock in roughly 100ml increments, stirring and waiting until each addition is nearly absorbed. Continue for 18–20 minutes. Return the mushrooms during the final 3 minutes and cook until the rice retains a slight bite at its center.
+5. Add 650ml warm stock in roughly 100ml increments, adding more when nearly absorbed, and simmer the rice for 16–20 minutes. Start tasting at 14 minutes and return the mushrooms for the final 3 minutes. When the grains retain a slight bite, add 100ml heavy cream and warm gently for 1 minute while stirring.
 
    ![Step 5: Creamy Mushroom Risotto](images/step-5.webp)
 
-6. Turn off the heat and stir in 100ml heavy cream and 40g Parmesan. Season with 1g salt and 1g black pepper. Spoon into bowls, sprinkle with 2g chopped parsley, and serve immediately.
+6. Turn off the heat and let the pan cool for about 30 seconds. Add 20g cold butter and 40g finely grated Parmesan. Shake the pan or stir vigorously for 30–60 seconds to emulsify the sauce (mantecatura) until glossy. Season with 1g salt and 1g black pepper. Plate, garnish with 2g chopped parsley, and serve at once.
 
    ![Step 6: Creamy Mushroom Risotto](images/step-6.webp)
 

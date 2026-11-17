@@ -10,7 +10,7 @@
   ],
   "locale": "en",
   "title": "Creamy Mushroom Risotto",
-  "summary": "A rich, creamy risotto made by browning button mushrooms, gradually cooking Arborio rice in warm stock, and finishing with cream and Parmesan cheese.",
+  "summary": "Creamy mushroom risotto with golden sautéed mushrooms and Arborio rice simmered in warm stock, finished with cream and an off-heat mantecatura of cold butter and Parmesan.",
   "ingredients": [
     {
       "name": "Arborio rice (short-grain risotto rice)",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Butter",
-      "amount": "20g"
+      "amount": "30g"
     },
     {
       "name": "Vegetable or chicken stock",
@@ -74,7 +74,7 @@
     },
     {
       "id": 3,
-      "description": "Add the remaining 10g butter and the onion to the same pan. Cook over medium-low heat for 3 minutes, then add the garlic and cook for 30 seconds more until fragrant.",
+      "description": "Use the oil left in the pan after removing the mushrooms to cook 80g onion over medium-low heat for 3 minutes. Add 10g chopped garlic and sauté for another 30 seconds until fragrant.",
       "image": "images/step-3.webp"
     },
     {
@@ -84,12 +84,12 @@
     },
     {
       "id": 5,
-      "description": "Add the 650ml warm stock in roughly 100ml increments, stirring and waiting until each addition is nearly absorbed. Continue for 18–20 minutes. Return the mushrooms during the final 3 minutes and cook until the rice retains a slight bite at its center.",
+      "description": "Add 650ml warm stock in roughly 100ml increments, adding more when nearly absorbed, and simmer the rice for 16–20 minutes. Start tasting at 14 minutes and return the mushrooms for the final 3 minutes. When the grains retain a slight bite, add 100ml heavy cream and warm gently for 1 minute while stirring.",
       "image": "images/step-5.webp"
     },
     {
       "id": 6,
-      "description": "Turn off the heat and stir in 100ml heavy cream and 40g Parmesan. Season with 1g salt and 1g black pepper. Spoon into bowls, sprinkle with 2g chopped parsley, and serve immediately.",
+      "description": "Turn off the heat and let the pan cool for about 30 seconds. Add 20g cold butter and 40g finely grated Parmesan. Shake the pan or stir vigorously for 30–60 seconds to emulsify the sauce (mantecatura) until glossy. Season with 1g salt and 1g black pepper. Plate, garnish with 2g chopped parsley, and serve at once.",
       "image": "images/step-6.webp"
     }
   ]
