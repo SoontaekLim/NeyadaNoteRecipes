@@ -75,7 +75,9 @@
     },
     {
       "id": 5,
-      "description": "Add the green onion, chili and 1 tsp minced garlic. Simmer for another 2 minutes. Taste and, if too salty, add a little water and bring back to a boil before serving."
+      "description": "Add the green onion, chili and 1 tsp minced garlic. Simmer for another 2 minutes. Taste and, if too salty, add a little water and bring back to a boil before serving.",
+      "image": "images/step-5.webp"
     }
-  ]
+  ],
+  "coverImage": "images/cover.webp"
 }

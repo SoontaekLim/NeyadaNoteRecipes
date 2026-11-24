@@ -1,5 +1,7 @@
 # Beef Brisket Doenjang Jjigae
 
+![Beef Brisket Doenjang Jjigae](images/cover.webp)
+
 A hearty Korean soybean paste stew with thinly sliced beef brisket, tofu, potatoes and zucchini. Rendered beef fat gives the broth a rich flavor without extra oil or stock.
 
 - Servings: 2
@@ -30,5 +32,7 @@ A hearty Korean soybean paste stew with thinly sliced beef brisket, tofu, potato
 4. Add the zucchini, onion, tofu and 1 tsp gochugaru. Simmer over medium heat for 5–6 minutes and check that a chopstick easily pierces the potato.
 
 5. Add the green onion, chili and 1 tsp minced garlic. Simmer for another 2 minutes. Taste and, if too salty, add a little water and bring back to a boil before serving.
+
+   ![Step 5: Finish the stew](images/step-5.webp)
 
 The canonical data for this recipe is [recipe.json](recipe.json).
