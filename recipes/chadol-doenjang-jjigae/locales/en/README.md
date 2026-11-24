@@ -25,11 +25,19 @@ A hearty Korean soybean paste stew with thinly sliced beef brisket, tofu, potato
 
 1. Peel the potato and cut it into 1.5 cm cubes. Cut the zucchini and onion into bite-sized pieces and the tofu into 2 cm cubes. Slice the green onion and chili into rings, and cut the brisket into bite-sized pieces.
 
+   ![Step 1: Prepare the ingredients](images/step-1.webp)
+
 2. Heat a pot over medium heat. Add the brisket without extra oil and stir-fry for 2–3 minutes until the outside is cooked and the fat renders. Skim off some fat if there is too much.
 
-3. Pour in 500 ml water and dissolve 2 tbsp doenjang in it. Add the potato, bring to a boil over high heat, then reduce to medium and simmer for 7–8 minutes until the potato is partly tender.
+   ![Step 2: Stir-fry the brisket](images/step-2.webp)
 
-4. Add the zucchini, onion, tofu and 1 tsp gochugaru. Simmer over medium heat for 5–6 minutes and check that a chopstick easily pierces the potato.
+3. Pour in 500 ml water and dissolve 2 tbsp doenjang in it. Add the potato and onion, bring to a boil over high heat, then reduce to medium and simmer for 7–8 minutes until the potato is partly tender.
+
+   ![Step 3: Simmer the doenjang broth, potato and onion](images/step-3.webp)
+
+4. Add the zucchini, tofu and 1 tsp gochugaru. Simmer over medium heat for 5–6 minutes and check that a chopstick easily pierces the potato.
+
+   ![Step 4: Add zucchini and tofu](images/step-4.webp)
 
 5. Add the green onion, chili and 1 tsp minced garlic. Simmer for another 2 minutes. Taste and, if too salty, add a little water and bring back to a boil before serving.
 
