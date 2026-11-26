@@ -77,15 +77,18 @@
     },
     {
       "id": 3,
-      "description": "Add 1/8 tsp pepper and 3 tbsp potato starch, close the bag with some air inside and shake. Add the remaining 2 tbsp starch and shake again. Tap off any clumps and fry promptly."
+      "description": "Add 1/8 tsp pepper and 3 tbsp potato starch, close the bag with some air inside and shake. Add the remaining 2 tbsp starch and shake again. Tap off any clumps and fry promptly.",
+      "image": "images/step-3.webp"
     },
     {
       "id": 4,
-      "description": "Heat 150ml neutral oil and 50ml olive oil in a deep-sided frying pan over medium heat to 150–160°C. Never fill the pan more than halfway. Add the zucchini one piece at a time with space between them and fry for 4–6 minutes, turning with tongs. If necessary, increase the temperature to 170°C until golden and crisp. Drain on a wire rack for 1–2 minutes. Fry in batches if needed."
+      "description": "Heat 150ml neutral oil and 50ml olive oil in a deep-sided frying pan over medium heat to 150–160°C. Never fill the pan more than halfway. Add the zucchini one piece at a time with space between them and fry for 4–6 minutes, turning with tongs. If necessary, increase the temperature to 170°C until golden and crisp. Drain on a wire rack for 1–2 minutes. Fry in batches if needed.",
+      "image": "images/step-4.webp"
     },
     {
       "id": 5,
-      "description": "Mix 3 tbsp mayonnaise, 1/2 tbsp sugar, 1 tbsp lemon juice, 1/2 tbsp minced garlic, a pinch of salt, 1/8 tsp pepper and 1 tbsp sriracha in a small bowl. Plate the fries and serve immediately with the dip on the side."
+      "description": "Mix 3 tbsp mayonnaise, 1/2 tbsp sugar, 1 tbsp lemon juice, 1/2 tbsp minced garlic, a pinch of salt, 1/8 tsp pepper and 1 tbsp sriracha in a small bowl. Plate the fries and serve immediately with the dip on the side.",
+      "image": "images/step-5.webp"
     }
   ],
   "coverImage": "images/cover.webp"

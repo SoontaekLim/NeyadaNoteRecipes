@@ -33,8 +33,14 @@ Korean zucchini sticks seasoned with soy sauce and chicken stock, tossed in pota
 
 3. Add 1/8 tsp pepper and 3 tbsp potato starch, close the bag with some air inside and shake. Add the remaining 2 tbsp starch and shake again. Tap off any clumps and fry promptly.
 
+   ![Step 3: Coat with potato starch](images/step-3.webp)
+
 4. Heat 150ml neutral oil and 50ml olive oil in a deep-sided frying pan over medium heat to 150–160°C. Never fill the pan more than halfway. Add the zucchini one piece at a time with space between them and fry for 4–6 minutes, turning with tongs. If necessary, increase the temperature to 170°C until golden and crisp. Drain on a wire rack for 1–2 minutes. Fry in batches if needed.
 
+   ![Step 4: Fry the zucchini](images/step-4.webp)
+
 5. Mix 3 tbsp mayonnaise, 1/2 tbsp sugar, 1 tbsp lemon juice, 1/2 tbsp minced garlic, a pinch of salt, 1/8 tsp pepper and 1 tbsp sriracha in a small bowl. Plate the fries and serve immediately with the dip on the side.
+
+   ![Step 5: Serve with the dip](images/step-5.webp)
 
 The canonical data for this recipe is [recipe.json](recipe.json).
