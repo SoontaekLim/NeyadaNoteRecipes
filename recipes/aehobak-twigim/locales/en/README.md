@@ -1,5 +1,7 @@
 # Crispy Korean Zucchini Fries (Sung Si Kyung Style)
 
+![Crispy Korean zucchini fries](images/cover.webp)
+
 Korean zucchini sticks seasoned with soy sauce and chicken stock, tossed in potato starch and fried until crisp. Served with a tangy, spicy sriracha mayonnaise dip.
 
 - Servings: 2 servings
@@ -24,6 +26,8 @@ Korean zucchini sticks seasoned with soy sauce and chicken stock, tossed in pota
 ## Steps
 
 1. Wash and pat dry the zucchini, then trim both ends. Cut into sticks 6–8cm long and about 1.5cm thick, leaving the skin on.
+
+   ![Step 1: Cut zucchini](images/step-1.webp)
 
 2. Place the zucchini, 1 tbsp soy sauce and 1/2 tbsp liquid chicken stock in a food-safe bag and gently massage to coat. Use less stock if it is particularly salty.
 

@@ -68,7 +68,8 @@
   "steps": [
     {
       "id": 1,
-      "description": "Wash and pat dry the zucchini, then trim both ends. Cut into sticks 6–8cm long and about 1.5cm thick, leaving the skin on."
+      "description": "Wash and pat dry the zucchini, then trim both ends. Cut into sticks 6–8cm long and about 1.5cm thick, leaving the skin on.",
+      "image": "images/step-1.webp"
     },
     {
       "id": 2,
@@ -86,5 +87,6 @@
       "id": 5,
       "description": "Mix 3 tbsp mayonnaise, 1/2 tbsp sugar, 1 tbsp lemon juice, 1/2 tbsp minced garlic, a pinch of salt, 1/8 tsp pepper and 1 tbsp sriracha in a small bowl. Plate the fries and serve immediately with the dip on the side."
     }
-  ]
+  ],
+  "coverImage": "images/cover.webp"
 }
