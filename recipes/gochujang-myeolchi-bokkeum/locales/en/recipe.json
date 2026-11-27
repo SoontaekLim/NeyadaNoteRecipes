@@ -1,0 +1,79 @@
+{
+  "format": "neyadanote.recipe",
+  "schemaVersion": 1,
+  "id": "gochujang-myeolchi-bokkeum",
+  "locale": "en",
+  "title": "Spicy Gochujang Stir-Fried Anchovies (Myeolchi Bokkeum)",
+  "summary": "Crisp medium dried anchovies in a sweet and spicy gochujang glaze with green chili and sesame oil.",
+  "servings": 2,
+  "coverImage": "images/cover.webp",
+  "tags": [
+    "Side Dish",
+    "Korean"
+  ],
+  "ingredients": [
+    {
+      "name": "Medium dried anchovies (myeolchi)",
+      "amount": "1 cup"
+    },
+    {
+      "name": "Cheongyang chili (hot green chili)",
+      "amount": "1"
+    },
+    {
+      "name": "Neutral cooking oil",
+      "amount": "3 tbsp"
+    },
+    {
+      "name": "Korean starch syrup (mulyeot)",
+      "amount": "2 tbsp"
+    },
+    {
+      "name": "Brown sugar",
+      "amount": "1/2 tbsp"
+    },
+    {
+      "name": "Gochujang (Korean red pepper paste)",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Fine gochugaru (Korean chili powder)",
+      "amount": "1/2 tbsp"
+    },
+    {
+      "name": "Toasted sesame oil",
+      "amount": "1 tbsp"
+    },
+    {
+      "name": "Toasted sesame seeds",
+      "amount": "1 tsp"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "description": "Mix 1 tbsp gochujang, 1/2 tbsp fine gochugaru, 2 tbsp starch syrup and 1/2 tbsp brown sugar in a bowl. Halve the hot green chili lengthwise and cut it into 3 mm slices.",
+      "image": "images/step-1.webp"
+    },
+    {
+      "id": 2,
+      "description": "Prepare 1 cup of medium dried anchovies. If using large stock anchovies, remove the heads, guts and thick backbones. Heat 3 tbsp neutral oil in a skillet over medium heat and stir-fry the anchovies until crisp and less fishy-smelling.",
+      "image": "images/step-2.webp"
+    },
+    {
+      "id": 3,
+      "description": "Push the anchovies to one side of the skillet and reduce the heat to low. Pour the sauce into the empty area, stirring until the sugar dissolves and bubbles form throughout.",
+      "image": "images/step-3.webp"
+    },
+    {
+      "id": 4,
+      "description": "Toss the anchovies with the bubbling sauce, then add the sliced green chili and stir-fry briefly. Keep stirring so the glaze does not burn.",
+      "image": "images/step-4.webp"
+    },
+    {
+      "id": 5,
+      "description": "Turn off the heat, stir in 1 tbsp toasted sesame oil and 1 tsp toasted sesame seeds, then transfer to a plate and let cool before serving.",
+      "image": "images/step-5.webp"
+    }
+  ]
+}
